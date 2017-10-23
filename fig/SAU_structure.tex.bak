@@ -1,0 +1,79 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc} % utf8 encoding
+\usepackage{amsmath} % nice math symbols
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage[russian]{babel}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\usetikzlibrary{matrix} % for block alignment
+\usetikzlibrary{arrows} % for arrow heads
+\usetikzlibrary{calc} % for manimulation of coordinates
+
+\tikzstyle{sum} = [draw,circle,inner sep=0mm,minimum size=3mm]
+\tikzstyle{block} = [draw,rectangle,thick,minimum height=0.6cm,minimum width=1cm]
+\tikzstyle{dblock} = [draw,rectangle,thick,minimum height=2cm,minimum width=3cm]
+\tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]
+\tikzstyle{begin} = []
+\tikzstyle{end} = []
+\tikzstyle{connector} = [->,thick]
+\tikzstyle{dconnector} = [->,dashed]
+\tikzstyle{line} = [thick]
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1, auto, >=stealth']
+    \small
+    % node placement with matrix library: 2x5 array
+    \matrix[ampersand replacement=\&, row sep=0.3cm, column sep=0.5cm]
+    {
+        \&
+        \&
+        \&
+        \node[block](S1) {ЧЭ}; \&
+        \node[begin](f) {}; \&
+        \&
+        \&
+        \\
+        \node[block](C) {ЗУ}; \&
+        \node[sum](e_sum) {};\&
+        \node[block](R1) {УПУ}; \&
+        \node[block](R2) {ИУ}; \&
+        \node[block](W) {ОУ}; \&
+        \node[branch](y_branch) {}; \&
+        \node[end](y_end) {$y$}; \&
+        \\
+        \&
+        \&
+        \&
+        \node[block](S2) {ЧЭ};\&
+        \&
+        \&
+        \&
+        \\
+    };
+    \draw [connector] (C) -- node{$g$} (e_sum);
+    \draw [connector] (e_sum) -- node{$e$} (R1);
+    \draw ($(e_sum)+(0,0.3cm)$) node{СУ};
+    \draw [connector] (R1) -- node{$u$} (R2);
+    \draw [connector] (R2) -- (W);
+    \draw [line] (W) -- (y_branch);
+    \draw [connector] (y_branch) -- (y_end);
+    \draw [connector] (y_branch) |- (S2);
+    \draw [connector] (S2) -| node[near end] {$-$} (e_sum);
+
+    \draw (e_sum) -- ++(-1mm,-1mm) -- ++(2mm,2mm) ++(0mm,-2mm) -- ++(-2mm,2mm);
+
+    \draw [connector] (f.north) -- node[near start]{$f$} (W);
+    \draw [connector] ($(f.west)+(0.1cm,0)$) --  (S1);
+    \draw [connector] (S1) -| (R1.north);
+    \draw ($(R1)+(-0.4cm, 0)$) node[rectangle, minimum height=3cm,minimum width=5.1cm,dashed, draw] {};
+    \draw ($(C)+ (0, 1cm)$) node[draw=none,fill=none] {УУ};
+    %\draw  (R1) [draw,rectangle,thick,minimum height=2cm,minimum width=3cm] {$123$};
+
+  \end{tikzpicture}
+
+
+\end{document}
