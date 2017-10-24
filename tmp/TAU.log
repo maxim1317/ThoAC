@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  24 OCT 2017 16:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  24 OCT 2017 18:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -727,20 +727,20 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
  (tmp//TAU.aux)
 \openout1 = `TAU.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -811,12 +811,12 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 80.
+LaTeX Font Info:    Try loading font information for U+msa on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 80.
+LaTeX Font Info:    Try loading font information for U+msb on input line 98.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -829,7 +829,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [1
 
 ]
-Overfull \hbox (23.24683pt too wide) in paragraph at lines 88--92
+Overfull \hbox (23.24683pt too wide) in paragraph at lines 106--110
 []\T2A/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Eti
 am lobortisfacilisis
  []
@@ -838,7 +838,9 @@ am lobortisfacilisis
 
 ]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 1.
+[3
 
+]
 Underfull \hbox (badness 1527) in paragraph at lines 28--28
 []\T2A/cmr/m/n/12 Уничтожение кле-ток опре-де-лен-
  []
@@ -848,11 +850,8 @@ Overfull \hbox (3.8858pt too wide) in paragraph at lines 15--33
  [][] 
  []
 
-[3
-
-]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -863,40 +862,171 @@ Overfull \hbox (4.63298pt too wide) in paragraph at lines 60--60
 ко-го управ-ле-ния \T2A/cmr/m/n/12 (САУ) - устрой-
  []
 
-<./fig/t1/SAU_scheme.pdf, id=27, pagebox=cropbox, 142.13503pt x 70.96411pt>
+<./fig/t1/SAU_scheme.pdf, id=26, pagebox=cropbox, 142.13503pt x 70.96411pt>
 File: ./fig/t1/SAU_scheme.pdf Graphic file (type pdf)
 <use ./fig/t1/SAU_scheme.pdf>
 Package pdftex.def Info: ./fig/t1/SAU_scheme.pdf  used on input line 66. on inp
 ut line 66.
 Package pdftex.def Info: Requested size: 284.52756pt x 142.06534pt on input lin
 e 66.
-[5 <./fig/t1/SAU_scheme.pdf>]) [6] (tmp//TAU.aux) ) 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5] [6 <./fig/t1/SAU_scheme.pdf>]
+Overfull \hbox (20.49843pt too wide) in paragraph at lines 85--85
+\T2A/cmr/m/n/12 то-рые об-щие фун-да-мен-таль-ные прин-ци-пы управ-ле-ния, опре
+-де-ля-ю-щие,каким
+ []
+
+
+Overfull \hbox (2.55386pt too wide) in paragraph at lines 86--87
+[]\T2A/cmr/m/n/12 Принято раз-ли-чать три фун-да-мен-таль-ных прин-ци-па управ-
+ле-ния: про-
+ []
+
+<./fig/t1/program.pdf, id=50, pagebox=cropbox, 142.13503pt x 34.03616pt>
+File: ./fig/t1/program.pdf Graphic file (type pdf)
+<use ./fig/t1/program.pdf>
+Package pdftex.def Info: ./fig/t1/program.pdf  used on input line 93. on input 
+line 93.
+Package pdftex.def Info: Requested size: 284.52756pt x 68.13809pt on input line
+ 93.
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 102.
+
+Missing character: There is no у in font cmr12!
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--106
+
+ []
+
+[7 <./fig/t1/program.pdf>]
+<./fig/t1/feedback.pdf, id=64, pagebox=cropbox, 142.13503pt x 70.96411pt>
+File: ./fig/t1/feedback.pdf Graphic file (type pdf)
+<use ./fig/t1/feedback.pdf>
+Package pdftex.def Info: ./fig/t1/feedback.pdf  used on input line 112. on inpu
+t line 112.
+Package pdftex.def Info: Requested size: 284.52756pt x 142.06534pt on input lin
+e 112.
+ [8 <./fig/t1/feedback.pdf>]
+<./fig/t1/SAU_structure.pdf, id=78, pagebox=cropbox, 255.98334pt x 95.75775pt>
+File: ./fig/t1/SAU_structure.pdf Graphic file (type pdf)
+<use ./fig/t1/SAU_structure.pdf>
+Package pdftex.def Info: ./fig/t1/SAU_structure.pdf  used on input line 127. on
+ input line 127.
+Package pdftex.def Info: Requested size: 284.52756pt x 106.43993pt on input lin
+e 127.
+
+Underfull \hbox (badness 1365) in paragraph at lines 130--130
+\T2A/cmr/m/n/12 му-ще-ния (не все-гда при-сут-ству-ет) и вы-ход $\OML/cmm/m/it/
+12 y$\T2A/cmr/m/n/12 ; УПУ, усилительно-
+ []
+
+
+Overfull \hbox (6.13936pt too wide) in paragraph at lines 136--137
+[]\T2A/cmr/m/n/12 Для озна-ком-ле-ния с ос-нов-ны-ми ви-да-ми си-стем ав-то-ма-
+ти-че-ско-го управ-
+ []
+
+[9 <./fig/t1/SAU_structure.pdf>]
+
+LaTeX Warning: Command \cyru invalid in math mode on input line 141.
+
+Missing character: There is no у in font cmr12!
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
+
+ []
+
+[11]
+
+LaTeX Warning: Command \cyre invalid in math mode on input line 176.
+
+Missing character: There is no е in font cmr12!
+[12]
+Overfull \hbox (6.6268pt too wide) in paragraph at lines 183--183
+\T2A/cmr/m/n/12 Ре-гу-ли-ро-ва-ние ча-сто-ты син-хрон-ных ге-не-ра-то-ров вы-по
+л-ня-ет-ся пу-тем двой-
+ []
+
+
+Overfull \hbox (7.27084pt too wide) in paragraph at lines 189--191
+[]\T2A/cmr/m/it/12 Пропорционально-интегрально-дифференциальный за-кон (ПИД-зак
+он)
+ []
+
+
+Overfull \hbox (1.07039pt too wide) in paragraph at lines 189--191
+\T2A/cmr/m/n/12 осу-ществ-ля-ет-ся с по-мо-щью ПИД-регулятора, ко-то-рый обес-п
+е-чи-ва-ет аста-
+ []
+
+[13]
+<./fig/t1/pendulum.pdf, id=120, pagebox=cropbox, 553.92676pt x 396.97406pt>
+File: ./fig/t1/pendulum.pdf Graphic file (type pdf)
+<use ./fig/t1/pendulum.pdf>
+Package pdftex.def Info: ./fig/t1/pendulum.pdf  used on input line 199. on inpu
+t line 199.
+Package pdftex.def Info: Requested size: 170.71652pt x 122.33986pt on input lin
+e 199.
+
+Overfull \hbox (2.71455pt too wide) in paragraph at lines 204--205
+[]\T2A/cmr/m/n/12 Уравнение, опи-сы-ва-ю-щее пе-ре-вер-ну-тый (об-рат-ный) ма-я
+т-ник в окрест-
+ []
+
+[14 <./fig/t1/pendulum.pdf>]
+Overfull \hbox (15.98541pt too wide) in paragraph at lines 220--222
+\T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]
+ x[]\OT1/cmr/m/n/12 )[] = (^^B [])[]$ \T2A/cmr/m/n/12 --- век-тор со-сто-я-ния 
+си-сте-мы, $\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = []$\T2A/cmr/m/n/12 ,$\OML/cmm/
+m/it/12 b \OT1/cmr/m/n/12 =
+ []
+
+[15]
+<./fig/t1/feedback_pendulum.pdf, id=139, pagebox=cropbox, 159.09236pt x 39.4895
+3pt>
+File: ./fig/t1/feedback_pendulum.pdf Graphic file (type pdf)
+<use ./fig/t1/feedback_pendulum.pdf>
+Package pdftex.def Info: ./fig/t1/feedback_pendulum.pdf  used on input line 254
+. on input line 254.
+Package pdftex.def Info: Requested size: 284.52756pt x 70.63759pt on input line
+ 254.
+) [16 <./fig/t1/feedback_pendulum.pdf>] (tmp//TAU.aux) ) 
 Here is how much of TeX's memory you used:
- 4332 strings out of 493828
- 55859 string characters out of 6156285
- 118068 words of memory out of 5000000
- 7564 multiletter control sequences out of 15000+600000
- 19004 words of font info for 53 fonts, out of 8000000 for 9000
+ 4384 strings out of 493828
+ 56845 string characters out of 6156285
+ 118234 words of memory out of 5000000
+ 7608 multiletter control sequences out of 15000+600000
+ 22966 words of font info for 62 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
- 41i,8n,26p,4014b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/oberon/.texlive2017/
-texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600pk></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb>
-Output written on tmp//TAU.pdf (7 pages, 143118 bytes).
+ 41i,10n,26p,4876b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/oberon/.texlive
+2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600pk></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on tmp//TAU.pdf (17 pages, 255662 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 567 PDF objects out of 1000 (max. 8388607)
+ 166 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
