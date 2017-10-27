@@ -13,6 +13,9 @@ display:
 d1:
 	@evince tmp/t_1.pdf > /dev/null 2>&1 &
 
+d2:
+	@evince tmp/t_2.pdf > /dev/null 2>&1 &	
+
 .PHONY: clean
 clean: 
 	@rm -rf tmp
@@ -29,3 +32,12 @@ Re:
 t1:
 	pdflatex -output-directory tmp/ tex/t_1.tex
 	pdflatex -output-directory tmp/ tex/t_1.tex
+
+.PHONY: t2
+t2:
+	pdflatex -output-directory tmp/ tex/t_2.tex
+	pdflatex -output-directory tmp/ tex/t_2.tex	
+
+gt: clean
+	@git reset
+	@git add *

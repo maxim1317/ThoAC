@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc} % utf8 encoding
+\usepackage{amsmath} % nice math symbols
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage[russian]{babel}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\usetikzlibrary{matrix} % for block alignment
+\usetikzlibrary{arrows} % for arrow heads
+\usetikzlibrary{calc} % for manimulation of coordinates
+
+\tikzstyle{sum} = [draw,circle,inner sep=0mm,minimum size=3mm]
+\tikzstyle{block} = [draw,rectangle,thick,minimum height=0.6cm,minimum width=1cm]
+\tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]
+\tikzstyle{begin} = []
+\tikzstyle{end} = []
+\tikzstyle{connector} = [->,thick]
+\tikzstyle{dconnector} = [->,thick, dashed]
+\tikzstyle{line} = [thick]
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1, auto, >=stealth']
+    \small
+    % node placement with matrix library: 2x5 array
+    \matrix[ampersand replacement=\&, row sep=1cm, column sep=0.6cm]
+    {
+        \node[block](ODU) {ОДУ};\&
+        \node[block](SS) {Фазовое пространство};\&
+        \\
+        \node[block](TF) {ПФ}; \&
+        \node[block](TD) {Временные функции}; \&
+        \\
+    };
+    \draw [connector, green] ($(ODU.south)+(-1mm, 0)$) -- ($(TF.north)+(-1mm, 0)$);
+    \draw [dconnector, green] ($(TF.north)+(1mm, 0)$) -- ($(ODU.south)+(1mm, 0)$) ;
+    \draw [connector, green] ($(ODU.east)+(0,-2mm)$) -- ($(TD.west)+(1mm,3mm)$);
+    \draw [connector, green] ($(TF.east)+(0,-1mm)$) -- ($(TD.west)+(0,-1mm)$);
+    \draw [connector, green] ($(TD.west)+(0,1mm)$) -- ($(TF.east)+(0,1mm)$);
+
+    \draw [connector, blue] ($(ODU.east)+(0,1mm)$) -- ($(SS.west)+(0,1mm)$);
+    \draw [dconnector, blue] ($(SS.west)+(0,-1mm)$) -- ($(ODU.east)+(0,-1mm)$);
+    \draw [connector, blue] ($(SS.west)+(0mm,-2mm)$) -- ($(TF.east)+(-1mm,3mm)$);    
+    \draw [connector, blue] ($(SS.south)+(-1mm,0)$) -- ($(TD.north)+(-1mm, 0)$);
+    
+    \draw [connector, red] ($(TD.west)+(0, 2mm)$) -- ($(ODU.east)+(-1mm,-3mm)$);
+    \draw [connector, red] ($(TD.north)+(1mm,0)$) -- ($(SS.south)+(1mm,0)$);
+    \draw [connector, red] ($(TF.east)+(0, 2mm)$) -- ($(SS.west)+(1mm,-3mm)$);
+    
+  \end{tikzpicture}
+
+
+\end{document}

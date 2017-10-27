@@ -1,0 +1,529 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.10.4)  4 OCT 2012 15:38
+entering extended mode
+**parallel_connection.tex
+("G:\Слайды\Лекция 5\fig\parallel_connection.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\ucs\utf8
+x.def"
+File: utf8x.def 2004/10/17 UCS: Input encoding UTF-8
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\ucs\ucs.
+sty"
+Package: ucs 2004/10/17 UCS: Unicode input support
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\ucs\uni-
+global.def"
+File: uni-global.def 2012/08/28 UCS: Unicode global data
+)
+\uc@secondtry=\count87
+\uc@combtoks=\toks16
+\uc@combtoksb=\toks17
+\uc@temptokena=\toks18
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks19
+\ex@=\dimen103
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks20
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks21
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks22
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\fron
+tendlayer\tikz.sty"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\basi
+clayer\pgf.sty"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\util
+ities\pgfrcs.sty"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks24
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgfutil-latex.def"
+\pgfutil@abb=\box28
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\ms\every
+shi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgfrcs.code.tex"
+Package: pgfrcs 2010/10/25 v2.10 (rcs-revision 1.24)
+))
+Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\basi
+clayer\pgfcore.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\syst
+emlayer\pgfsys.sty"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\sy
+stemlayer\pgfsys.code.tex"
+Package: pgfsys 2010/06/30 v2.10 (rcs-revision 1.37)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen114
+\pgf@y=\dimen115
+\pgf@xa=\dimen116
+\pgf@ya=\dimen117
+\pgf@xb=\dimen118
+\pgf@yb=\dimen119
+\pgf@xc=\dimen120
+\pgf@yc=\dimen121
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count100
+\c@pgf@countb=\count101
+\c@pgf@countc=\count102
+\c@pgf@countd=\count103
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\sy
+stemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Package pgfsys Info: Driver file for pgf: pgfsys-dvips.def on input line 900.
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\sy
+stemlayer\pgfsys-dvips.def"
+File: pgfsys-dvips.def 2008/04/03  (rcs-revision 1.20)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\sy
+stemlayer\pgfsys-common-postscript.def"
+File: pgfsys-common-postscript.def 2008/10/01  (rcs-revision 1.22)
+\pgf@objectcount=\count104
+)))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\sy
+stemlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2008/07/18  (rcs-revision 1.7)
+\pgfsyssoftpath@smallbuffer@items=\count105
+\pgfsyssoftpath@bigbuffer@items=\count106
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\sy
+stemlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\xcolor\x
+color.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v2.10 (rcs-revision 1.7)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmath.code.tex"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathcalc.code.tex"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathutil.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen122
+\pgfmath@count=\count107
+\pgfmath@box=\box29
+\pgfmath@toks=\toks29
+\pgfmath@stack@operand=\toks30
+\pgfmath@stack@operation=\toks31
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.code.tex"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.basic.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.trigonometric.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.random.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.comparison.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.base.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.round.code.tex")
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfunctions.misc.code.tex")))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ma
+th\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count108
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2010/04/09  (rcs-revision 1.20)
+\pgf@picminx=\dimen123
+\pgf@picmaxx=\dimen124
+\pgf@picminy=\dimen125
+\pgf@picmaxy=\dimen126
+\pgf@pathminx=\dimen127
+\pgf@pathmaxx=\dimen128
+\pgf@pathminy=\dimen129
+\pgf@pathmaxy=\dimen130
+\pgf@xx=\dimen131
+\pgf@xy=\dimen132
+\pgf@yx=\dimen133
+\pgf@yy=\dimen134
+\pgf@zx=\dimen135
+\pgf@zy=\dimen136
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2010/08/03  (rcs-revision 1.24)
+\pgf@path@lastx=\dimen137
+\pgf@path@lasty=\dimen138
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2008/04/22  (rcs-revision 1.12)
+\pgf@shorten@end@additional=\dimen139
+\pgf@shorten@start@additional=\dimen140
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2010/09/08  (rcs-revision 1.34)
+\pgfpic=\box30
+\pgf@hbox=\box31
+\pgf@layerbox@main=\box32
+\pgf@picture@serial@count=\count109
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2008/04/22  (rcs-revision 1.9)
+\pgflinewidth=\dimen141
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2009/06/10  (rcs-revision 1.11)
+\pgf@pt@x=\dimen142
+\pgf@pt@y=\dimen143
+\pgf@pt@temp=\dimen144
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2008/10/09  (rcs-revision 1.8)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2008/04/23  (rcs-revision 1.11)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2008/11/23  (rcs-revision 1.13)
+\pgf@max=\dimen145
+\pgf@sys@shading@range@num=\count110
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2010/03/25  (rcs-revision 1.16)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2010/09/01  (rcs-revision 1.17)
+\pgfexternal@startupbox=\box33
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2010/08/27  (rcs-revision 1.2)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2008/01/17  (rcs-revision 1.2)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ba
+siclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2009/07/02  (rcs-revision 1.3)
+)))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\mo
+dules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
+\pgfnodeparttextbox=\box34
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\mo
+dules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\comp
+atibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen146
+\pgf@nodesepend=\dimen147
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\comp
+atibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\util
+ities\pgffor.sty"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\pgf\util
+ities\pgfkeys.sty"
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgfkeys.code.tex"))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\ut
+ilities\pgffor.code.tex"
+Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
+\pgffor@iter=\dimen148
+\pgffor@skip=\dimen149
+\pgffor@stack=\toks32
+\pgffor@toks=\toks33
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\fr
+ontendlayer\tikz\tikz.code.tex"
+Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\li
+braries\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
+\pgf@plot@mark@count=\count111
+\pgfplotmarksize=\dimen150
+)
+\tikz@lastx=\dimen151
+\tikz@lasty=\dimen152
+\tikz@lastxsaved=\dimen153
+\tikz@lastysaved=\dimen154
+\tikzleveldistance=\dimen155
+\tikzsiblingdistance=\dimen156
+\tikz@figbox=\box35
+\tikz@tempbox=\box36
+\tikztreelevel=\count112
+\tikznumberofchildren=\count113
+\tikznumberofcurrentchild=\count114
+\tikz@fig@count=\count115
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\mo
+dules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2010/08/24  (rcs-revision 1.4)
+\pgfmatrixcurrentrow=\count116
+\pgfmatrixcurrentcolumn=\count117
+\pgf@matrix@numberofcolumns=\count118
+)
+\tikz@expandcount=\count119
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\fr
+ontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v2.10 (rcs-revision 1.2)
+)))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks34
+\verbatim@line=\toks35
+\verbatim@in@stream=\read2
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\preview\
+preview.sty"
+Package: preview 2010/02/14 11.86 (AUCTeX/preview-latex)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\preview\
+prtightpage.def"
+\PreviewBorder=\dimen157
+)
+\pr@snippet=\count120
+\pr@box=\box37
+\pr@output=\toks36
+) ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\russianb.ldf"
+Language: russianb 2008/03/21 v1.1r Russian support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count121
+\U@D=\dimen158
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\cyrillic
+\t2aenc.def"
+File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
+)
+Package babel Info: Making " an active character on input line 199.
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\fr
+ontendlayer\tikz\libraries\tikzlibrarymatrix.code.tex"
+File: tikzlibrarymatrix.code.tex 2008/06/18 v2.10 (rcs-revision 1.2)
+)
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\fr
+ontendlayer\tikz\libraries\tikzlibraryarrows.code.tex"
+File: tikzlibraryarrows.code.tex 2008/01/09 v2.10 (rcs-revision 1.1)
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\li
+braries\pgflibraryarrows.code.tex"
+File: pgflibraryarrows.code.tex 2008/10/27 v2.10 (rcs-revision 1.9)
+\arrowsize=\dimen159
+))
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\generic\pgf\fr
+ontendlayer\tikz\libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2009/09/04 v2.10 (rcs-revision 1.6)
+)
+("G:\Слайды\Лекция 5\fig\parallel_connection.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 25.
+LaTeX Font Info:    Try loading font information for T2A+cmr on input line 25.
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\cyrillic
+\t2acmr.fd"
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+LaTeX Font Info:    ... okay on input line 25.
+
+("C:\Documents and Settings\TEMP\Application Data\MiKTeX\2.9\tex\latex\ucs\ucse
+ncs.def"
+File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
+) ABD: EveryShipout initializing macros
+Preview: Fontsize 10pt
+Preview: Tightpage -327680 -327680 327680 327680
+[1] ("G:\Слайды\Лекция 5\fig\parallel_connection.aux") ) 
+Here is how much of TeX's memory you used:
+ 11032 strings out of 494046
+ 211826 string characters out of 3148359
+ 265062 words of memory out of 3000000
+ 14107 multiletter control sequences out of 15000+200000
+ 7742 words of font info for 25 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 56i,14n,60p,431b,899s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on parallel_connection.dvi (1 page, 12488 bytes).

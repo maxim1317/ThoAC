@@ -1,0 +1,49 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc} % utf8 encoding
+\usepackage{amsmath} % nice math symbols
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage[russian]{babel}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\usetikzlibrary{matrix} % for block alignment
+\usetikzlibrary{arrows} % for arrow heads
+\usetikzlibrary{calc} % for manimulation of coordinates
+
+\tikzstyle{sum} = [draw,circle,inner sep=0mm,minimum size=3mm]
+\tikzstyle{block} = [draw,rectangle,thick,minimum height=0.5cm,minimum width=0.8cm]
+\tikzstyle{dblock} = [draw,rectangle,thick,minimum height=2cm,minimum width=3cm]
+\tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]
+\tikzstyle{begin} = []
+\tikzstyle{end} = []
+\tikzstyle{connector} = [->,thick]
+\tikzstyle{line} = [thick]
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1, auto, >=stealth']
+    \small
+    \matrix[ampersand replacement=\&, row sep=0.3cm, column sep=0.3cm]
+    {
+        \&
+        \&
+        \node[end](y_end_up) {}; \&
+        \&
+        \\
+        \node[begin](g_beg) {};   \&
+        \node[block](W) {$W$};\&
+        \node[branch](y_br) {}; \&
+        \node[end](y_end) {} ;\&
+        \\
+    };
+    \draw [connector] (y_br) -- node [near end] {$y$} (y_end_up);
+    \draw [connector] (g_beg) -- node [near start] {$g$}(W);
+    \draw [line] (W) -- (y_br);
+    \draw [connector] (y_br) -- node [near end] {$y$}(y_end);
+
+  \end{tikzpicture}
+
+
+\end{document}
