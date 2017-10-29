@@ -19,10 +19,10 @@ d2:
 .PHONY: clean
 clean: 
 	@rm -rf tmp
-	@pkill -f evince
+	# @pkill -f evince
 
 .PHONY: Re
-Re: 
+Re: figs
 	@rm -rf tmp
 	@mkdir -p tmp
 	pdflatex -output-directory tmp/ TAU.tex
@@ -30,14 +30,22 @@ Re:
 
 .PHONY: t1
 t1:
-	pdflatex -output-directory tmp/ tex/t_1.tex
-	pdflatex -output-directory tmp/ tex/t_1.tex
+	pdflatex -output-directory tmp/ tex/chapters/t_1.tex
+	pdflatex -output-directory tmp/ tex/chapters/t_1.tex
 
 .PHONY: t2
 t2:
-	pdflatex -output-directory tmp/ tex/t_2.tex
-	pdflatex -output-directory tmp/ tex/t_2.tex	
+	pdflatex -output-directory tmp/ tex/chapters/t_2.tex
+	pdflatex -output-directory tmp/ tex/chapters/t_2.tex	
 
 gt: clean
 	@git reset
 	@git add *
+
+figs:
+	make -C tex/fig/
+
+fullclean: 
+	@rm -rf tmp
+	@rm -f fig/t1/*
+	@rm -f fig/t2/*

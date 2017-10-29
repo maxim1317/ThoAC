@@ -1,0 +1,74 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc} % utf8 encoding
+\usepackage{amsmath} % nice math symbols
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage[russian]{babel}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\usetikzlibrary{matrix} % for block alignment
+\usetikzlibrary{arrows} % for arrow heads
+\usetikzlibrary{calc} % for manimulation of coordinates
+
+\tikzstyle{sum} = [draw,circle,inner sep=0mm,minimum size=3mm]
+\tikzstyle{block} = [draw,rectangle,thick,minimum height=0.6cm,minimum width=1cm]
+\tikzstyle{dblock} = [draw,rectangle,thick,minimum height=2cm,minimum width=3cm]
+\tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]
+\tikzstyle{begin} = []
+\tikzstyle{end} = []
+\tikzstyle{connector} = [->,thick]
+\tikzstyle{dconnector} = [->,thick, dotted]
+\tikzstyle{line} = [thick]
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1, auto, >=stealth']
+    \small
+    % node placement with matrix library: 2x5 array
+    \matrix[ampersand replacement=\&, row sep=0.3cm, column sep=0.5cm]
+    { 
+        \&
+        \&
+        \node[block](W1) {$W_1$};\&
+        \&
+        \&
+        \\
+        \&
+        \&
+        \node[block](W2) {$W_2$};\&
+        \&
+        \&
+        \\
+        \node[begin](x) {}; \&
+        \node[branch](x_branch) {};\&
+        \node[begin](Wx) {$\vdots$};\&
+        \node[sum](y_sum) {};\&
+        \node[end](y) {}; \&
+        \\
+        \&
+        \&
+        \node[block](Wn) {$W_n$};\&
+        \&
+        \&
+        \\
+    };
+    \draw [line] (x) -- node{$x$} (x_branch);
+    \draw [connector] (x_branch) |- (W1);
+    \draw [connector] (x_branch) |- (W2);
+    \draw [dconnector] (x_branch) -- (Wx);
+    \draw [connector] (x_branch) |- (Wn);
+
+    \draw [connector] (W1) -| (y_sum);
+    \draw [connector] (W2.east) -- ($(W2.east) + (0.2cm,0)$) -- (y_sum);
+    \draw [dconnector] (Wx) -- (y_sum);
+    \draw [connector] (Wn) -| (y_sum);
+
+    \draw [connector] (y_sum) -- node{$y$} (y);
+
+    \draw (y_sum) -- ++(-1mm,-1mm) -- ++(2mm,2mm) ++(0mm,-2mm) -- ++(-2mm,2mm);
+  \end{tikzpicture}
+
+
+\end{document}

@@ -32,7 +32,7 @@
 %   \endgroup
 % }
 
-  
+
 \usepackage{graphicx} % для вставки картинок
 \usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
 \usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
@@ -42,8 +42,9 @@
 % \usepackage{ulem} % подчеркивания
  
 \usepackage{subfiles}
+\usepackage{enumitem}
 
-
+\usepackage{tasks}
 % \def\subsubsection{\@startsection{subsubsection}{3}%
 %   \z@{.5\linespacing\@plus.7\linespacing}{-.5em}%
 %   {\normalfont\itshape}}
@@ -68,7 +69,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \theoremstyle{definition}
 \newtheorem{defi}{\bf Определение}
-\newtheorem{task}{\bf Задача  \thetask}
+% \newtheorem{task}{\bf Задача  \thetask}
 \theoremstyle{remark}
 \newtheorem{remark}{\bf Замечание \theremark}
 \newtheorem{examp}{\bf Пример}
@@ -87,6 +88,10 @@
 \newcommand{\cnt}[1]{\overline{#1}}
 \newcommand{\BF}[1]{\mathbb{#1}}
 \newcommand{\IT}[1]{\mathcal{#1}}
+\newcommand{\LAP}[1]{\mathop{\mathcal{L}}\nolimits\left\{#1\right\}}
+\newcommand{\INVLAP}[1]{{\mathop{\mathcal{L}}\nolimits^{-1}\left\{#1\right\}}}
+\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
+{\hbox{$\mathsurround=0pt #1$}}{}}
 
 % \usepackage{etoolbox}
 % \preto\section{\filbreak}
@@ -108,7 +113,7 @@ elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et
 neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
 Donec ullamcorper, felis non sodales...
 
-\subfile{tex/t_1}
-\subfile{tex/t_2}
+\subfile{tex/chapters/t_1}
+\subfile{tex/chapters/t_2}
 
 \end{document}
