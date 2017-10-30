@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  29 OCT 2017 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  30 OCT 2017 16:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1139,7 +1139,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (tmp//TAU.toc [1
 
-])
+]
+Overfull \hbox (3.62476pt too wide) in paragraph at lines 49--49
+ [][] []\T2A/cmr/m/n/12 Вычисление пе-ре-да-точ-ной функ-ции мно-го-кон-тур-ной
+ 
+ []
+
+)
 \tf@toc=\write3
 \openout3 = `TAU.toc'.
 
@@ -1187,18 +1193,18 @@ Overfull \hbox (4.63298pt too wide) in paragraph at lines 63--63
 <./fig/t1/SAU_scheme.pdf, id=29, pagebox=cropbox, 142.13503pt x 70.96411pt>
 File: ./fig/t1/SAU_scheme.pdf Graphic file (type pdf)
 <use ./fig/t1/SAU_scheme.pdf>
-Package pdftex.def Info: ./fig/t1/SAU_scheme.pdf  used on input line 69. on inp
-ut line 69.
+Package pdftex.def Info: ./fig/t1/SAU_scheme.pdf  used on input line 70. on inp
+ut line 70.
 Package pdftex.def Info: Requested size: 284.52756pt x 142.06534pt on input lin
-e 69.
+e 70.
 [6] [7 <./fig/t1/SAU_scheme.pdf>]
-Overfull \hbox (20.49843pt too wide) in paragraph at lines 88--88
+Overfull \hbox (20.49843pt too wide) in paragraph at lines 89--89
 \T2A/cmr/m/n/12 то-рые об-щие фун-да-мен-таль-ные прин-ци-пы управ-ле-ния, опре
 -де-ля-ю-щие,каким
  []
 
 
-Overfull \hbox (2.55386pt too wide) in paragraph at lines 89--90
+Overfull \hbox (2.55386pt too wide) in paragraph at lines 90--91
 []\T2A/cmr/m/n/12 Принято раз-ли-чать три фун-да-мен-таль-ных прин-ци-па управ-
 ле-ния: про-
  []
@@ -1206,30 +1212,30 @@ Overfull \hbox (2.55386pt too wide) in paragraph at lines 89--90
 <./fig/t1/program.pdf, id=52, pagebox=cropbox, 142.13503pt x 34.03616pt>
 File: ./fig/t1/program.pdf Graphic file (type pdf)
 <use ./fig/t1/program.pdf>
-Package pdftex.def Info: ./fig/t1/program.pdf  used on input line 96. on input 
-line 96.
+Package pdftex.def Info: ./fig/t1/program.pdf  used on input line 98. on input 
+line 98.
 Package pdftex.def Info: Requested size: 284.52756pt x 68.13809pt on input line
- 96.
+ 98.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8]
 
-LaTeX Warning: Command \cyru invalid in math mode on input line 105.
+LaTeX Warning: Command \cyru invalid in math mode on input line 107.
 
 Missing character: There is no у in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--109
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
 
  []
 
 <./fig/t1/feedback.pdf, id=56, pagebox=cropbox, 142.13503pt x 70.96411pt>
 File: ./fig/t1/feedback.pdf Graphic file (type pdf)
 <use ./fig/t1/feedback.pdf>
-Package pdftex.def Info: ./fig/t1/feedback.pdf  used on input line 115. on inpu
-t line 115.
+Package pdftex.def Info: ./fig/t1/feedback.pdf  used on input line 118. on inpu
+t line 118.
 Package pdftex.def Info: Requested size: 284.52756pt x 142.06534pt on input lin
-e 115.
+e 118.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1237,12 +1243,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./fig/t1/SAU_structure.pdf, id=70, pagebox=cropbox, 255.98334pt x 95.75775pt>
 File: ./fig/t1/SAU_structure.pdf Graphic file (type pdf)
 <use ./fig/t1/SAU_structure.pdf>
-Package pdftex.def Info: ./fig/t1/SAU_structure.pdf  used on input line 133. on
- input line 133.
+Package pdftex.def Info: ./fig/t1/SAU_structure.pdf  used on input line 137. on
+ input line 137.
 Package pdftex.def Info: Requested size: 284.52756pt x 106.43993pt on input lin
-e 133.
+e 137.
 
-Underfull \hbox (badness 1365) in paragraph at lines 136--136
+Underfull \hbox (badness 1365) in paragraph at lines 140--140
 \T2A/cmr/m/n/12 му-ще-ния (не все-гда при-сут-ству-ет) и вы-ход $\OML/cmm/m/it/
 12 y$\T2A/cmr/m/n/12 ; УПУ, усилительно-
  []
@@ -1251,40 +1257,40 @@ Underfull \hbox (badness 1365) in paragraph at lines 136--136
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Overfull \hbox (6.13936pt too wide) in paragraph at lines 142--143
+Overfull \hbox (6.13936pt too wide) in paragraph at lines 146--147
 []\T2A/cmr/m/n/12 Для озна-ком-ле-ния с ос-нов-ны-ми ви-да-ми си-стем ав-то-ма-
 ти-че-ско-го управ-
  []
 
 [10 <./fig/t1/feedback.pdf>]
 
-LaTeX Warning: Command \cyru invalid in math mode on input line 147.
+LaTeX Warning: Command \cyru invalid in math mode on input line 151.
 
 Missing character: There is no у in font cmr12!
 [11 <./fig/t1/SAU_structure.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 156--156
+Underfull \hbox (badness 10000) in paragraph at lines 160--160
 
  []
 
 [12] [13]
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 182.
+LaTeX Warning: Command \cyre invalid in math mode on input line 186.
 
 Missing character: There is no е in font cmr12!
 
-Overfull \hbox (6.6268pt too wide) in paragraph at lines 189--189
+Overfull \hbox (6.6268pt too wide) in paragraph at lines 193--193
 \T2A/cmr/m/n/12 Ре-гу-ли-ро-ва-ние ча-сто-ты син-хрон-ных ге-не-ра-то-ров вы-по
 л-ня-ет-ся пу-тем двой-
  []
 
 [14]
-Overfull \hbox (7.27084pt too wide) in paragraph at lines 195--197
+Overfull \hbox (7.27084pt too wide) in paragraph at lines 199--201
 []\T2A/cmr/m/it/12 Пропорционально-интегрально-дифференциальный за-кон (ПИД-зак
 он)
  []
 
 
-Overfull \hbox (1.07039pt too wide) in paragraph at lines 195--197
+Overfull \hbox (1.07039pt too wide) in paragraph at lines 199--201
 \T2A/cmr/m/n/12 осу-ществ-ля-ет-ся с по-мо-щью ПИД-регулятора, ко-то-рый обес-п
 е-чи-ва-ет аста-
  []
@@ -1292,18 +1298,18 @@ Overfull \hbox (1.07039pt too wide) in paragraph at lines 195--197
 <./fig/t1/pendulum.pdf, id=121, pagebox=cropbox, 553.92676pt x 396.97406pt>
 File: ./fig/t1/pendulum.pdf Graphic file (type pdf)
 <use ./fig/t1/pendulum.pdf>
-Package pdftex.def Info: ./fig/t1/pendulum.pdf  used on input line 205. on inpu
-t line 205.
+Package pdftex.def Info: ./fig/t1/pendulum.pdf  used on input line 209. on inpu
+t line 209.
 Package pdftex.def Info: Requested size: 170.71652pt x 122.33986pt on input lin
-e 205.
+e 209.
 [15]
-Overfull \hbox (2.71455pt too wide) in paragraph at lines 210--211
+Overfull \hbox (2.71455pt too wide) in paragraph at lines 214--215
 []\T2A/cmr/m/n/12 Уравнение, опи-сы-ва-ю-щее пе-ре-вер-ну-тый (об-рат-ный) ма-я
 т-ник в окрест-
  []
 
 
-Overfull \hbox (15.98541pt too wide) in paragraph at lines 226--228
+Overfull \hbox (15.98541pt too wide) in paragraph at lines 230--232
 \T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]
  x[]\OT1/cmr/m/n/12 )[] = (^^B [])[]$ \T2A/cmr/m/n/12 --- век-тор со-сто-я-ния 
 си-сте-мы, $\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = []$\T2A/cmr/m/n/12 ,$\OML/cmm/
@@ -1315,10 +1321,10 @@ m/it/12 b \OT1/cmr/m/n/12 =
 3pt>
 File: ./fig/t1/feedback_pendulum.pdf Graphic file (type pdf)
 <use ./fig/t1/feedback_pendulum.pdf>
-Package pdftex.def Info: ./fig/t1/feedback_pendulum.pdf  used on input line 260
-. on input line 260.
+Package pdftex.def Info: ./fig/t1/feedback_pendulum.pdf  used on input line 265
+. on input line 265.
 Package pdftex.def Info: Requested size: 284.52756pt x 70.63759pt on input line
- 260.
+ 265.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1331,82 +1337,324 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./fig/t2/block_gain.pdf, id=170, pagebox=cropbox, 412.74202pt x 199.40909pt>
 File: ./fig/t2/block_gain.pdf Graphic file (type pdf)
 <use ./fig/t2/block_gain.pdf>
-Package pdftex.def Info: ./fig/t2/block_gain.pdf  used on input line 71. on inp
-ut line 71.
+Package pdftex.def Info: ./fig/t2/block_gain.pdf  used on input line 47. on inp
+ut line 47.
 Package pdftex.def Info: Requested size: 227.62204pt x 109.97047pt on input lin
-e 71.
- [21 <./fig/t2/block_gain.pdf>] [22]
-Overfull \hbox (7.47238pt too wide) in paragraph at lines 167--174
+e 47.
+ [21 <./fig/t2/block_gain.pdf>]
+Overfull \hbox (46.87973pt too wide) in paragraph at lines 64--70
+\T2A/cmr/m/n/12 где пе-ре-мен-ные со зна-ком $\OT1/cmr/m/n/12 ^^A$ \T2A/cmr/m/n
+/12 до-ста-точ-но ма-лы. То-гда для функ-ции $\OML/cmm/m/it/12 F\OT1/cmr/m/n/12
+ (\OML/cmm/m/it/12 y; []; []; u; []; v\OT1/cmr/m/n/12 )$
+ []
+
+[22]
+Overfull \hbox (7.47238pt too wide) in paragraph at lines 110--117
 []\T2A/cmr/bx/n/12 Определение 14. []\T2A/cmr/m/it/12 Пре-об-ра-зо-ва-ни-ем Ла-
 пла-са \T2A/cmr/m/n/12 на-зы-ва-ют отоб-ра-же-ние $[] []$
  []
 
-[23]
 
-LaTeX Warning: Command \cyrs invalid in math mode on input line 202.
+LaTeX Warning: Command \cyrs invalid in math mode on input line 135.
 
 Missing character: There is no с in font cmr12!
-
-Overfull \hbox (6.4503pt too wide) in paragraph at lines 215--220
+[23]
+Overfull \hbox (6.4503pt too wide) in paragraph at lines 143--148
 \T2A/cmr/m/n/12 Если про-из-вод-ная $[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/
 cmr/m/n/12 )$ \T2A/cmr/m/n/12 яв-ля-ет-ся функцией-оригиналом, то $[] [] \OT1/c
 mr/m/n/12 =
  []
 
 [24] [25] [26] [27]
-Overfull \hbox (14.19576pt too wide) in paragraph at lines 411--411
+Overfull \hbox (14.19576pt too wide) in paragraph at lines 288--288
 []\T2A/cmr/bx/n/14.4 Временные функ-ции: пе-ре-ход-ная и ве-со-вая функ-
  []
 
-[28]
-Overfull \hbox (4.00513pt too wide) in paragraph at lines 442--444
-[]\T2A/cmr/m/n/12 откуда с по-мо-щью об-рат-но-го пре-об-ра-зо-ва-ния Ла-пла-са
- по-лу-ча-ем $\OML/cmm/m/it/12 h\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n
-/12 ) =
+
+Overfull \hbox (2.39125pt too wide) in paragraph at lines 301--306
+\T2A/cmr/m/n/12 По опре-де-ле-нию пе-ре-ход-ной функ-ции вход име-ет вид $\OML/
+cmm/m/it/12 u\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) = \OMS/cmsy/m
+/n/12 X\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 (а
+ $\OML/cmm/m/it/12 h\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 ) =
  []
 
-[29]) [30] (tmp//TAU.aux)
+[28] [29]
+Overfull \hbox (29.95305pt too wide) in paragraph at lines 369--373
+\T2A/cmr/m/n/12 откуда сле-ду-ет, что $\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = \OM
+S/cmsy/m/n/12 j\OML/cmm/m/it/12 W\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 j!\OT1/cmr/m
+/n/12 )\OMS/cmsy/m/n/12 j \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 j\OML/cmm/m/it/12 
+W\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm/m/it/12 j!\OT1/cmr/m/n/12 )\OMS/
+cmsy/m/n/12 j$ \T2A/cmr/m/n/12 и $\OML/cmm/m/it/12 ^^^ \OT1/cmr/m/n/12 = [] \OM
+L/cmm/m/it/12 W\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 j!\OT1/cmr/m/n/12 ) = \OMS/cms
+y/m/n/12 ^^@ [] \OML/cmm/m/it/12 W\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 ^^@\OML/cmm
+/m/it/12 j!\OT1/cmr/m/n/12 )$\T2A/cmr/m/n/12 .
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+[30] [31]
+<./fig/t2/sum_minus.pdf, id=221, pagebox=cropbox, 124.50014pt x 49.73782pt>
+File: ./fig/t2/sum_minus.pdf Graphic file (type pdf)
+<use ./fig/t2/sum_minus.pdf>
+Package pdftex.def Info: ./fig/t2/sum_minus.pdf  used on input line 449. on inp
+ut line 449.
+Package pdftex.def Info: Requested size: 184.9429pt x 73.89313pt on input line 
+449.
+<./fig/t2/sum_three.pdf, id=222, pagebox=cropbox, 142.78445pt x 53.02911pt>
+File: ./fig/t2/sum_three.pdf Graphic file (type pdf)
+<use ./fig/t2/sum_three.pdf>
+Package pdftex.def Info: ./fig/t2/sum_three.pdf  used on input line 450. on inp
+ut line 450.
+Package pdftex.def Info: Requested size: 184.9429pt x 68.68777pt on input line 
+450.
+ [32]
+<./fig/t2/series_connection.pdf, id=226, pagebox=cropbox, 187.38306pt x 34.0361
+6pt>
+File: ./fig/t2/series_connection.pdf Graphic file (type pdf)
+<use ./fig/t2/series_connection.pdf>
+Package pdftex.def Info: ./fig/t2/series_connection.pdf  used on input line 493
+. on input line 493.
+Package pdftex.def Info: Requested size: 184.9429pt x 33.5941pt on input line 4
+93.
+<./fig/t2/sconnection_whole.pdf, id=227, pagebox=cropbox, 100.42519pt x 34.0361
+6pt>
+File: ./fig/t2/sconnection_whole.pdf Graphic file (type pdf)
+<use ./fig/t2/sconnection_whole.pdf>
+Package pdftex.def Info: ./fig/t2/sconnection_whole.pdf  used on input line 494
+. on input line 494.
+Package pdftex.def Info: Requested size: 99.58464pt x 33.75198pt on input line 
+494.
+ [33 <./fig/t2/sum_minus.pdf> <./fig/t2/sum_three.pdf>]
+<./fig/t2/parallel_connection.pdf, id=248, pagebox=cropbox, 141.05899pt x 116.5
+2434pt>
+File: ./fig/t2/parallel_connection.pdf Graphic file (type pdf)
+<use ./fig/t2/parallel_connection.pdf>
+Package pdftex.def Info: ./fig/t2/parallel_connection.pdf  used on input line 5
+03. on input line 503.
+Package pdftex.def Info: Requested size: 142.26378pt x 117.52861pt on input lin
+e 503.
+<./fig/t2/pconnection_whole.pdf, id=249, pagebox=cropbox, 100.42519pt x 34.2078
+1pt>
+File: ./fig/t2/pconnection_whole.pdf Graphic file (type pdf)
+<use ./fig/t2/pconnection_whole.pdf>
+Package pdftex.def Info: ./fig/t2/pconnection_whole.pdf  used on input line 506
+. on input line 506.
+Package pdftex.def Info: Requested size: 142.26378pt x 48.46057pt on input line
+ 506.
+File: ./fig/t1/feedback.pdf Graphic file (type pdf)
+<use ./fig/t1/feedback.pdf>
+Package pdftex.def Info: ./fig/t1/feedback.pdf  used on input line 514. on inpu
+t line 514.
+Package pdftex.def Info: Requested size: 156.49014pt x 78.13544pt on input line
+ 514.
 
- ) 
+Overfull \hbox (4.39038pt too wide) in paragraph at lines 514--515
+[][] 
+ []
+
+[34 <./fig/t2/series_connection.pdf> <./fig/t2/sconnection_whole.pdf> <./fig/t2
+/parallel_connection.pdf> <./fig/t2/pconnection_whole.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 530--533
+
+ []
+
+<./fig/t2/trans_sum_direct_before.pdf, id=296, pagebox=cropbox, 109.89658pt x 3
+7.89156pt>
+File: ./fig/t2/trans_sum_direct_before.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_sum_direct_before.pdf>
+Package pdftex.def Info: ./fig/t2/trans_sum_direct_before.pdf  used on input li
+ne 536. on input line 536.
+Package pdftex.def Info: Requested size: 156.49014pt x 53.959pt on input line 5
+36.
+<./fig/t2/trans_sum_direct_after.pdf, id=297, pagebox=cropbox, 109.76207pt x 69
+.45348pt>
+File: ./fig/t2/trans_sum_direct_after.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_sum_direct_after.pdf>
+Package pdftex.def Info: ./fig/t2/trans_sum_direct_after.pdf  used on input lin
+e 540. on input line 540.
+Package pdftex.def Info: Requested size: 156.49014pt x 99.03156pt on input line
+ 540.
+<./fig/t2/trans_sum_indirect_before.pdf, id=298, pagebox=cropbox, 95.13542pt x 
+45.89145pt>
+File: ./fig/t2/trans_sum_indirect_before.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_sum_indirect_before.pdf>
+Package pdftex.def Info: ./fig/t2/trans_sum_indirect_before.pdf  used on input 
+line 547. on input line 547.
+Package pdftex.def Info: Requested size: 156.49014pt x 75.49562pt on input line
+ 547.
+<./fig/t2/trans_sum_indirect_after.pdf, id=299, pagebox=cropbox, 113.12764pt x 
+69.45348pt>
+File: ./fig/t2/trans_sum_indirect_after.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_sum_indirect_after.pdf>
+Package pdftex.def Info: ./fig/t2/trans_sum_indirect_after.pdf  used on input l
+ine 551. on input line 551.
+Package pdftex.def Info: Requested size: 156.49014pt x 96.0769pt on input line 
+551.
+<./fig/t2/trans_branch_direct_before.pdf, id=300, pagebox=cropbox, 84.36418pt x
+ 37.89156pt>
+File: ./fig/t2/trans_branch_direct_before.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_branch_direct_before.pdf>
+Package pdftex.def Info: ./fig/t2/trans_branch_direct_before.pdf  used on input
+ line 557. on input line 557.
+Package pdftex.def Info: Requested size: 156.49014pt x 70.2902pt on input line 
+557.
+<./fig/t2/trans_branch_direct_after.pdf, id=301, pagebox=cropbox, 113.12764pt x
+ 69.45348pt>
+File: ./fig/t2/trans_branch_direct_after.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_branch_direct_after.pdf>
+Package pdftex.def Info: ./fig/t2/trans_branch_direct_after.pdf  used on input 
+line 561. on input line 561.
+Package pdftex.def Info: Requested size: 156.49014pt x 96.0769pt on input line 
+561.
+[35 <./fig/t2/trans_sum_direct_before.pdf> <./fig/t2/trans_sum_direct_after.pdf
+> <./fig/t2/trans_sum_indirect_before.pdf> <./fig/t2/trans_sum_indirect_after.p
+df>]
+<./fig/t2/trans_branch_indirect_before.pdf, id=330, pagebox=cropbox, 92.36407pt
+ x 45.89145pt>
+File: ./fig/t2/trans_branch_indirect_before.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_branch_indirect_before.pdf>
+Package pdftex.def Info: ./fig/t2/trans_branch_indirect_before.pdf  used on inp
+ut line 569. on input line 569.
+Package pdftex.def Info: Requested size: 156.49014pt x 77.75601pt on input line
+ 569.
+<./fig/t2/trans_branch_indirect_after.pdf, id=331, pagebox=cropbox, 109.76207pt
+ x 69.45348pt>
+File: ./fig/t2/trans_branch_indirect_after.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_branch_indirect_after.pdf>
+Package pdftex.def Info: ./fig/t2/trans_branch_indirect_after.pdf  used on inpu
+t line 573. on input line 573.
+Package pdftex.def Info: Requested size: 156.49014pt x 99.03156pt on input line
+ 573.
+<./fig/t2/trans_sum_branch_before.pdf, id=332, pagebox=cropbox, 81.11705pt x 34
+.64543pt>
+File: ./fig/t2/trans_sum_branch_before.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_sum_branch_before.pdf>
+Package pdftex.def Info: ./fig/t2/trans_sum_branch_before.pdf  used on input li
+ne 579. on input line 579.
+Package pdftex.def Info: Requested size: 156.49014pt x 66.84354pt on input line
+ 579.
+<./fig/t2/trans_sum_branch_after.pdf, id=333, pagebox=cropbox, 91.88829pt x 62.
+96223pt>
+File: ./fig/t2/trans_sum_branch_after.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_sum_branch_after.pdf>
+Package pdftex.def Info: ./fig/t2/trans_sum_branch_after.pdf  used on input lin
+e 583. on input line 583.
+Package pdftex.def Info: Requested size: 156.49014pt x 107.24283pt on input lin
+e 583.
+<./fig/t2/trans_branch_sum_before.pdf, id=334, pagebox=cropbox, 89.11694pt x 42
+.64532pt>
+File: ./fig/t2/trans_branch_sum_before.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_branch_sum_before.pdf>
+Package pdftex.def Info: ./fig/t2/trans_branch_sum_before.pdf  used on input li
+ne 588. on input line 588.
+Package pdftex.def Info: Requested size: 156.49014pt x 74.89134pt on input line
+ 588.
+<./fig/t2/trans_branch_sum_after.pdf, id=335, pagebox=cropbox, 91.88829pt x 62.
+96223pt>
+File: ./fig/t2/trans_branch_sum_after.pdf Graphic file (type pdf)
+<use ./fig/t2/trans_branch_sum_after.pdf>
+Package pdftex.def Info: ./fig/t2/trans_branch_sum_after.pdf  used on input lin
+e 592. on input line 592.
+Package pdftex.def Info: Requested size: 156.49014pt x 107.24283pt on input lin
+e 592.
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--595
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (8.16194pt too wide) in paragraph at lines 596--596
+[]\T2A/cmr/bx/n/14.4 Вычисление пе-ре-да-точ-ной функ-ции од-но-кон-тур-
+ []
+
+<./fig/t2/one_contour_exmpl.pdf, id=336, pagebox=cropbox, 172.61188pt x 96.3288
+9pt>
+File: ./fig/t2/one_contour_exmpl.pdf Graphic file (type pdf)
+<use ./fig/t2/one_contour_exmpl.pdf>
+Package pdftex.def Info: ./fig/t2/one_contour_exmpl.pdf  used on input line 606
+. on input line 606.
+Package pdftex.def Info: Requested size: 270.30118pt x 150.86038pt on input lin
+e 606.
+[36 <./fig/t2/trans_branch_direct_before.pdf> <./fig/t2/trans_branch_direct_aft
+er.pdf> <./fig/t2/trans_branch_indirect_before.pdf> <./fig/t2/trans_branch_indi
+rect_after.pdf>]
+
+LaTeX Warning: Command \cyrh invalid in math mode on input line 611.
+
+Missing character: There is no х in font cmr12!
+[37 <./fig/t2/trans_sum_branch_before.pdf> <./fig/t2/trans_sum_branch_after.pdf
+> <./fig/t2/trans_branch_sum_before.pdf> <./fig/t2/trans_branch_sum_after.pdf> 
+<./fig/t2/one_contour_exmpl.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 624--626
+[]\T2A/cmr/m/n/12 Рассмотрим
+ []
+
+<./fig/t2/many_contour_no_cross_exmpl.pdf, id=401, pagebox=cropbox, 236.40822pt
+ x 87.35135pt>
+File: ./fig/t2/many_contour_no_cross_exmpl.pdf Graphic file (type pdf)
+<use ./fig/t2/many_contour_no_cross_exmpl.pdf>
+Package pdftex.def Info: ./fig/t2/many_contour_no_cross_exmpl.pdf  used on inpu
+t line 628. on input line 628.
+Package pdftex.def Info: Requested size: 270.30118pt x 99.87479pt on input line
+ 628.
+
+Underfull \hbox (badness 10000) in paragraph at lines 634--636
+[]\T2A/cmr/m/n/12 Рассмотрим
+ []
+
+<./fig/t2/many_contour_cross_exmpl.pdf, id=402, pagebox=cropbox, 219.33644pt x 
+81.12909pt>
+File: ./fig/t2/many_contour_cross_exmpl.pdf Graphic file (type pdf)
+<use ./fig/t2/many_contour_cross_exmpl.pdf>
+Package pdftex.def Info: ./fig/t2/many_contour_cross_exmpl.pdf  used on input l
+ine 638. on input line 638.
+Package pdftex.def Info: Requested size: 270.30118pt x 99.98994pt on input line
+ 638.
+[38 <./fig/t2/many_contour_no_cross_exmpl.pdf>]) [39 <./fig/t2/many_contour_cro
+ss_exmpl.pdf>] (tmp//TAU.aux) ) 
 Here is how much of TeX's memory you used:
- 14743 strings out of 493828
- 270818 string characters out of 6156285
- 318744 words of memory out of 5000000
- 17884 multiletter control sequences out of 15000+600000
+ 14849 strings out of 493828
+ 275141 string characters out of 6156285
+ 321756 words of memory out of 5000000
+ 17969 multiletter control sequences out of 15000+600000
  550416 words of font info for 71 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
- 61i,11n,52p,10333b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati1200.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx2488.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600p
-k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600p
-k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (31 pages, 360067 bytes).
+ 61i,13n,52p,10333b,412s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/labx1440.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/larm1095.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/larm0600.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/larm0800.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/labx1728.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/lati1200.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/larm1200.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/labx1200.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/labx2488.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/larm1440.600pk> </home/oberon/.texlive2017/texmf-var/fonts/pk/l
+jfour/lh/lh-t2a/larm2074.600pk></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tmp//TAU.pdf (40 pages, 432324 bytes).
 PDF statistics:
- 715 PDF objects out of 1000 (max. 8388607)
- 216 compressed objects within 3 object streams
+ 934 PDF objects out of 1000 (max. 8388607)
+ 393 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 36 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
