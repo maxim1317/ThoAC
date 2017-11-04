@@ -1,0 +1,144 @@
+\documentclass{beamer}
+
+% for themes, etc.
+\mode<presentation>
+{
+%\usetheme{boxes}
+\usetheme{Boadilla}
+\usecolortheme{seahorse}
+%\usetheme{CambridgeUS}
+\beamertemplatenavigationsymbolsempty
+}
+
+\usepackage{amsmath, amsfonts , amssymb, amsthm}
+% \usepackage[cp1251]{inputenc}
+% \usepackage{mathtext}
+% \usepackage[russian]{babel}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage{graphicx}
+\ifpdf\usepackage{epstopdf}\fi
+\usepackage{epsfig}
+
+\theoremstyle{plain}
+\newtheorem{theor}{\bf Теорема \thetheor}
+\newtheorem{statement}{\bf Утверждение \thestatement}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\theoremstyle{definition}
+\newtheorem{defi}{\bf Определение \thedefi}
+\newtheorem{task}{\bf Задача  \thetask}
+\theoremstyle{remark}
+\newtheorem{remark}{\bf Замечание \theremark}
+\newtheorem{examp}{\bf Пример}
+\theoremstyle{plain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\eref}[1]{(\ref{#1})}
+\newcommand{\const}{\mathop{\mathrm{const}}\nolimits}
+\newcommand{\col}{\mathop{\mathrm{col}}\nolimits}
+\newcommand{\diag}{\mathop{\mathrm{diag}}\nolimits}
+\newcommand{\rank}{\mathop{\mathrm{rank}}\nolimits}
+\newcommand{\spec}{\mathop{\mathrm{spec}}\nolimits}
+\newcommand{\rang}{\mathop{\mathrm{rang}}\nolimits}
+\newcommand{\RE}{\mathop{\mathrm{Re}}\nolimits}
+\newcommand{\IM}{\mathop{\mathrm{Im}}\nolimits}
+\newcommand{\cnt}[1]{\overline{#1}}
+\newcommand{\BF}[1]{\mathbb{#1}}
+\newcommand{\IT}[1]{\mathcal{#1}}
+
+
+% these will be used later in the title page
+\title[Основы теории автоматического управления]{Основы теории автоматического управления}
+\author{Капалин И.В.}
+\institute[\text{МИСиС ИК}]{НИТУ МИСиС\\ Кафедра инженерной кибернетики}
+
+
+\begin{document}
+
+\section{Main}
+
+\begin{frame}
+
+\begin{center}
+{\LARGE
+Лабораторная работа №1\\
+Стабилизация линейных объектов. Элементы моделирования динамических объектов. }
+\end{center}
+
+\end{frame}
+
+
+\begin{frame}{Задание №1}
+
+
+1) Стабилизировать методом полиномиальной стабилизации линейный объект с ПФ $W(s)$, т.е. построить регулятор $R(s)$, причем полином замкнутой системы равен $\gamma(s) = (s+1)(s+2)(s+3)$. Регулятор входит в прямую цепь в замкнутом контуре перед $W(s)$.\\
+2) В системе Matlab продемонстрировать разницу в блоке Scope (в одной системе координат) в выходах для стабилизированной системы и исходной при соответствующих входах $u(t) = \chi(t)$ и $u(t) = \sin(t)$. Модель составить аналогично рассмотренной в аудитории.
+
+ПФ выбирается в соответствии с номером в списке группы $N$:
+$$
+W(s) = \frac{(N\mod2)s+(N+7)\mod5+1}{(s+ N\mod5 + 1 )(s- N\mod9)},
+$$
+где $A \mod M$ означает оператор взятия остатка от деления числа $A$ на число $M$.
+Например, $ 9\mod6 = (3+6)\mod6 = 3\mod 6 = 3$.
+
+\end{frame}
+
+\begin{frame}{Задание №2}
+
+1) Промоделировать выход линейного объекта $W(s)$ при гармоническом входном воздействии $u(t) = A\sin(\omega t)$.\\
+2) Сравнить полученный выход с установившимся выходом в соответствии со свойством линейных объектов преобразовывать гармонические сигналы. Модель сделать по аналогии с рассмотренной в классе. ПФ $W(s)$ и параметры $A$ и $\omega$ выбираются в соответствии с номером группы.
+$$
+A = N\mod7+1/2, \quad \omega = N^2,
+$$
+$$
+W(s)= \frac{0.5N}{s^2+(N\mod 5 +1)s+ N\mod 8 +1}.
+$$
+
+
+\end{frame}
+
+
+\begin{frame}{Задание №3}
+
+1) Получить эквивалентное описание в ПС объекта заданного в виде ОДУ (см. ниже).\\
+2) Сравнить выходы обоих описаний при входных воздействиях $u(t) = \chi(t)$ и $u(t) = \sin(t)$.
+Начальные условия для ОДУ везде полагать равными нулю.
+$$
+y^{(N\ mod\ 3+3)} - (N\mod7)\dot y + (N\mod3+1)y = \dot u + (N\mod5-2)u.
+$$
+
+\end{frame}
+
+
+\begin{frame}{Задание №4: требования и объект управления}
+
+1) Используя метод синтеза регулятора по желаемой передаточной функции, определить желаемую ПФ $W_{\text{ж}}(s)$ и регулятор $R(s)$, обеспечивающий
+желаемую ПФ. Для этого использовать требования к качеству замкнутой системе ниже и ПФ объекта $W(s)$.
+
+\vspace{0.5cm}
+
+2) Порядок астатизма по возмущению должен быть не меньше 1, по воздействию --- не меньше 2, характеристический полином $\gamma(s)$ таков, что
+переходная характеристика входит в $\Delta$-трубку вокруг своего установившегося значения за время меньшее $0.5$ и не выходит после этого из неё, $\Delta=0.05$.
+Объект управления описывается ПФ
+$$
+W(s)= \frac{s-0.5N}{(s^2+(N\mod 5 +1)s+ N\mod 8 +1)(s+0.5N)},
+$$
+где $N$ --- номер в списке группы.
+\end{frame}
+
+
+\begin{frame}{Задание №4: верификация замкнутой системы}
+
+3) Продемонстрировать, что полученный регулятор действительно придает замкнутой системе заданные показатели качества. Для этого можно
+подать на задающее воздействие и возмущение сигналы $g(t) = 2t+1$ и $f(t) = 5$, соответственно (это подтвердит астатизмы).
+
+\vspace{0.5cm}
+
+4) Для проверки времени регулирования необходимо подать на входы $g(t) = \chi(t)$, $f(t) = 0$ и зрительно убедиться, что график входит в $\Delta$-трубку (её, кстати, можно тоже изобразить).
+
+\end{frame}
+
+
+\end{document}
