@@ -3,6 +3,7 @@ Compile:
 	@mkdir -p tmp
 	pdflatex -output-directory tmp/ TAU.tex
 	pdflatex -output-directory tmp/ TAU.tex
+	pdflatex -output-directory tmp/ TAU.tex
 
 
 All: Compile

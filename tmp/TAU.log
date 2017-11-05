@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  30 OCT 2017 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  5 NOV 2017 12:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1660,17 +1660,53 @@ OT1/cmr/m/n/12 + [][] \OML/cmm/m/it/12 a[]y[] \OT1/cmr/m/n/12 = [][] \OML/cmm/m
 LaTeX Warning: Command \cyrs invalid in math mode on input line 726.
 
 Missing character: There is no с in font cmr12!
-[42] [43] [44]) [45] (tmp//TAU.aux)
+[42] [43] [44]) (./tex/chapters/t_3.tex [45]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
+
+Overfull \hbox (13.59326pt too wide) in paragraph at lines 12--13
+\T2A/cmr/m/it/12 ти-че-ском слу-чае по ли-не-а-ри-зо-ван-ной мо-де-ли нель-зя с
+у-дить об устой-
+ []
+
+[46
+
+] [47]
+Overfull \hbox (14.85223pt too wide) in paragraph at lines 73--75
+\T2A/cmr/m/it/12 Если од-но из этих усло-вий не вы-пол-ня-ет-ся,то си-сте-ма яв
+-ля-ет-ся неустой-
+ []
+
+[48] [49]
+Overfull \hbox (3.3649pt too wide) in paragraph at lines 131--132
+[]\T2A/cmr/m/n/12 Необходимое усло-вие устой-чи-во-сти вы-пол-не-но, со-ста-вим
+ мат-ри-цу Гур-
+ []
+
+
+Overfull \hbox (3.3649pt too wide) in paragraph at lines 164--165
+[]\T2A/cmr/m/n/12 Необходимое усло-вие устой-чи-во-сти вы-пол-не-но, со-ста-вим
+ мат-ри-цу Гур-
+ []
+
+
+Overfull \hbox (18.07822pt too wide) detected at line 189
+\OT1/cmr/m/n/12 ^^A[] = 11\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 ^^A[] = [] = 77 \
+OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 40 = 37\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 
+^^A[] = [] = 64\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 ^^A[] = 1 \OMS/cmsy/m/n/12 ^
+^A \OT1/cmr/m/n/12 ^^A[] = 64\OML/cmm/m/it/12 :
+ []
+
+[50]) [51] (tmp//TAU.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15933 strings out of 493828
- 294921 string characters out of 6156285
- 340124 words of memory out of 5000000
- 19042 multiletter control sequences out of 15000+600000
- 550416 words of font info for 71 fonts, out of 8000000 for 9000
+ 15941 strings out of 493828
+ 295018 string characters out of 6156285
+ 340134 words of memory out of 5000000
+ 19045 multiletter control sequences out of 15000+600000
+ 552164 words of font info for 73 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  61i,13n,52p,10333b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600p
@@ -1700,10 +1736,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (46 pages, 453593 bytes).
+Output written on tmp//TAU.pdf (52 pages, 474237 bytes).
 PDF statistics:
- 986 PDF objects out of 1000 (max. 8388607)
- 411 compressed objects within 5 object streams
+ 1025 PDF objects out of 1200 (max. 8388607)
+ 424 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
