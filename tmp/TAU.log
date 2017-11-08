@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  6 NOV 2017 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.10.23)  8 NOV 2017 03:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,20 +1088,20 @@ LaTeX Warning: Label `EQ1' multiply defined.
 )
 \openout1 = `TAU.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 105.
+LaTeX Font Info:    ... okay on input line 105.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
@@ -1150,12 +1150,12 @@ e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 105.
+LaTeX Font Info:    Try loading font information for U+msa on input line 106.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 105.
+LaTeX Font Info:    Try loading font information for U+msb on input line 106.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1174,7 +1174,7 @@ Overfull \hbox (3.62476pt too wide) in paragraph at lines 49--49
 \openout3 = `TAU.toc'.
 
  [3]
-Overfull \hbox (23.24683pt too wide) in paragraph at lines 113--117
+Overfull \hbox (23.24683pt too wide) in paragraph at lines 114--118
 []\T2A/cmr/m/n/12 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Eti
 am lobortisfacilisis
  []
@@ -1723,16 +1723,35 @@ Overfull \hbox (9.04688pt too wide) in paragraph at lines 411--411
 []\T2A/cmr/bx/n/17.28 ”словие гра-нич-ной (мар-ги-наль-ной) устой-
  []
 
-[56] [57] [58]) [59] (tmp//TAU.aux)
+[56] [57] [58]
+Underfull \hbox (badness 10000) in paragraph at lines 474--476
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 476--478
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--480
+
+ []
+
+
+LaTeX Warning: Command \cyra invalid in math mode on input line 486.
+
+Missing character: There is no а in font cmr12!
+[59]) [60] (tmp//TAU.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15942 strings out of 493828
- 295034 string characters out of 6156285
- 340132 words of memory out of 5000000
- 19046 multiletter control sequences out of 15000+600000
+ 15943 strings out of 493828
+ 295037 string characters out of 6156285
+ 340135 words of memory out of 5000000
+ 19047 multiletter control sequences out of 15000+600000
  552164 words of font info for 73 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  61i,16n,52p,10333b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1764,10 +1783,10 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (60 pages, 510036 bytes).
+Output written on tmp//TAU.pdf (61 pages, 514546 bytes).
 PDF statistics:
- 1071 PDF objects out of 1200 (max. 8388607)
- 444 compressed objects within 5 object streams
+ 1077 PDF objects out of 1200 (max. 8388607)
+ 447 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
