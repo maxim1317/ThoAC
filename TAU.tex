@@ -19,17 +19,12 @@
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-
+% \usepackage{misccorr}
 \renewcommand{\rmdefault}{cmr}
 \renewcommand{\sfdefault}{cmss}
 \renewcommand{\ttdefault}{cmtt}
 
-% \usepackage{pscyr}
 
-% \DeclareRobustCommand{\cyrins}[1]{%
-%   \begingroup\fontfamily{erewhon-TLF}%
-%   \foreignlanguage{russian}{#1}%
-%   \endgroup
 % }
 
 
@@ -47,6 +42,8 @@
 \usepackage{placeins}
 
 \usepackage{tasks}
+
+% \sloppy
 % \def\subsubsection{\@startsection{subsubsection}{3}%
 %   \z@{.5\linespacing\@plus.7\linespacing}{-.5em}%
 %   {\normalfont\itshape}}
@@ -67,6 +64,7 @@
 
 \theoremstyle{plain}
 \newtheorem{theor}{\bf Теорема }
+\newtheorem{coroll}{\bf Следствие}
 \newtheorem{statement}{\bf Утверждение \thestatement}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \theoremstyle{definition}
@@ -85,6 +83,7 @@
 \newcommand{\rank}{\mathop{\mathrm{rank}}\nolimits}
 \newcommand{\spec}{\mathop{\mathrm{spec}}\nolimits}
 \newcommand{\rang}{\mathop{\mathrm{rang}}\nolimits}
+\newcommand{\rg}{\mathop{\mathrm{rg}}\nolimits}
 \newcommand{\RE}{\mathop{\mathrm{Re}}\nolimits}
 \newcommand{\IM}{\mathop{\mathrm{Im}}\nolimits}
 \newcommand{\cnt}[1]{\overline{#1}}
@@ -101,6 +100,8 @@
 \widowpenalties 1 10000
 \raggedbottom
 
+\frenchspacing
+\righthyphenmin=2
 
 \begin{document}
 \maketitle
@@ -109,15 +110,35 @@
 
 \chapter*{От автора}
 
-This is the first section.
- 
-Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
-elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
-neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
-Donec ullamcorper, felis non sodales...
+    This is the first section.
+     
+    Lorem  ipsum  dolor  sit  amet,  consectetuer  adipiscing  
+    elit.   Etiam  lobortisfacilisis sem.  Nullam nec mi et 
+    neque pharetra sollicitudin.  Praesent imperdietmi nec ante. 
+    Donec ullamcorper, felis non sodales...
 
 \subfile{tex/chapters/t_1}
 \subfile{tex/chapters/t_2}
 \subfile{tex/chapters/t_3}
+\subfile{tex/chapters/t_4}
+
+\begin{thebibliography}{0}
+
+    \bibitem{kim:uch} Ким~Д.~П.
+    \emph{Теория автоматического управления. Линейные системы.} М.: ФИЗМАТЛИТ, 2007. – 168 с., ISBN~5-9221-0379-2.
+
+    \bibitem{kim:prac} Ким~Д.~П., Дмитриева~Н.~Д.
+    \emph{Сборник задач по теории автоматического управления. Линейные системы.} М.: ФИЗМАТЛИТ, 2007. – 168 с., ISBN~968-5-9221-0873-7.
+
+    \bibitem{voron} Воронов~А.~А.
+    \emph{Теория автоматического управления. Часть 1} Н. А. Бабаков, А. А. Воронов, А. А. Воронова и др.; Под ред. А, А„ Воронова.—2-е изд., перераб. и доп. — М.: Высш. шк., 1986. — 367 с., ил. Для вузов по спец. «Автоматика и телемеханика».
+
+    \bibitem{voron2} Воронов~А.~А.
+    \emph{Теория автоматического управления. Часть 2} Н. А. Бабаков, А. А. Воронов, А. А. Воронова и др.; Под ред. А, А„ Воронова.—2-е изд., перераб. и доп. — М.: Высш. шк., 1986. — 367 с., ил. Для вузов по спец. «Автоматика и телемеханика».
+
+    \bibitem{yashin} Муромцев~Д.~Ю.
+    \emph{Анализ и синтез дискретных систем} Д.Ю. Муромцев, Е.Н. Яшин. – Тамбов : Изд-воФГБОУ ВПО «ТГТУ», 2011. – 108 с. – 100 экз. – ISBN 978-5-8265-1073-5.
+
+\end{thebibliography}
 
 \end{document}
