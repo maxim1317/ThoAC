@@ -134,15 +134,509 @@
     \item 
         Найти $\chi_A(s) = s^n + a_{n-1}s^{n-1} + \ldots + a_1 s + a_0$;
     \item 
-        Вычислить $K_{\hat A,\; \hat b}$, $\{\hat A,\; \hat b\}$ --- каноническая форма управляемости;
+        Вычислить $K_{\widehat A,\; \widehat b}$, $\{\widehat A,\; \widehat b\}$ --- каноническая форма управляемости;
     \item 
-        Перемножить $M = K_{\hat A, \hat b} K^{-1}_{A,b}$;
+        Перемножить $M = K_{\widehat A, \widehat b} K^{-1}_{A,b}$;
     \item 
-        Вычесть $\hat k_i = \gamma_{i-1} - a_{i-1}, i=\cnt{1,n}$;
+        Вычесть $\widehat k_i = \gamma_{i-1} - a_{i-1}, i=\cnt{1,n}$;
     \item 
-        Умножить: $k = \hat k M$;
+        Умножить: $k = \widehat k M$;
     \item 
         Записать $u = -k x$.
     \end{enumerate}
+
+    \examp Синтезировать модальное управление $u = - k x, \; k = (k_1\; k_2)$ со спектром $\{-1,\; -2\}$ для системы
+    $$
+        \left\{
+        \dot x =
+        \begin{pmatrix}
+            2 & -1\\
+            1 & 3
+        \end{pmatrix}
+         x + \begin{pmatrix}1\\ -2\end{pmatrix}u\right..
+    $$
+
+    {\it Решение}
+    $$
+        p(s)=(s+1)(s+2)=s^2+3s+2
+    $$
+    $$
+        k_{A,B} = 
+        \begin{bmatrix}
+            1 & 4\\
+            -2 & -5
+        \end{bmatrix}
+        ,
+    $$
+    так как $|k_{A,B}=3\neq0$, то система управляема
+    $$
+        X_{A(S)}=
+        \begin{vmatrix}
+            s\cdot I - A
+        \end{vmatrix}
+        =
+        \begin{vmatrix}
+            s-2 & -1\\
+            1 & s-3
+        \end{vmatrix}
+        =(s-2)(s-3)+1 = s^2-5s+7
+    $$
+    $$
+        \widehat A =
+        \begin{pmatrix}
+            0 & 1\\
+            -2 & -3
+        \end{pmatrix},\ 
+        \widehat B=
+        \begin{pmatrix}
+            0 \\ 1
+        \end{pmatrix},\ 
+        k_{\widehat A,\widehat B} = 
+        \begin{pmatrix}
+            0 & 1\\
+            -2 & -3
+        \end{pmatrix}
+    $$
+    $$
+        M = k_{\widehat A, \widehat B}\cdot k^{-1}_{A,B}
+    $$
+    $$
+        k^{-1}_{A,B}=
+        \begin{pmatrix}
+            1 & 4\\
+            -2 & -5
+        \end{pmatrix}^{T}\cdot
+        \frac{1}{|k_{A, B}|}
+        =
+        \begin{pmatrix}
+            1 & -2\\
+            4 & -5
+        \end{pmatrix}\cdot
+        \frac{1}{3}        
+    $$
+    $$
+        M=\frac{1}{3}  
+        \begin{pmatrix}
+            0 & 1\\
+            1 & -3
+        \end{pmatrix}
+        \begin{pmatrix}
+            1 & -2\\
+            4 & -5
+        \end{pmatrix}
+        =
+        \begin{pmatrix}
+            4 & -5\\
+            -11 & 13
+        \end{pmatrix}
+        \frac{1}{3}  
+    $$
+    $$
+        \widehat k_i=\gamma    _{i-1}-a_{i-1},\ i=\overline{1\dots n}
+    $$
+    $$
+        \widehat k_1 = 2-7=5\ \widehat k_2 =3+5=8
+    $$
+    $$
+        k=\widehat k\cdot M
+    $$
+    $$
+        k=
+        \begin{pmatrix}
+        -5 & 8
+        \end{pmatrix}
+        \begin{pmatrix}
+            4 & -5\\
+            -11 & 13
+        \end{pmatrix}
+        \frac{1}{3}
+        =
+        \begin{pmatrix}
+            -36 & 43
+        \end{pmatrix}
+    $$
+    $$
+        u -kx
+    $$
+
+    \textbf{Ответ: }
+    $
+        u=
+        \begin{pmatrix}
+            -36 & 43
+        \end{pmatrix}
+        x
+    $
+
+\section{Стабилизация по выходу. Наблюдаемость и наблюдатель.}
+
+    \defi{Стабилизация по выходу} --- задача стабилизации, при которой необходимо стабилизировать данную систему, если известен измеряемый выход $y(t)$, зависящий от состояния $x(t)$. Система имеет вид:
+
+    \begin{equation}\label{DS}
+        \left\{
+        \begin{aligned}
+            \dot x &= Ax + bu,\\
+            y &= c x
+        \end{aligned}
+        \right.
+    \end{equation}
+
+    \begin{defi}\label{DEF}
+        Динамическая система  называется \textit{наблюдаемой}, если для любого $t_0$ из условия $y(t)\equiv 0$ при $t\ge t_0$ следует $x_0 = 0$ и, наоборот, из $x_0=0$ следует $y(t)\equiv0$ при $t\ge t_0$.
+    \end{defi}
+
+    Для линейной системы \eref{DS} при $u\equiv0$ Определение~\ref{DEF} эквивалентно следующему.
+    
+    \begin{defi}
+        Система \eref{DS} называется \textit{наблюдаемой}, если для любых начальных условий $x_1\neq x_0$ следует, что $y(x_1, t)\not\equiv y(x_0, t)$.
+    \end{defi}
+
+    Для того чтобы различить по выходу $y(t)$ начальное состояние $x(t)$ необходимо ввести понятие наблюдателя.
+
+    \defi{Наблюдатель} --- динамическая система, которая позволяет оценить (различить) по выходу $y(t)$ начальное состояние $x(t)$.
+
+    Выходом наблюдателя является оценка $\tilde x(t)$ реального состояния системы $x(t)$, т.е. $|x(t)-\tilde x(t)|\rightarrow 0$ при $t\rightarrow\infty$.
+
+    Наблюдатель можно строить в различных формах. Например, самая общая форма линейного наблюдателя имеет вид
+    $$
+    \dot{\tilde x} = H\tilde x + h_y y + h_u u,
+    $$
+    где $y$ и $u$ --- известные величины, а $\tilde x (t)$ --- оценка состояния системы.
+
+\subsection{Критерий наблюдаемости для линейных систем.}
+
+    \begin{theor}[Критерий наблюдаемости]
+        Система \eref{DS} наблюдаема тогда и только тогда, когда $\rg N_{c,A} = n$, где
+        $$
+            N_{c,A} =
+            \begin{pmatrix}
+                c\\
+                cA\\
+                \vdots\\
+                cA^{n-1}
+            \end{pmatrix}
+            \in\BF{R}^{n\times n}.
+        $$
+    \end{theor}
+    
+    \begin{proof}
+    \cite[стр. 315-318]{voron2}
+    \end{proof}
+
+\subsection{Наблюдатель Люенбергера}\cite{andr}
+
+    Так как матрицы $A,\; b$ и $c$ известны, то их можно использовать при построении наблюдателя. Например, наблюдатель
+
+    $$
+        \dot{\tilde x} = A\tilde x + bu
+    $$
+
+    дает оценку только для устойчивых систем. Запишем уравнение для ошибки $e(t) = \tilde x (t) - x(t)$, вычитая из уравнения наблюдателя уравнение объекта \eref{DS}:
+
+    $$
+        \dot e = A e.
+    $$
+    
+    Из устойчивости матрицы $A$ получим $e(t)\rightarrow0$ при $t\rightarrow\infty$.
+
+    Отсюда видно, что скорость сходимости ошибки к нулю определяется целиком исходным объектом.
+
+    Если же система неустойчива, либо есть требование к скорости сходимости оценки, то рассмотренный наблюдатель не подходит.
+
+    Классическим наблюдателем является наблюдатель Люенбергера вида
+    
+    $$
+        \dot{\tilde x} = A\tilde x + l (y-c\tilde x) + b u,
+    $$
+    
+    где $y = cx$, $l\in\BF{R}^{n\times 1}$ --- вектор параметров.
+
+    Снова записав уравнение для ошибки, получим
+    
+    $$
+        \dot e = A e - l\cdot c\cdot e = A_l e,
+    $$
+    
+    где $A_l = A-l\cdot c$. Для последней матрицы возможен выбор произвольного желаемого спектра за счет выбора вектора $l$ (при условии, что исходная система наблюдаема).
+
+\section{Теорема существования наблюдателя Люенбергера}
+
+    \begin{theor}
+        Пусть система \eref{DS} наблюдаема и задан спектр $\Gamma=\{s_1,\ldots, s_n\}$ --- корни полинома $\gamma(s)=s^n+\sum_{i=0}^{n-1}\gamma_i s^i$.
+        Тогда существует $l\in\BF{R}^{n\times 1}$, такой что $\sigma(A-l\cdot c) = \Gamma$.
+    \end{theor}
+
+    \begin{statement}[Каноническая форма наблюдаемости]
+        Для любой {\it наблюдаемой} системы \eref{DS} найдется матрица $M$, такая что $|M|\neq0$ и для $z=Mx$ выполнено
+        $\dot z = \widehat A z + \widehat b u$,
+        где
+        $$
+        \widehat A^T =
+        \begin{pmatrix}
+            0& 1& 0& \ldots& 0& 0\\
+            0& 0& 1& \ldots& 0& 0\\
+            \hdotsfor{6}\\
+            -a_0& -a_1& -a_2 &\ldots& -a_{n-2}& -a_{n-1}
+        \end{pmatrix}\quad
+        \widehat c=
+        \begin{pmatrix}
+            0 & \ldots & 0 & 1
+        \end{pmatrix}
+        $$
+    \end{statement}
+
+    \begin{proof}
+        Пусть
+        \begin{align*}
+            \begin{cases}
+                \dot x &= Ax,\ A\in\mathbb{R}^{n\times n} \\
+                y &= Cx,\ C\in\mathbb{R}^{n\times n}
+            \end{cases}
+        \end{align*}
+
+        Из условия, что 
+        $
+            \forall x_1\neq x_2 \Rightarrow y(t_ix_1) \neq y(t_ix_2)
+        $
+        (где $y(t_ix_k)$ --- выход по $x_k$) мы може сделать вывод:
+        $rang\ N_{C, A}=n$.\\
+        По формуле Коши получаем, что 
+        $
+            \dot x = Ax \Rightarrow x(t) = Atx_0\ \text{и}\ y(t)= e^{At}x_0C
+        $\\
+        Докажем от противного:\\
+        Пусть $rang\ N_{C, A}<n$ Тогда $\exists\ \vec v\neq0:\ N_{C,A}\cdot\vec v = 0$\\
+        По теореме Гамильтона-Келли:
+        \begin{equation}
+            A^q=\sum_{i=0}^{n-1}\alpha_i^q\cdot A^i,\ q\ges 0\ \ C\cdot A^q\cdot v=\sum_{i=0}^{n-1}\alpha_i^q\cdot C \cdot A^i \cdot v = 0 
+            \label{EQ21}
+        \end{equation}
+
+        Из \eref{EQ21} следует, что
+        
+        \begin{align*}
+            C\cdot& v = 0 \\
+            C\cdot& A \cdot v = 0 \\
+            C\cdot& A^{n-1}\cdot v = 0
+        \end{align*}
+
+
+        Выберем $x_1=0$, $x_2=v$. Тогда
+        \begin{equation}
+            y(t,v)=C\cdot e^{At}\cdot x_0 = \sum_{i=0}^\infty\frac{C\cdot A^i\cdot v\cdot t^i}{i!}
+            \label{EQ21_1}
+        \end{equation}
+
+        Из \eref{EQ21_1} следует, что
+        \begin{equation*}
+        \left.
+            \begin{aligned}
+                y(t,0)&=0 \\
+                y(t,v)&=\sum_{i=0}^\infty\frac{C\cdot A^i\cdot v\cdot t^i}{i!}=0
+            \end{aligned}
+        \qquad \right|\Rightarrow rand\ N_\text{C, A}=n
+        \end{equation*}
+
+        Докажем в обратную сторону: если $rand\ N_{C, A}=n$, то система наблюдаема\\
+        Пусть $x_1\neq x_2$ и $y(t_ix_1)=y(t_ix_2)$.
+        Тогда $0=y(t_ix_1)-y(t_ix_2)=C\cdot e^{At}\cdot x_1-C\cdot e^{At}\cdot x_2=C\cdot e^{At}\cdot v$, где $v=x_1-x_2$\ и $v\neq 0$. Тогда $C\cdot e^{At} = 0\ \forall\ C\in [0; +\infty)$
+    \end{proof}
+
+    \textbf{Алгоритм построения вектора $l$}
+
+    \begin{enumerate}
+        \item Вычислить коэффициенты полинома $\gamma(s) = \prod_{i=1}^{n}(s-s_i)$;
+        \item Вычислить $N_{c,A}$ ($|N_{c,A}|\neq0$, если система наблюдаема);
+        \item Найти $\chi_A(s) = s^n + a_{n-1}s^{n-1} + \ldots + a_1 s + a_0$;
+        \item Вычислить $N_{\widehat c, \widehat A}$, $\{\widehat c,\; \widehat A\}$ --- каноническая форма наблюдаемости;
+        \item Перемножить $M^{-1} = N^{-1}_{c, A} N_{\widehat c, \widehat A}$;
+        \item Вычесть $\widehat l_i = \gamma_{i-1} - a_{i-1}, \; i=\cnt{1,n}$;
+        \item Умножить: $l =  M^{-1}\widehat l$;
+        \item Записать $\dot{\tilde x} = A\tilde x + l(y - c\tilde x ) + b u$
+    \end{enumerate}
+
+
+    \examp
+    {
+        Синтезировать наблюдатель Люенбергера со спектром $\{-1,\; -2\}$ для системы
+        $$
+            \left\{
+            \begin{aligned}
+            \dot x &=
+            \begin{pmatrix}
+            2 & -1\\
+            1 & 3
+            \end{pmatrix}
+             x + \begin{pmatrix}1\\ -2\end{pmatrix}u,\\
+            y &= (1\;\; -2) x
+            \end{aligned}
+            \right..
+        $$
+    }
+
+    \textit{Решение}
+
+    \begin{enumerate}
+        \item Вычислим полином $p(s)$:
+            $$p(s)=(s+1)(s+2)=s^2+3s+2$$
+        \item Вычислим $N_{C, A}$:\\
+            $
+                N_{C, A} =
+                \begin{pmatrix}
+                 1 & -2\\
+                 0 & -7
+                \end{pmatrix} 
+            $
+            так как $|N_{C, A}|=-7$ и $|N_{C, A}|\neq0$, то система наблюдаема
+        \item Найдем 
+        $
+            \chi_A(C)=|SI-A|=
+            \begin{vmatrix}
+                s-2 & 1\\
+                -1 & s-3
+            \end{vmatrix}
+            =(s-2)(s-3)+1=s^2-5s+7
+        $
+        \item Вычислим $N_{\widehat C,\widehat A}$\\
+            Для этого вычислим $\widehat C:$\ \quad$\widehat C=(10)$
+            И $\widehat A:$\\
+            $
+                \widehat A=
+                \begin{pmatrix}
+                    0 & -7\\
+                    1 & 5
+                \end{pmatrix}
+                \Rightarrow
+                N_{\widehat C,\widehat A} =
+                \begin{pmatrix}
+                    1 & 0\\
+                    0 & -7
+                \end{pmatrix}
+            $ 
+        \item Получим матрицу $M^{-1}$: $M^{-1}=N_{C, A}^{-1}\cdot N_{\widehat C, \widehat A}$\\
+            $$
+                M^{-1}=
+                \begin{pmatrix}
+                    -7 & 2\\
+                    0 & 1
+                \end{pmatrix}
+                \begin{pmatrix}
+                    1 & 0\\
+                    0 & -7
+                \end{pmatrix}
+                \cdot
+                \frac{1}{-7}=
+                \begin{pmatrix}
+                    1 & 2\\
+                    0 & 1
+                \end{pmatrix}
+            $$
+        \item Вычислим вектор $l$:
+            \begin{align*}
+                \widehat l_i &= p_{i-1} - \alpha_{i_1},\ i=\overline{1\dots n} \\
+                \widehat l_1 &= p_{0} - \alpha_{0} = -5 \\
+                \widehat l_2 &= p_{1} - \alpha_{1} = -8
+            \end{align*}
+        \item Вычислим $l$:
+        $$
+            l =
+            \begin{pmatrix}
+                1 & 2\\
+                0 & 1
+            \end{pmatrix}
+            \begin{pmatrix}
+                -5 \\
+                -8
+            \end{pmatrix}
+            =
+            \begin{pmatrix}
+                -13 \\
+                -8
+            \end{pmatrix}
+        $$
+        \item Выпишем ответ:
+        $$
+            \dot{\widetilde x} =
+            \begin{pmatrix}
+                2 & -1 \\
+                1 & 3
+            \end{pmatrix}
+            \cdot \widetilde x
+            +
+            \begin{pmatrix}
+                -13 \\
+                -8
+            \end{pmatrix}
+            \left(y-\begin{pmatrix}1 & -2\end{pmatrix}\widetilde x\right)
+            +
+            \begin{pmatrix}
+                1 \\ -2
+            \end{pmatrix}
+            u
+        $$
+    \end{enumerate}
+
+\section{Модальное управление по выходу. Принцип разделения задач стабилизации и наблюдения}
+
+    После того, как была получена оценка состояния, можно надеяться, что управление вида
+    \begin{equation}\label{CONTR}
+        u = -k \tilde x,
+    \end{equation}
+    где $\tilde x (t)$ --- оценка состояния $x(t)$, будет обладать стабилизирующей способностью рассмотренного ранее модального управления по состоянию.
+
+    Вопрос: решает ли задачу стабилизации управление \eref{CONTR}?
+
+    Выпишем подробно замкнутую систему, которая получается в результате подстановки такого управления. Имеем
+    $$
+        \left\{
+        \begin{aligned}
+        \dot x = Ax+bu,\\
+        y=cx,\\
+        \dot{\tilde x} = A\tilde x + l(y-c\tilde x) + bu,\\
+        u = -k\tilde x.
+        \end{aligned}
+        \right.
+    $$
+    После подстановок:
+    $$
+        \left\{
+        \begin{aligned}
+        \dot x = Ax-bk\tilde x,\\
+        \dot{\tilde x} = lc x + (A- bk-lc)\tilde x .\\
+        \end{aligned}
+        \right.
+    $$
+
+    Последняя система удобно переписывается в виде
+    $$
+        \begin{pmatrix}
+        \dot x\\
+        \dot{\tilde x}
+        \end{pmatrix}
+        =
+        \overbrace{\begin{pmatrix}
+        A & -bk\\
+        lc& A-bk-lc
+        \end{pmatrix}}^{ \bar A}
+        \begin{pmatrix}
+        x\\
+        \tilde x
+        \end{pmatrix}.
+    $$
+
+    Нетрудно видеть, что характеристический полином замкнутой системы с наблюдателем равен $z(s) = |sI_{2n} - \bar A | = |sI_n - (A-bk)||sI_n-(A-lc)|$. Заметим, что $\deg z = 2n$.
+
+    Это наблюдение заключает в себе {\it принцип разделения задач стабилизации и наблюдения} --- их можно выполнять независимо друг от друга.
+
+    Весь алгоритм состоит из двух этапов, рассмотренных ранее: построение наблюдателя и построение модального управления по состоянию.
+
+    Пусть требуется присвоить замкнутой системе характеристический полином $\gamma_1(s)$, используя наблюдатель Люенбергера с характеристическим полиномом $\gamma_2(s)$.
+
+    \begin{enumerate}
+        \item Построить для полинома $\gamma_1(s)$ модальное управление (найти вектор $k$);
+        \item Построить наблюдатель Люенбергера для полинома $\gamma_2(s)$;
+        \item Выписать наблюдатель и модальное управление  (это ответ).
+    \end{enumerate}
+
 
 \end{document}
