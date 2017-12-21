@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[utf8x]{inputenc} % utf8 encoding
+\usepackage{amsmath} % nice math symbols
+\usepackage{tikz}
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview}
+\usepackage[russian]{babel}
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+\usetikzlibrary{matrix} % for block alignment
+\usetikzlibrary{arrows} % for arrow heads
+\usetikzlibrary{calc} % for manimulation of coordinates
+
+\tikzstyle{sum} = [draw,circle,inner sep=0mm,minimum size=3mm]
+\tikzstyle{block} = [draw,rectangle,thick,minimum height=0.6cm,minimum width=1cm]
+\tikzstyle{branch} = [circle,inner sep=0pt,minimum size=1mm,fill=black,draw=black]
+\tikzstyle{begin} = []
+\tikzstyle{end} = []
+\tikzstyle{connector} = [->,thick]
+\tikzstyle{line} = [thick]
+
+\begin{document}
+
+\begin{tikzpicture}[scale=1, auto, >=stealth']
+    \small
+    % node placement with matrix library: 2x5 array
+    \matrix[ampersand replacement=\&, row sep=0.3cm, column sep=0.4cm]
+    {
+        \node[block](ODU) {ОДУ}\&
+        \node[block](FD) {Фазовое пространство}\&
+        \\
+        \node[block](TF) {ПФ}; \&
+        \node[block](TD) {Временные функции}; \&
+        \\
+    };
+    \draw [connector] (ODU) -- (TF);
+    \draw [connector] (ODU) -- (TD);
+    \draw [connector] (TF) -- (TD);
+    \draw [connector] (TD) -- (TF);
+
+
+  \end{tikzpicture}
+
+
+\end{document}

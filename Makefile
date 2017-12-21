@@ -50,3 +50,6 @@ fullclean:
 	@rm -rf tmp
 	@rm -f fig/t1/*
 	@rm -f fig/t2/*
+
+count:
+	@find . -name "*.tex" -print0 -o -name "*.md" -print0 -o -name "Makefile" -print0 | xargs -0 wc -l

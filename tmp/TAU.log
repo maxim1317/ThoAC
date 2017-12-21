@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  21 DEC 2017 21:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  21 DEC 2017 23:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1089,6 +1089,12 @@ LaTeX Warning: Label `EQ1' multiply defined.
 
 LaTeX Warning: Label `LIN_DS' multiply defined.
 
+
+LaTeX Warning: Label `EQ1' multiply defined.
+
+
+LaTeX Warning: Label `EQ2' multiply defined.
+
 )
 \openout1 = `TAU.aux'.
 
@@ -1794,13 +1800,249 @@ Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
-[71]) [72]
-Underfull \hbox (badness 1057) in paragraph at lines 145--147
+[71]) (./tex/chapters/t_5.tex [72]
+{\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
+
+Overfull \hbox (0.42476pt too wide) in paragraph at lines 8--9
+[]\T2A/cmr/m/n/12 Оказывается, рас-смот-рен-но-го ра-нее свой-ства устой-чи-во-
+сти САУ недо-
+ []
+
+<./fig/t5/standard_system.pdf, id=566, pagebox=cropbox, 184.53844pt x 57.03508p
+t>
+File: ./fig/t5/standard_system.pdf Graphic file (type pdf)
+<use ./fig/t5/standard_system.pdf>
+Package pdftex.def Info: ./fig/t5/standard_system.pdf  used on input line 18. o
+n input line 18.
+Package pdftex.def Info: Requested size: 227.62204pt x 70.35287pt on input line
+ 18.
+[73
+
+]
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 40.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 40.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 40.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 40.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 40.
+
+Missing character: There is no с in font cmr8!
+Missing character: There is no в in font cmr8!
+Missing character: There is no в in font cmr8!
+Missing character: There is no ы in font cmr8!
+Missing character: There is no н in font cmr8!
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 44.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 44.
+
+Missing character: There is no п in font cmr8!
+Missing character: There is no р in font cmr8!
+[74 <./fig/t5/standard_system.pdf>]
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 46.
+
+Missing character: There is no п in font cmr8!
+Missing character: There is no р in font cmr8!
+
+LaTeX Warning: Command \cyrs invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 46.
+
+Missing character: There is no с in font cmr8!
+Missing character: There is no в in font cmr8!
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 46.
+
+Missing character: There is no в in font cmr8!
+Missing character: There is no ы in font cmr8!
+Missing character: There is no н in font cmr8!
+
+LaTeX Warning: Command \cyrv invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrery invalid in math mode on input line 46.
+
+
+LaTeX Warning: Command \cyrn invalid in math mode on input line 46.
+
+Missing character: There is no в in font cmr8!
+Missing character: There is no ы in font cmr8!
+Missing character: There is no н in font cmr8!
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 48.
+
+
+LaTeX Warning: Command \cyrr invalid in math mode on input line 48.
+
+Missing character: There is no п in font cmr8!
+Missing character: There is no р in font cmr8!
+<./fig/t5/step_response.png, id=580, 411.5375pt x 258.9675pt>
+File: ./fig/t5/step_response.png Graphic file (type png)
+<use ./fig/t5/step_response.png>
+Package pdftex.def Info: ./fig/t5/step_response.png  used on input line 70. on 
+input line 70.
+Package pdftex.def Info: Requested size: 227.62204pt x 143.23471pt on input lin
+e 70.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[75] [76 <./fig/t5/step_response.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+<./fig/t5/stable_prop.png, id=589, 1053.9375pt x 1126.2075pt>
+File: ./fig/t5/stable_prop.png Graphic file (type png)
+<use ./fig/t5/stable_prop.png>
+Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 103. on i
+nput line 103.
+Package pdftex.def Info: Requested size: 114.48611pt x 122.34685pt on input lin
+e 103.
+File: ./fig/t5/stable_prop.png Graphic file (type png)
+<use ./fig/t5/stable_prop.png>
+Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 108. on i
+nput line 108.
+Package pdftex.def Info: Requested size: 122.34692pt x 130.72264pt on input lin
+e 108.
+<./fig/t5/oscilate_prop.png, id=590, 1057.9525pt x 1126.2075pt>
+File: ./fig/t5/oscilate_prop.png Graphic file (type png)
+<use ./fig/t5/oscilate_prop.png>
+Package pdftex.def Info: ./fig/t5/oscilate_prop.png  used on input line 115. on
+ input line 115.
+Package pdftex.def Info: Requested size: 133.63203pt x 142.26378pt on input lin
+e 115.
+[77 <./fig/t5/stable_prop.png>]
+Overfull \hbox (6.19398pt too wide) in paragraph at lines 138--138
+[]\T2A/cmr/bx/n/14.4 Показатели ка-че-ства в пе-ре-ход-ном ре-жи-ме. Кос-
+ []
+
+[78 <./fig/t5/oscilate_prop.png>] [79]
+Overfull \hbox (7.84807pt too wide) in paragraph at lines 182--182
+[]\T2A/cmr/bx/n/14.4 Вычисление ин-те-граль-ных по-ка-за-те-лей ка-че-ства 
+ []
+
+
+Overfull \hbox (14.19354pt too wide) in paragraph at lines 200--202
+\T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 e[]\OT1/cmr/m/n/12 (0)$ \T2A/cmr/m/n/12 н
+а-хо-дит-ся из свой-ства пре-об-ра-зо-ва-ния Ла-пла-са $\OML/cmm/m/it/12 e[]\OT
+1/cmr/m/n/12 (0) = [] \OML/cmm/m/it/12 sE[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\
+OT1/cmr/m/n/12 )$\T2A/cmr/m/n/12 . 
+ []
+
+[80]
+<./fig/t5/system_for_int_e.pdf, id=606, pagebox=cropbox, 141.05899pt x 42.5068p
+t>
+File: ./fig/t5/system_for_int_e.pdf Graphic file (type pdf)
+<use ./fig/t5/system_for_int_e.pdf>
+Package pdftex.def Info: ./fig/t5/system_for_int_e.pdf  used on input line 223.
+ on input line 223.
+Package pdftex.def Info: Requested size: 227.62204pt x 68.59727pt on input line
+ 223.
+
+
+LaTeX Warning: Command \cyrp invalid in math mode on input line 232.
+
+Missing character: There is no п in font cmr8!
+
+Overfull \hbox (22.17365pt too wide) in paragraph at lines 233--235
+\T2A/cmr/m/n/12 где ин-те-ре-су-ю-щая нас функ-ция $\OML/cmm/m/it/12 e[]\OT1/cm
+r/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 та-ко-ва, что дл
+я воз-дей-ствий $\OML/cmm/m/it/12 At; At[]; []$
+ []
+
+[81 <./fig/t5/system_for_int_e.pdf>] [82]
+Overfull \hbox (11.76042pt too wide) in paragraph at lines 268--269
+[]\T2A/cmr/bx/n/12 Определение 44. []\T2A/cmr/m/n/12 Ста-ти-че-ской ошиб-кой на
+-зы-ва-ют уста-но-вив-шу-ю-ся ошиб-
+ []
+
+
+Overfull \hbox (5.226pt too wide) in paragraph at lines 272--273
+[]\T2A/cmr/bx/n/12 Определение 45. []\T2A/cmr/m/n/12 САУ на-зы-ва-ют ста-ти-че-
+ской, ес-ли еј ста-ти-че-ская ошиб-
+ []
+
+<./fig/t5/astatic_system.pdf, id=620, pagebox=cropbox, 207.69997pt x 57.03508pt
+>
+File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
+<use ./fig/t5/astatic_system.pdf>
+Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 298. o
+n input line 298.
+Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 2
+98.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83]
+File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
+<use ./fig/t5/astatic_system.pdf>
+Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 314. o
+n input line 314.
+Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
+14.
+File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
+<use ./fig/t5/astatic_system.pdf>
+Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 332. o
+n input line 332.
+Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
+32.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
+<use ./fig/t5/astatic_system.pdf>
+Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 341. o
+n input line 341.
+Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
+41.
+
+Overfull \hbox (0.83492pt too wide) in paragraph at lines 338--344
+[]\T2A/cmr/bx/n/12 Пример 15. []\T2A/cmr/m/n/12 Для си-сте-мы, изоб-ра-жен-ной 
+на струк-тур-ной схе-ме с $\OML/cmm/m/it/12 W\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
+s\OT1/cmr/m/n/12 ) =
+ []
+
+[84 <./fig/t5/astatic_system.pdf>]
+Overfull \hbox (2.23953pt too wide) in paragraph at lines 356--357
+[]\T2A/cmr/m/n/12 грубость от-но-си-тель-но свой-ства устой-чи-во-сти, т.е. уст
+ой-чи-вость при
+ []
+
+[85]
+File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
+<use ./fig/t5/astatic_system.pdf>
+Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 369. o
+n input line 369.
+Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
+69.
+ [86] [87]) [88]
+Underfull \hbox (badness 1057) in paragraph at lines 146--148
 []\T2A/cmr/m/n/12 Андриевский Б. Р. \T2A/cmr/m/it/12 Тео-ре-ти-че-ские ос-но-вы
  ав-то-ма-ти-зи-ро-ван-но-го
  []
 
-[73
+[89
 
 ] (tmp//TAU.aux)
 
@@ -1808,14 +2050,15 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 15973 strings out of 493828
- 295323 string characters out of 6156285
- 340422 words of memory out of 5000000
- 19074 multiletter control sequences out of 15000+600000
+ 16014 strings out of 493828
+ 296363 string characters out of 6156285
+ 340487 words of memory out of 5000000
+ 19102 multiletter control sequences out of 15000+600000
  552164 words of font info for 73 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  61i,16n,52p,10333b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600p
+ </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/lati0800.600p
+k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600p
 k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1095.600p
 k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0600.600p
 k> </home/oberon/.texlive2017/texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm0800.600p
@@ -1844,10 +2087,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (74 pages, 565435 bytes).
+Output written on tmp//TAU.pdf (90 pages, 629868 bytes).
 PDF statistics:
- 1152 PDF objects out of 1200 (max. 8388607)
- 479 compressed objects within 5 object streams
+ 1255 PDF objects out of 1440 (max. 8388607)
+ 543 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
