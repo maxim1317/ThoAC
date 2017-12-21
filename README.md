@@ -14,13 +14,19 @@
 * [tmp/](https://github.com/maxim1317/ThoAC/tree/master/tmp) - Папка с продуктами компиляциями, присутствует здесь только потому, что в ней лежит [**TAU.pdf**](https://github.com/maxim1317/ThoAC/blob/master/tmp/TAU.pdf) - Собственно, сама методичка
 
 ### [/fig/](https://github.com/maxim1317/ThoAC/tree/master/fig)
-* [t1/](https://github.com/maxim1317/ThoAC/tree/master/fig/t1) - Картинки для первой главы
-* [t2/](https://github.com/maxim1317/ThoAC/tree/master/fig/t2) - Картинки для второй главы
+* [t1/](https://github.com/maxim1317/ThoAC/tree/master/fig/t1) - Картинки для 1 главы
+* [t2/](https://github.com/maxim1317/ThoAC/tree/master/fig/t2) - Картинки для 2 главы
+* [t3/](https://github.com/maxim1317/ThoAC/tree/master/fig/t2) - Картинки для 3 главы
+* [t4/](https://github.com/maxim1317/ThoAC/tree/master/fig/t2) - Картинки для 4 главы
 
 ### [/tex/](https://github.com/maxim1317/ThoAC/tree/master/tex)
 * [chapters/](https://github.com/maxim1317/ThoAC/tree/master/tex/chapters) - Папка с исходниками глав
   * [t1](https://github.com/maxim1317/ThoAC/blob/master/tex/chapters/t_1.tex) - Глава 1
-  * [t2](https://github.com/maxim1317/ThoAC/blob/master/tex/chapters/t_1.tex) - Глава 2
+  * [t2](https://github.com/maxim1317/ThoAC/blob/master/tex/chapters/t_2.tex) - Глава 2
+  * [t3](https://github.com/maxim1317/ThoAC/blob/master/tex/chapters/t_3.tex) - Глава 3
+  * [t4](https://github.com/maxim1317/ThoAC/blob/master/tex/chapters/t_4.tex) - Глава 4
 * [fig/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig) - Папка с исходниками картинок
-  * [t1/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t1) - Исходники картинок первой главы
-  * [t2/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t2) - Исходники картинок второй главы
+  * [t1/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t1) - Исходники картинок 1 главы
+  * [t2/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t2) - Исходники картинок 2 главы
+  * [t3/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t3) - Исходники картинок 3 главы
+  * [t4/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t4) - Исходники картинок 4 главы
