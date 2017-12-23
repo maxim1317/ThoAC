@@ -8,7 +8,7 @@ Compile:
 
 All: Compile
 
-display: 
+display: Compile
 	@evince tmp/TAU.pdf > /dev/null 2>&1 &
 
 d1:
