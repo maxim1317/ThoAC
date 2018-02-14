@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  10 FEB 2018 21:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  14 FEB 2018 10:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1654,7 +1654,7 @@ OT1/cmr/m/n/12 + [][] \OML/cmm/m/it/12 a[]y[] \OT1/cmr/m/n/12 = [][] \OML/cmm/m
 LaTeX Warning: Command \cyrs invalid in math mode on input line 729.
 
 Missing character: There is no с in font cmr12!
-[42] [43] [44]) (./tex/chapters/t_3.tex [45]
+[42] [43] [44] [45]) (./tex/chapters/t_3.tex [46]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 3.
 
 Overfull \hbox (13.59326pt too wide) in paragraph at lines 12--13
@@ -1662,9 +1662,9 @@ Overfull \hbox (13.59326pt too wide) in paragraph at lines 12--13
 у-дить об устой-
  []
 
-[46
+[47
 
-] [47]
+] [48]
 
 LaTeX Warning: Command \cyrs invalid in math mode on input line 72.
 
@@ -1683,7 +1683,7 @@ Overfull \hbox (14.85223pt too wide) in paragraph at lines 73--75
 -ля-ет-ся неустой-
  []
 
-[48] [49]
+[49] [50]
 Overfull \hbox (3.3649pt too wide) in paragraph at lines 131--132
 []\T2A/cmr/m/n/12 Необходимое усло-вие устой-чи-во-сти вы-пол-не-но, со-ста-вим
  мат-ри-цу Гур-
@@ -1703,7 +1703,7 @@ OMS/cmsy/m/n/12 ^^@ \OT1/cmr/m/n/12 40 = 37\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12
 ^A \OT1/cmr/m/n/12 ^^A[] = 64\OML/cmm/m/it/12 :
  []
 
-[50]
+[51]
 Overfull \hbox (4.08247pt too wide) in paragraph at lines 202--239
 [][]
  []
@@ -1713,20 +1713,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--239
 
  []
 
-[51] [52] [53] [54] [55]
+[52] [53] [54] [55] [56]
 Overfull \hbox (9.04688pt too wide) in paragraph at lines 414--414
 []\T2A/cmr/bx/n/17.28 Условие гра-нич-ной (мар-ги-наль-ной) устой-
  []
 
-[56] [57] [58]
+[57] [58] [59]
 Overfull \hbox (0.60242pt too wide) in paragraph at lines 555--557
 []\T2A/cmr/m/it/12 Решение \T2A/cmr/m/n/12 Ха-рак-те-ри-сти-че-ский по-ли-ном з
 а-мкну-той си-сте-мы име-ет вид: 
  []
 
-[59]) (./tex/chapters/t_4.tex [60]
+[60]) (./tex/chapters/t_4.tex [61]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 4.
-[61
+[62
 
 ]
 
@@ -1734,60 +1734,60 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 42.
 
-[62] [63]
-Overfull \hbox (5.16176pt too wide) in paragraph at lines 136--137
+[63] [64] [65]
+Overfull \hbox (5.16176pt too wide) in paragraph at lines 186--187
 []\T2A/cmr/m/n/12 Из до-ка-за-тель-ства кри-те-рия управ-ля-е-мо-сти бы-ло по-л
 у-че-но, что управ-
  []
 
 
-Overfull \hbox (2.71437pt too wide) in paragraph at lines 144--145
+Overfull \hbox (2.71437pt too wide) in paragraph at lines 194--195
 []\T2A/cmr/m/n/12 Используя идею ана-ло-гич-ную идеи из до-ка-за-тель-ства, по-
 лу-чим управ-
  []
 
-[64]
-Overfull \hbox (18.52327pt too wide) in paragraph at lines 168--172
+[66]
+Overfull \hbox (18.52327pt too wide) in paragraph at lines 218--222
 \T2A/cmr/m/it/12 То-гда су-ще-ству-ет век-тор $\OML/cmm/m/it/12 k \OMS/cmsy/m/n
 /12 2 \U/msb/m/n/12 R[]$\T2A/cmr/m/it/12 , та-кой что $\OML/cmm/m/it/12 ^^[\OT1
 /cmr/m/n/12 (\OML/cmm/m/it/12 A \OMS/cmsy/m/n/12 ^^@ \OML/cmm/m/it/12 bk\OT1/cm
 r/m/n/12 ) = []$\T2A/cmr/m/it/12 ,
  []
 
-[65]
-Overfull \hbox (2.33434pt too wide) in paragraph at lines 318--318
+[67]
+Overfull \hbox (2.33434pt too wide) in paragraph at lines 368--368
 []\T2A/cmr/bx/n/17.28 Стабилизация по вы-хо-ду. На-блю-да-е-мость
  []
 
-[66]
-Overfull \hbox (3.60356pt too wide) in paragraph at lines 353--353
+[68]
+Overfull \hbox (3.60356pt too wide) in paragraph at lines 403--403
 []\T2A/cmr/bx/n/14.4 Критерий на-блю-да-е-мо-сти для ли-ней-ных си-стем. 
  []
 
 
-Overfull \hbox (0.38228pt too wide) in paragraph at lines 356--357
+Overfull \hbox (0.38228pt too wide) in paragraph at lines 406--407
 []\T2A/cmr/bx/n/12 Теорема 15 \T2A/cmr/m/n/12 (Кри-те-рий на-блю-да-е-мо-сти)\T
 2A/cmr/bx/n/12 . []\T2A/cmr/m/it/12 Си-сте-ма (4.3[]) на-блю-да-е-ма то-
  []
 
-[67] [68]
-Overfull \hbox (6.19899pt too wide) in paragraph at lines 409--409
+[69] [70]
+Overfull \hbox (6.19899pt too wide) in paragraph at lines 459--459
 []\T2A/cmr/bx/n/17.28 Теорема су-ще-ство-ва-ния на-блю-да-те-ля Лю-
  []
 
-[69] [70]
-Overfull \hbox (26.82407pt too wide) in paragraph at lines 508--509
-[]\T2A/cmr/bx/n/12 Пример 12. []\T2A/cmr/m/n/12 Син-те-зи-ро-вать на-блю-да-тел
+[71] [72]
+Overfull \hbox (26.82407pt too wide) in paragraph at lines 558--559
+[]\T2A/cmr/bx/n/12 Пример 14. []\T2A/cmr/m/n/12 Син-те-зи-ро-вать на-блю-да-тел
 ь Лю-ен-бер-ге-ра со спек-тром $\OMS/cmsy/m/n/12 f^^@\OT1/cmr/m/n/12 1\OML/cmm/
 m/it/12 ;  \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 2\OMS/cmsy/m/n/12 g$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
+Underfull \hbox (badness 10000) in paragraph at lines 613--614
 
  []
 
-[71] [72]) (./tex/chapters/t_5.tex [73]
+[73] [74]) (./tex/chapters/t_5.tex [75]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 5.
 
 Overfull \hbox (0.42476pt too wide) in paragraph at lines 8--9
@@ -1795,7 +1795,7 @@ Overfull \hbox (0.42476pt too wide) in paragraph at lines 8--9
 сти САУ недо-
  []
 
-<./fig/t5/standard_system.pdf, id=569, pagebox=cropbox, 184.53844pt x 57.03508p
+<./fig/t5/standard_system.pdf, id=575, pagebox=cropbox, 184.53844pt x 57.03508p
 t>
 File: ./fig/t5/standard_system.pdf Graphic file (type pdf)
 <use ./fig/t5/standard_system.pdf>
@@ -1803,7 +1803,7 @@ Package pdftex.def Info: ./fig/t5/standard_system.pdf  used on input line 18. o
 n input line 18.
 Package pdftex.def Info: Requested size: 227.62204pt x 70.35287pt on input line
  18.
-[74
+[76
 
 ]
 
@@ -1834,7 +1834,7 @@ LaTeX Warning: Command \cyrr invalid in math mode on input line 44.
 
 Missing character: There is no п in font cmr8!
 Missing character: There is no р in font cmr8!
-[75 <./fig/t5/standard_system.pdf>]
+[77 <./fig/t5/standard_system.pdf>]
 
 LaTeX Warning: Command \cyrp invalid in math mode on input line 46.
 
@@ -1883,7 +1883,7 @@ LaTeX Warning: Command \cyrr invalid in math mode on input line 48.
 
 Missing character: There is no п in font cmr8!
 Missing character: There is no р in font cmr8!
-<./fig/t5/step_response.png, id=583, 411.5375pt x 258.9675pt>
+<./fig/t5/step_response.png, id=589, 411.5375pt x 258.9675pt>
 File: ./fig/t5/step_response.png Graphic file (type png)
 <use ./fig/t5/step_response.png>
 Package pdftex.def Info: ./fig/t5/step_response.png  used on input line 70. on 
@@ -1893,12 +1893,12 @@ e 70.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[76] [77 <./fig/t5/step_response.png>]
+[78] [79 <./fig/t5/step_response.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<./fig/t5/stable_prop.png, id=592, 1053.9375pt x 1126.2075pt>
+<./fig/t5/stable_prop.png, id=599, 1053.9375pt x 1126.2075pt>
 File: ./fig/t5/stable_prop.png Graphic file (type png)
 <use ./fig/t5/stable_prop.png>
 Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 103. on i
@@ -1911,19 +1911,19 @@ Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 108. on i
 nput line 108.
 Package pdftex.def Info: Requested size: 122.34692pt x 130.72264pt on input lin
 e 108.
-<./fig/t5/oscilate_prop.png, id=593, 1057.9525pt x 1126.2075pt>
+<./fig/t5/oscilate_prop.png, id=600, 1057.9525pt x 1126.2075pt>
 File: ./fig/t5/oscilate_prop.png Graphic file (type png)
 <use ./fig/t5/oscilate_prop.png>
 Package pdftex.def Info: ./fig/t5/oscilate_prop.png  used on input line 115. on
  input line 115.
 Package pdftex.def Info: Requested size: 133.63203pt x 142.26378pt on input lin
 e 115.
-[78 <./fig/t5/stable_prop.png>]
+[80 <./fig/t5/stable_prop.png>]
 Overfull \hbox (6.19398pt too wide) in paragraph at lines 138--138
 []\T2A/cmr/bx/n/14.4 Показатели ка-че-ства в пе-ре-ход-ном ре-жи-ме. Кос-
  []
 
-[79 <./fig/t5/oscilate_prop.png>] [80]
+[81 <./fig/t5/oscilate_prop.png>] [82]
 Overfull \hbox (7.84807pt too wide) in paragraph at lines 182--182
 []\T2A/cmr/bx/n/14.4 Вычисление ин-те-граль-ных по-ка-за-те-лей ка-че-ства 
  []
@@ -1936,8 +1936,8 @@ Overfull \hbox (14.19354pt too wide) in paragraph at lines 200--202
 OT1/cmr/m/n/12 )$\T2A/cmr/m/n/12 . 
  []
 
-[81]
-<./fig/t5/system_for_int_e.pdf, id=609, pagebox=cropbox, 141.05899pt x 42.5068p
+[83]
+<./fig/t5/system_for_int_e.pdf, id=615, pagebox=cropbox, 141.05899pt x 42.5068p
 t>
 File: ./fig/t5/system_for_int_e.pdf Graphic file (type pdf)
 <use ./fig/t5/system_for_int_e.pdf>
@@ -1957,7 +1957,7 @@ r/m/n/12 (\OML/cmm/m/it/12 t\OT1/cmr/m/n/12 )$ \T2A/cmr/m/n/12 та-ко-ва, что дл
 я воз-дей-ствий $\OML/cmm/m/it/12 At; At[]; []$
  []
 
-[82 <./fig/t5/system_for_int_e.pdf>] [83]
+[84 <./fig/t5/system_for_int_e.pdf>] [85]
 Overfull \hbox (11.76042pt too wide) in paragraph at lines 268--269
 []\T2A/cmr/bx/n/12 Определение 44. []\T2A/cmr/m/n/12 Ста-ти-че-ской ошиб-кой на
 -зы-ва-ют уста-но-вив-шу-ю-ся ошиб-
@@ -1969,7 +1969,7 @@ Overfull \hbox (5.226pt too wide) in paragraph at lines 272--273
 ской, ес-ли еј ста-ти-че-ская ошиб-
  []
 
-<./fig/t5/astatic_system.pdf, id=623, pagebox=cropbox, 207.69997pt x 57.03508pt
+<./fig/t5/astatic_system.pdf, id=630, pagebox=cropbox, 207.69997pt x 57.03508pt
 >
 File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
 <use ./fig/t5/astatic_system.pdf>
@@ -1980,7 +1980,7 @@ Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 2
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[84]
+[86]
 File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
 <use ./fig/t5/astatic_system.pdf>
 Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 314. o
@@ -2005,31 +2005,31 @@ Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
 41.
 
 Overfull \hbox (0.83492pt too wide) in paragraph at lines 338--344
-[]\T2A/cmr/bx/n/12 Пример 16. []\T2A/cmr/m/n/12 Для си-сте-мы, изоб-ра-жен-ной 
+[]\T2A/cmr/bx/n/12 Пример 18. []\T2A/cmr/m/n/12 Для си-сте-мы, изоб-ра-жен-ной 
 на струк-тур-ной схе-ме с $\OML/cmm/m/it/12 W\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 
 s\OT1/cmr/m/n/12 ) =
  []
 
-[85 <./fig/t5/astatic_system.pdf>]
+[87 <./fig/t5/astatic_system.pdf>]
 Overfull \hbox (2.23953pt too wide) in paragraph at lines 356--357
 []\T2A/cmr/m/n/12 грубость от-но-си-тель-но свой-ства устой-чи-во-сти, т.е. уст
 ой-чи-вость при
  []
 
-[86]
+[88]
 File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
 <use ./fig/t5/astatic_system.pdf>
 Package pdftex.def Info: ./fig/t5/astatic_system.pdf  used on input line 369. o
 n input line 369.
 Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
 69.
- [87] [88]) [89]
+ [89] [90]) [91]
 Underfull \hbox (badness 1057) in paragraph at lines 146--148
 []\T2A/cmr/m/n/12 Андриевский Б. Р. \T2A/cmr/m/it/12 Тео-ре-ти-че-ские ос-но-вы
  ав-то-ма-ти-зи-ро-ван-но-го
  []
 
-[90
+[92
 
 ] (tmp//TAU.aux)
 
@@ -2074,10 +2074,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (91 pages, 631865 bytes).
+Output written on tmp//TAU.pdf (93 pages, 635973 bytes).
 PDF statistics:
- 1258 PDF objects out of 1440 (max. 8388607)
- 546 compressed objects within 6 object streams
+ 1264 PDF objects out of 1440 (max. 8388607)
+ 550 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
  176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
