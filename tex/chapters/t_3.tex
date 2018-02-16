@@ -439,13 +439,46 @@
     Частотная передаточная функция, амплитудная и фазовая частотные функции разомкнутой системы имеют вид
     \begin{align*}
         W_\tau(j \omega)=W(j\omega)e^{-j \tau \omega},\ & 
-        W(j \omega)=R(j \omega)/S(j \omega),\\
+        W(j \omega)=\frac{R(j \omega)}{S(j \omega)},\\
         \left|W_\tau(j \omega)\right|=\left|W(j \omega)\right|,\ 
         &\varphi_\tau(\omega)=\varphi(\omega)-\tau \omega,
     \end{align*}
     где 
     $\varphi_\tau(\omega)=arg W_\tau(j \omega),\ \varphi(\omega = arg W(j \omega)$\\
     Легко видеть, что АФЧХ $W_\tau(j \omega)$ отличается от АФЧХ $W(j\omega)$ только сдвигом по фазе на $-j\omega$.
+
+    \examp{
+        Найти граничное значения $\tau_0$ для чистого запаздывания в замкнутой системе с ПФ $W(s) = \frac{6e^{-\tau s}}{s(s+1)}$.
+    }
+
+    \textit{Решение}
+    {
+
+    \[
+        W(j\omega)=\frac{6}{-\omega+j\omega} \quad
+        \left|W(j\omega)\right|=\frac{6}{\sqrt{\omega^4+\omega^2}}=1
+    \]
+    \[
+        36=\omega^4+\omega^2 \Rightarrow p^2+p-36
+    \]
+    \[
+        p_{1,2}=\frac{-1\pm\sqrt{145}}{2}\quad p_1=\frac{-1+\sqrt{145}}{2} \quad \omega=\sqrt{\frac{-1+\sqrt{145}}{2}}
+    \]
+    
+    Найдем $\tau_0$ по формуле $-arctg(\omega)-\omega\cdot\tau_0=-\pi$
+
+    \[
+        \tau_0=\frac{arctg(\omega)-\pi}{-\omega}=\frac{arcctg(\omega)}{\omega}
+    \]
+
+    \textbf{Ответ:}
+    $
+        \omega=\sqrt{\frac{-1+\sqrt{145}}{2}}
+        ,\quad
+        \tau_0\approx0{,}4
+    $
+
+    }
 
 \section{Понятие грубости (робастности) САУ}
 

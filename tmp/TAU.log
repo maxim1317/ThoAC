@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  16 FEB 2018 18:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  16 FEB 2018 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2581,45 +2581,46 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 436.
 [60]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 450.
+(babel)             in language  on input line 458.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 450.
+(babel)             in language  on input line 458.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 464.
+(babel)             in language  on input line 470.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 464.
+(babel)             in language  on input line 470.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 469.
+(babel)             in language  on input line 470.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 469.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 469.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 469.
+(babel)             in language  on input line 470.
  [61]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 516.
+(babel)             in language  on input line 472.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 516.
+(babel)             in language  on input line 472.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 516.
+(babel)             in language  on input line 518.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 516.
+(babel)             in language  on input line 518.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 518.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 518.
  [62]
-Overfull \hbox (0.60242pt too wide) in paragraph at lines 555--557
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 561.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 561.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 561.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 561.
+ [63]
+Overfull \hbox (0.60242pt too wide) in paragraph at lines 563--565
 []\T2A/cmr/m/it/12 Решение \T2A/cmr/m/n/12 Ха-рак-те-ри-сти-че-ский по-ли-ном з
 а-мкну-той си-сте-мы име-ет вид: 
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 563.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 563.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 563.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 563.
-[63]) (./tex/chapters/t_4.tex
+) (./tex/chapters/t_4.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 4.
 Package babel Info: Redefining russian shorthand "~
@@ -2810,7 +2811,7 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 552.
  [75]
 Overfull \hbox (26.82407pt too wide) in paragraph at lines 558--559
-[][]\T2A/cmr/bx/n/12 Пример 17. []\T2A/cmr/m/n/12 Син-те-зи-ро-вать на-блю-да-т
+[][]\T2A/cmr/bx/n/12 Пример 18. []\T2A/cmr/m/n/12 Син-те-зи-ро-вать на-блю-да-т
 ель Лю-ен-бер-ге-ра со спек-тром $\OMS/cmsy/m/n/12 f^^@\OT1/cmr/m/n/12 1\OML/cm
 m/m/it/12 ;  \OMS/cmsy/m/n/12 ^^@\OT1/cmr/m/n/12 2\OMS/cmsy/m/n/12 g$
  []
@@ -2866,7 +2867,7 @@ Overfull \hbox (0.42476pt too wide) in paragraph at lines 8--9
 сти САУ недо-
  []
 
-<./fig/t5/standard_system.pdf, id=1326, pagebox=cropbox, 184.53844pt x 57.03508
+<./fig/t5/standard_system.pdf, id=1328, pagebox=cropbox, 184.53844pt x 57.03508
 pt>
 File: ./fig/t5/standard_system.pdf Graphic file (type pdf)
 <use ./fig/t5/standard_system.pdf>
@@ -2974,7 +2975,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 57.
-<./fig/t5/step_response.png, id=1344, 411.5375pt x 258.9675pt>
+<./fig/t5/step_response.png, id=1346, 411.5375pt x 258.9675pt>
 File: ./fig/t5/step_response.png Graphic file (type png)
 <use ./fig/t5/step_response.png>
 Package pdftex.def Info: ./fig/t5/step_response.png  used on input line 70. on 
@@ -3010,7 +3011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<./fig/t5/stable_prop.png, id=1361, 1053.9375pt x 1126.2075pt>
+<./fig/t5/stable_prop.png, id=1363, 1053.9375pt x 1126.2075pt>
 File: ./fig/t5/stable_prop.png Graphic file (type png)
 <use ./fig/t5/stable_prop.png>
 Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 103. on i
@@ -3023,7 +3024,7 @@ Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 108. on i
 nput line 108.
 Package pdftex.def Info: Requested size: 122.34692pt x 130.72264pt on input lin
 e 108.
-<./fig/t5/oscilate_prop.png, id=1362, 1057.9525pt x 1126.2075pt>
+<./fig/t5/oscilate_prop.png, id=1364, 1057.9525pt x 1126.2075pt>
 File: ./fig/t5/oscilate_prop.png Graphic file (type png)
 <use ./fig/t5/oscilate_prop.png>
 Package pdftex.def Info: ./fig/t5/oscilate_prop.png  used on input line 115. on
@@ -3099,7 +3100,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 206.
 [86]
-<./fig/t5/system_for_int_e.pdf, id=1386, pagebox=cropbox, 141.05899pt x 42.5068
+<./fig/t5/system_for_int_e.pdf, id=1388, pagebox=cropbox, 141.05899pt x 42.5068
 pt>
 File: ./fig/t5/system_for_int_e.pdf Graphic file (type pdf)
 <use ./fig/t5/system_for_int_e.pdf>
@@ -3168,7 +3169,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 293.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 293.
-<./fig/t5/astatic_system.pdf, id=1404, pagebox=cropbox, 207.69997pt x 57.03508p
+<./fig/t5/astatic_system.pdf, id=1406, pagebox=cropbox, 207.69997pt x 57.03508p
 t>
 File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
 <use ./fig/t5/astatic_system.pdf>
@@ -3220,7 +3221,7 @@ Package pdftex.def Info: Requested size: 227.62204pt x 62.509pt on input line 3
 41.
 
 Overfull \hbox (0.83492pt too wide) in paragraph at lines 338--344
-[][]\T2A/cmr/bx/n/12 Пример 21. []\T2A/cmr/m/n/12 Для си-сте-мы, изоб-ра-жен-но
+[][]\T2A/cmr/bx/n/12 Пример 22. []\T2A/cmr/m/n/12 Для си-сте-мы, изоб-ра-жен-но
 й на струк-тур-ной схе-ме с $\OML/cmm/m/it/12 W\OT1/cmr/m/n/12 (\OML/cmm/m/it/1
 2 s\OT1/cmr/m/n/12 ) =
  []
@@ -3323,8 +3324,8 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23129 strings out of 493828
- 395491 string characters out of 6156285
+ 23130 strings out of 493828
+ 395499 string characters out of 6156285
  446167 words of memory out of 5000000
  25758 multiletter control sequences out of 15000+600000
  552164 words of font info for 73 fonts, out of 8000000 for 9000
@@ -3360,10 +3361,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (96 pages, 667920 bytes).
+Output written on tmp//TAU.pdf (96 pages, 668641 bytes).
 PDF statistics:
- 2159 PDF objects out of 2487 (max. 8388607)
- 1432 compressed objects within 15 object streams
- 420 named destinations out of 1000 (max. 500000)
+ 2161 PDF objects out of 2487 (max. 8388607)
+ 1434 compressed objects within 15 object streams
+ 421 named destinations out of 1000 (max. 500000)
  768 words of extra memory for PDF output out of 10000 (max. 10000000)
 
