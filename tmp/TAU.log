@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  16 FEB 2018 19:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  16 FEB 2018 19:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1208,12 +1208,6 @@ Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 
 LaTeX Warning: Label `EQ1' multiply defined.
 
-
-LaTeX Warning: Label `EQ1' multiply defined.
-
-
-LaTeX Warning: Label `EQ2' multiply defined.
-
 )
 \openout1 = `TAU.aux'.
 
@@ -1660,7 +1654,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 237.
 [17 <./fig/t1/pendulum.pdf>]
-<./fig/t1/feedback_pendulum.pdf, id=589, pagebox=cropbox, 159.09236pt x 39.4895
+<./fig/t1/feedback_pendulum.pdf, id=588, pagebox=cropbox, 159.09236pt x 39.4895
 3pt>
 File: ./fig/t1/feedback_pendulum.pdf Graphic file (type pdf)
 <use ./fig/t1/feedback_pendulum.pdf>
@@ -1729,7 +1723,7 @@ Package babel Info: Redefining russian shorthand "~
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 38.
 
-<./fig/t2/block_gain.pdf, id=637, pagebox=cropbox, 412.74202pt x 199.40909pt>
+<./fig/t2/block_gain.pdf, id=635, pagebox=cropbox, 412.74202pt x 199.40909pt>
 File: ./fig/t2/block_gain.pdf Graphic file (type pdf)
 <use ./fig/t2/block_gain.pdf>
 Package pdftex.def Info: ./fig/t2/block_gain.pdf  used on input line 48. on inp
@@ -1952,14 +1946,14 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 535.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 535.
-<./fig/t2/sum_minus.pdf, id=770, pagebox=cropbox, 124.50014pt x 49.73782pt>
+<./fig/t2/sum_minus.pdf, id=768, pagebox=cropbox, 124.50014pt x 49.73782pt>
 File: ./fig/t2/sum_minus.pdf Graphic file (type pdf)
 <use ./fig/t2/sum_minus.pdf>
 Package pdftex.def Info: ./fig/t2/sum_minus.pdf  used on input line 541. on inp
 ut line 541.
 Package pdftex.def Info: Requested size: 184.9429pt x 73.89313pt on input line 
 541.
-<./fig/t2/sum_three.pdf, id=771, pagebox=cropbox, 142.78445pt x 53.02911pt>
+<./fig/t2/sum_three.pdf, id=769, pagebox=cropbox, 142.78445pt x 53.02911pt>
 File: ./fig/t2/sum_three.pdf Graphic file (type pdf)
 <use ./fig/t2/sum_three.pdf>
 Package pdftex.def Info: ./fig/t2/sum_three.pdf  used on input line 542. on inp
@@ -1979,7 +1973,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 577.
  [35 <./fig/t2/sum_minus.pdf> <./fig/t2/sum_three.pdf>]
-<./fig/t2/series_connection.pdf, id=795, pagebox=cropbox, 187.38306pt x 34.0361
+<./fig/t2/series_connection.pdf, id=793, pagebox=cropbox, 187.38306pt x 34.0361
 6pt>
 File: ./fig/t2/series_connection.pdf Graphic file (type pdf)
 <use ./fig/t2/series_connection.pdf>
@@ -1987,7 +1981,7 @@ Package pdftex.def Info: ./fig/t2/series_connection.pdf  used on input line 584
 . on input line 584.
 Package pdftex.def Info: Requested size: 184.9429pt x 33.5941pt on input line 5
 84.
-<./fig/t2/sconnection_whole.pdf, id=796, pagebox=cropbox, 100.42519pt x 34.0361
+<./fig/t2/sconnection_whole.pdf, id=794, pagebox=cropbox, 100.42519pt x 34.0361
 6pt>
 File: ./fig/t2/sconnection_whole.pdf Graphic file (type pdf)
 <use ./fig/t2/sconnection_whole.pdf>
@@ -1995,7 +1989,7 @@ Package pdftex.def Info: ./fig/t2/sconnection_whole.pdf  used on input line 585
 . on input line 585.
 Package pdftex.def Info: Requested size: 99.58464pt x 33.75198pt on input line 
 585.
-<./fig/t2/parallel_connection.pdf, id=797, pagebox=cropbox, 141.05899pt x 116.5
+<./fig/t2/parallel_connection.pdf, id=795, pagebox=cropbox, 141.05899pt x 116.5
 2434pt>
 File: ./fig/t2/parallel_connection.pdf Graphic file (type pdf)
 <use ./fig/t2/parallel_connection.pdf>
@@ -2003,7 +1997,7 @@ Package pdftex.def Info: ./fig/t2/parallel_connection.pdf  used on input line 5
 94. on input line 594.
 Package pdftex.def Info: Requested size: 142.26378pt x 117.52861pt on input lin
 e 594.
-<./fig/t2/pconnection_whole.pdf, id=798, pagebox=cropbox, 100.42519pt x 34.2078
+<./fig/t2/pconnection_whole.pdf, id=796, pagebox=cropbox, 100.42519pt x 34.2078
 1pt>
 File: ./fig/t2/pconnection_whole.pdf Graphic file (type pdf)
 <use ./fig/t2/pconnection_whole.pdf>
@@ -2039,7 +2033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 621--624
 
  []
 
-<./fig/t2/trans_sum_direct_before.pdf, id=852, pagebox=cropbox, 109.89658pt x 3
+<./fig/t2/trans_sum_direct_before.pdf, id=850, pagebox=cropbox, 109.89658pt x 3
 7.89156pt>
 File: ./fig/t2/trans_sum_direct_before.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_sum_direct_before.pdf>
@@ -2047,7 +2041,7 @@ Package pdftex.def Info: ./fig/t2/trans_sum_direct_before.pdf  used on input li
 ne 627. on input line 627.
 Package pdftex.def Info: Requested size: 156.49014pt x 53.959pt on input line 6
 27.
-<./fig/t2/trans_sum_direct_after.pdf, id=853, pagebox=cropbox, 109.76207pt x 69
+<./fig/t2/trans_sum_direct_after.pdf, id=851, pagebox=cropbox, 109.76207pt x 69
 .45348pt>
 File: ./fig/t2/trans_sum_direct_after.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_sum_direct_after.pdf>
@@ -2055,7 +2049,7 @@ Package pdftex.def Info: ./fig/t2/trans_sum_direct_after.pdf  used on input lin
 e 631. on input line 631.
 Package pdftex.def Info: Requested size: 156.49014pt x 99.03156pt on input line
  631.
-<./fig/t2/trans_sum_indirect_before.pdf, id=854, pagebox=cropbox, 95.13542pt x 
+<./fig/t2/trans_sum_indirect_before.pdf, id=852, pagebox=cropbox, 95.13542pt x 
 45.89145pt>
 File: ./fig/t2/trans_sum_indirect_before.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_sum_indirect_before.pdf>
@@ -2063,7 +2057,7 @@ Package pdftex.def Info: ./fig/t2/trans_sum_indirect_before.pdf  used on input
 line 638. on input line 638.
 Package pdftex.def Info: Requested size: 156.49014pt x 75.49562pt on input line
  638.
-<./fig/t2/trans_sum_indirect_after.pdf, id=855, pagebox=cropbox, 113.12764pt x 
+<./fig/t2/trans_sum_indirect_after.pdf, id=853, pagebox=cropbox, 113.12764pt x 
 69.45348pt>
 File: ./fig/t2/trans_sum_indirect_after.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_sum_indirect_after.pdf>
@@ -2071,7 +2065,7 @@ Package pdftex.def Info: ./fig/t2/trans_sum_indirect_after.pdf  used on input l
 ine 642. on input line 642.
 Package pdftex.def Info: Requested size: 156.49014pt x 96.0769pt on input line 
 642.
-<./fig/t2/trans_branch_direct_before.pdf, id=856, pagebox=cropbox, 84.36418pt x
+<./fig/t2/trans_branch_direct_before.pdf, id=854, pagebox=cropbox, 84.36418pt x
  37.89156pt>
 File: ./fig/t2/trans_branch_direct_before.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_branch_direct_before.pdf>
@@ -2079,7 +2073,7 @@ Package pdftex.def Info: ./fig/t2/trans_branch_direct_before.pdf  used on input
  line 648. on input line 648.
 Package pdftex.def Info: Requested size: 156.49014pt x 70.2902pt on input line 
 648.
-<./fig/t2/trans_branch_direct_after.pdf, id=857, pagebox=cropbox, 113.12764pt x
+<./fig/t2/trans_branch_direct_after.pdf, id=855, pagebox=cropbox, 113.12764pt x
  69.45348pt>
 File: ./fig/t2/trans_branch_direct_after.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_branch_direct_after.pdf>
@@ -2100,7 +2094,7 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 656.
 [37 <./fig/t2/trans_sum_direct_before.pdf> <./fig/t2/trans_sum_direct_after.pdf
 >]
-<./fig/t2/trans_branch_indirect_before.pdf, id=871, pagebox=cropbox, 92.36407pt
+<./fig/t2/trans_branch_indirect_before.pdf, id=869, pagebox=cropbox, 92.36407pt
  x 45.89145pt>
 File: ./fig/t2/trans_branch_indirect_before.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_branch_indirect_before.pdf>
@@ -2108,7 +2102,7 @@ Package pdftex.def Info: ./fig/t2/trans_branch_indirect_before.pdf  used on inp
 ut line 660. on input line 660.
 Package pdftex.def Info: Requested size: 156.49014pt x 77.75601pt on input line
  660.
-<./fig/t2/trans_branch_indirect_after.pdf, id=872, pagebox=cropbox, 109.76207pt
+<./fig/t2/trans_branch_indirect_after.pdf, id=870, pagebox=cropbox, 109.76207pt
  x 69.45348pt>
 File: ./fig/t2/trans_branch_indirect_after.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_branch_indirect_after.pdf>
@@ -2116,7 +2110,7 @@ Package pdftex.def Info: ./fig/t2/trans_branch_indirect_after.pdf  used on inpu
 t line 664. on input line 664.
 Package pdftex.def Info: Requested size: 156.49014pt x 99.03156pt on input line
  664.
-<./fig/t2/trans_sum_branch_before.pdf, id=873, pagebox=cropbox, 81.11705pt x 34
+<./fig/t2/trans_sum_branch_before.pdf, id=871, pagebox=cropbox, 81.11705pt x 34
 .64543pt>
 File: ./fig/t2/trans_sum_branch_before.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_sum_branch_before.pdf>
@@ -2124,7 +2118,7 @@ Package pdftex.def Info: ./fig/t2/trans_sum_branch_before.pdf  used on input li
 ne 670. on input line 670.
 Package pdftex.def Info: Requested size: 156.49014pt x 66.84354pt on input line
  670.
-<./fig/t2/trans_sum_branch_after.pdf, id=874, pagebox=cropbox, 91.88829pt x 62.
+<./fig/t2/trans_sum_branch_after.pdf, id=872, pagebox=cropbox, 91.88829pt x 62.
 96223pt>
 File: ./fig/t2/trans_sum_branch_after.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_sum_branch_after.pdf>
@@ -2132,7 +2126,7 @@ Package pdftex.def Info: ./fig/t2/trans_sum_branch_after.pdf  used on input lin
 e 674. on input line 674.
 Package pdftex.def Info: Requested size: 156.49014pt x 107.24283pt on input lin
 e 674.
-<./fig/t2/trans_branch_sum_before.pdf, id=875, pagebox=cropbox, 89.11694pt x 42
+<./fig/t2/trans_branch_sum_before.pdf, id=873, pagebox=cropbox, 89.11694pt x 42
 .64532pt>
 File: ./fig/t2/trans_branch_sum_before.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_branch_sum_before.pdf>
@@ -2140,7 +2134,7 @@ Package pdftex.def Info: ./fig/t2/trans_branch_sum_before.pdf  used on input li
 ne 679. on input line 679.
 Package pdftex.def Info: Requested size: 156.49014pt x 74.89134pt on input line
  679.
-<./fig/t2/trans_branch_sum_after.pdf, id=876, pagebox=cropbox, 91.88829pt x 62.
+<./fig/t2/trans_branch_sum_after.pdf, id=874, pagebox=cropbox, 91.88829pt x 62.
 96223pt>
 File: ./fig/t2/trans_branch_sum_after.pdf Graphic file (type pdf)
 <use ./fig/t2/trans_branch_sum_after.pdf>
@@ -2179,7 +2173,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 687.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 687.
-<./fig/t2/one_contour_exmpl.pdf, id=920, pagebox=cropbox, 172.61188pt x 96.3288
+<./fig/t2/one_contour_exmpl.pdf, id=918, pagebox=cropbox, 172.61188pt x 96.3288
 9pt>
 File: ./fig/t2/one_contour_exmpl.pdf Graphic file (type pdf)
 <use ./fig/t2/one_contour_exmpl.pdf>
@@ -2206,7 +2200,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 713--715
 []\T2A/cmr/m/n/12 Рассмотрим
  []
 
-<./fig/t2/many_contour_no_cross_exmpl.pdf, id=961, pagebox=cropbox, 236.40822pt
+<./fig/t2/many_contour_no_cross_exmpl.pdf, id=959, pagebox=cropbox, 236.40822pt
  x 87.35135pt>
 File: ./fig/t2/many_contour_no_cross_exmpl.pdf Graphic file (type pdf)
 <use ./fig/t2/many_contour_no_cross_exmpl.pdf>
@@ -2219,7 +2213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 723--725
 []\T2A/cmr/m/n/12 Рассмотрим
  []
 
-<./fig/t2/many_contour_cross_exmpl.pdf, id=962, pagebox=cropbox, 219.33644pt x 
+<./fig/t2/many_contour_cross_exmpl.pdf, id=960, pagebox=cropbox, 219.33644pt x 
 81.12909pt>
 File: ./fig/t2/many_contour_cross_exmpl.pdf Graphic file (type pdf)
 <use ./fig/t2/many_contour_cross_exmpl.pdf>
@@ -2243,7 +2237,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 736.
 [40 <./fig/t2/many_contour_no_cross_exmpl.pdf>]
-<./fig/t2/all_desc.pdf, id=979, pagebox=cropbox, 180.54753pt x 80.36122pt>
+<./fig/t2/all_desc.pdf, id=977, pagebox=cropbox, 180.54753pt x 80.36122pt>
 File: ./fig/t2/all_desc.pdf Graphic file (type pdf)
 <use ./fig/t2/all_desc.pdf>
 Package pdftex.def Info: ./fig/t2/all_desc.pdf  used on input line 746. on inpu
@@ -2875,7 +2869,7 @@ Overfull \hbox (0.42476pt too wide) in paragraph at lines 8--9
 сти САУ недо-
  []
 
-<./fig/t5/standard_system.pdf, id=1332, pagebox=cropbox, 184.53844pt x 57.03508
+<./fig/t5/standard_system.pdf, id=1331, pagebox=cropbox, 184.53844pt x 57.03508
 pt>
 File: ./fig/t5/standard_system.pdf Graphic file (type pdf)
 <use ./fig/t5/standard_system.pdf>
@@ -2983,7 +2977,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 57.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 57.
-<./fig/t5/step_response.png, id=1350, 411.5375pt x 258.9675pt>
+<./fig/t5/step_response.png, id=1349, 411.5375pt x 258.9675pt>
 File: ./fig/t5/step_response.png Graphic file (type png)
 <use ./fig/t5/step_response.png>
 Package pdftex.def Info: ./fig/t5/step_response.png  used on input line 70. on 
@@ -3019,7 +3013,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<./fig/t5/stable_prop.png, id=1367, 1053.9375pt x 1126.2075pt>
+<./fig/t5/stable_prop.png, id=1366, 1053.9375pt x 1126.2075pt>
 File: ./fig/t5/stable_prop.png Graphic file (type png)
 <use ./fig/t5/stable_prop.png>
 Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 103. on i
@@ -3032,7 +3026,7 @@ Package pdftex.def Info: ./fig/t5/stable_prop.png  used on input line 108. on i
 nput line 108.
 Package pdftex.def Info: Requested size: 122.34692pt x 130.72264pt on input lin
 e 108.
-<./fig/t5/oscilate_prop.png, id=1368, 1057.9525pt x 1126.2075pt>
+<./fig/t5/oscilate_prop.png, id=1367, 1057.9525pt x 1126.2075pt>
 File: ./fig/t5/oscilate_prop.png Graphic file (type png)
 <use ./fig/t5/oscilate_prop.png>
 Package pdftex.def Info: ./fig/t5/oscilate_prop.png  used on input line 115. on
@@ -3108,7 +3102,7 @@ Package babel Info: Redefining russian shorthand "|
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 206.
 [87]
-<./fig/t5/system_for_int_e.pdf, id=1392, pagebox=cropbox, 141.05899pt x 42.5068
+<./fig/t5/system_for_int_e.pdf, id=1391, pagebox=cropbox, 141.05899pt x 42.5068
 pt>
 File: ./fig/t5/system_for_int_e.pdf Graphic file (type pdf)
 <use ./fig/t5/system_for_int_e.pdf>
@@ -3177,7 +3171,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 293.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 293.
-<./fig/t5/astatic_system.pdf, id=1410, pagebox=cropbox, 207.69997pt x 57.03508p
+<./fig/t5/astatic_system.pdf, id=1409, pagebox=cropbox, 207.69997pt x 57.03508p
 t>
 File: ./fig/t5/astatic_system.pdf Graphic file (type pdf)
 <use ./fig/t5/astatic_system.pdf>
@@ -3332,10 +3326,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 23131 strings out of 493828
- 395506 string characters out of 6156285
- 446167 words of memory out of 5000000
- 25758 multiletter control sequences out of 15000+600000
+ 23133 strings out of 493828
+ 395522 string characters out of 6156285
+ 446259 words of memory out of 5000000
+ 25760 multiletter control sequences out of 15000+600000
  552164 words of font info for 73 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
  61i,16n,52p,10333b,681s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3369,7 +3363,7 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (97 pages, 670847 bytes).
+Output written on tmp//TAU.pdf (97 pages, 670829 bytes).
 PDF statistics:
  2166 PDF objects out of 2487 (max. 8388607)
  1438 compressed objects within 15 object streams
