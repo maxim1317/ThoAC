@@ -1,2 +1,0 @@
-\select@language {russian}
-\beamer@sectionintoc {1}{Main}{1}{0}{1}

@@ -33,3 +33,13 @@
   * [t3/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t3) - Исходники картинок 3 главы
   * [t4/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t4) - Исходники картинок 4 главы
   * [t5/](https://github.com/maxim1317/ThoAC/tree/master/tex/fig/t5) - Исходники картинок 5 главы
+
+-------------------------
+
+## Инструкция по сборке
+
+Инструкция и список дополнительных пакетов _texlive_ находится [здесь](compilation_guide.md)
+
+## Инструкция для проверяющих
+
+Тоже, как ни странно есть и лежит [здесь](tester_guide.md)
