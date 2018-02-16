@@ -308,6 +308,7 @@
     График импульсной переходной функции - кривую зависимости функций w(t) от времени t - называют {\it импульсной переходной характеристикой}.
     Данные функции связаны соотношением - $w(t) = \frac{dh(t)}{dt}$.
 
+
 % subsection временные_функции (end)
 \subsection{ВФ и ПФ в изображениях Лапласа } % (fold)
     По определению ПФ имеем
@@ -333,6 +334,44 @@
     $\omega(t) = \INVLAP{W(s)}$.
     Таким образом, имея хотя бы одну из функций ($h(t), \omega(t)$ или $W(s)$), можно восстановить оставшиеся.
 
+    \examp Дана система
+    $$
+        \ddot y - \dot y = \dot u + u.
+    $$
+    Найти $h(t)$ и $w(t)$.
+
+    \textit{Решение}
+
+    Для определения ПФ нужно решить уравнение при входном воздействии $u(t)=1$ и нулевых начальных условиях:
+    $$
+        y(p^2-1)=1\quad y(0)=\dot y(0)=0
+    $$
+    $$
+        p^2-1=0\quad p=\pm1\quad y_\text{о.о.}=C_1\cdot e^{-t}+C_2\cdot e^t\quad y_\text{ч.р.}=A=-1
+    $$
+    Получаем решение данного уравнения:
+
+    \begin{align*}
+        y &= C_1\cdot e^{-t}+C_2\cdot e^t-1     \\
+        \dot y &= -C_1\cdot e^{-t}+C_2\cdot e^t
+    \end{align*}
+    \begin{align*}
+        \begin{cases}
+          C_1+C_2-1 &= 0\\
+         -C_1+C_2   &= 0
+        \end{cases}
+    \end{align*}
+    \[
+        C_1=C_2={1\over2}
+    \]
+    \[
+        y=h(t) \quad h(t)=\frac{1}{2}\cdot(e^t+e^{-t})-1
+    \]
+    \[
+        w(t)=\frac{h(t)}{dt} \quad w(t)=\frac{1}{2}(e^t-e^{-t})
+    \]
+    \textit{Ответ:}
+    $h(t)=\frac{1}{2}\cdot(e^t+e^{-t})-1$, $w(t)=\frac{1}{2}(e^t-e^{-t})$
 
 % subsection ВФ и ПФ в изображениях Лапласа  (end)
 % section преобразование_лапласа (end)
@@ -344,16 +383,16 @@
     \defi{\it Частотная передаточная функция (ЧПФ)} - функция W($j\omega$), являющаяся комплекснозначной функцией от действительной переменной - частоты. 
     Представим ЧПФ в виде
     $$
-        W(j\omega) = U(\omega) + jV(\omega) = A(\omega)e^{j\phi(\omega)},
+        W(j\omega) = U(\omega) + jV(\omega) = A(\omega)e^{j\varphi(\omega)},
     $$
     где 
     $U(\omega)$ и $V(\omega)$ 
     --- {\it вещественная и мнимая частотные функции}, 
     $A(\omega) = |W(j\omega)| = \sqrt{U^2(\omega)+V^2(\omega)}$ 
     --- {\it амплитудная частотная функция}, 
-    $\phi(\omega) = \arg{W(j\omega)}$ (при 
+    $\varphi(\omega) = \arg{W(j\omega)}$ (при 
     $|\arg{W(j\omega)}| \le \frac{\pi}{2}$ верно 
-    $\phi(\omega) = arctg\left(\frac{V(\omega)}{U(\omega)}\right)$) 
+    $\varphi(\omega) = arctg\left(\frac{V(\omega)}{U(\omega)}\right)$) 
     --- фазовая частотная функция.
     График для каждой частотной функции называется {\it характеристикой}.\par
     Если линейная стационарная система устойчива, то входные гармонические сигналы после окончания переходного процесса переходят в гармонические сигналы с той же частотой, но со сдвигом по фазе и другой амплитудой. Это преобразование характеризует частотная функция 
@@ -374,56 +413,89 @@
     $$
         R(s)u_1(t) = u_1(t)R(j\omega),\quad R(s)u_2(t) = u_2(t)R(-j\omega).
     $$
-    Решения будем искать в виде $y_1(t) = A u_0e^{j(\omega t + \alpha + \phi)} = Ae^{j\phi}u_1(t)$ и $y_2(t) = A u_0e^{-j(\omega t + \alpha + \phi)} = Ae^{-j\phi}u_2(t)$, где $\phi$ и $A$ --- параметры, подлежащие определению.
+    Решения будем искать в виде $y_1(t) = A u_0e^{j(\omega t + \alpha + \varphi)} = Ae^{j\varphi}u_1(t)$ и $y_2(t) = A u_0e^{-j(\omega t + \alpha + \varphi)} = Ae^{-j\varphi}u_2(t)$, где $\varphi$ и $A$ --- параметры, подлежащие определению.
 
-    В левых частях уравнений получим $Q(s)y_1(t) = Ae^{j\phi}u_1(t)Q(j\omega)$ и $Q(s)y_2(t) = Ae^{j\phi}u_2(t)Q(-j\omega)$. Таким образом, имеем два равенства
+    В левых частях уравнений получим $Q(s)y_1(t) = Ae^{j\varphi}u_1(t)Q(j\omega)$ и $Q(s)y_2(t) = Ae^{j\varphi}u_2(t)Q(-j\omega)$. Таким образом, имеем два равенства
     $$
-        Ae^{j\phi} u_1(t)Q(j\omega) = u_1(t)R(j\omega),\quad Ae^{-j\phi} u_2(t)Q(-j\omega) = u_2(t)R(-j\omega),
+        Ae^{j\varphi} u_1(t)Q(j\omega) = u_1(t)R(j\omega),\quad Ae^{-j\varphi} u_2(t)Q(-j\omega) = u_2(t)R(-j\omega),
     $$
     что эквивалентно
     $$
-        Ae^{j\phi} = W(j\omega),\quad Ae^{-j\phi} = W(-j\omega),
+        Ae^{j\varphi} = W(j\omega),\quad Ae^{-j\varphi} = W(-j\omega),
     $$
     откуда следует, что 
     $$
         A = |W(j\omega)| = |W(-j\omega)|
     $$ 
     и 
-    $\phi = \arg W(j\omega) = -\arg W(-j\omega)$. В итоге,
+    $\varphi = \arg W(j\omega) = -\arg W(-j\omega)$. В итоге,
     $$
-        y_1(t) = Au_0e^{j(\omega t + \alpha + \phi)},\quad
-        y_2(t) = Au_0e^{-j(\omega t + \alpha + \phi)}.
+        y_1(t) = Au_0e^{j(\omega t + \alpha + \varphi)},\quad
+        y_2(t) = Au_0e^{-j(\omega t + \alpha + \varphi)}.
     $$
     Следовательно, $y(t) = \frac{y_1(t)+y_2(t)}{2} = u_0|W(j\omega)| \cos(\omega t + \alpha + \arg W(j\omega))$.
 
     Заметим, что найденное решение $y(t)$ является вынужденной составляющей решения уравнения \eref{EQ_ODU_SYM_2}.  В силу того, что в выкладках выше используются ПФ в преобразованиях Лапласа, начальные условия нулевые.
 
     Кроме вынужденной составляющей в решении есть свободные колебания, которые определяются из начальных условий и полинома $Q(s)$. Это означает, что в реальных системах такое преобразование гармонического сигнала будет явно видно только через некоторое время, т.е. после окончания {\it переходного процесса}. (Это можно увидеть при моделировании линейной системы с входным гармоническим сигналом.)
+
+    \examp На вход системы подается сигнал  $u=2\cdot\sin{0{,}5t}$
+
+    Определить в установившемся решении реакцию системы при заданной ПФ:
+    \[
+        W(s)=\frac{6(s+4)}{(s+1)(0{,}49+0,7s+1)}    
+    \]
+    \textit{Решение}
+
+    Найдем частную ПФ:
+    \[
+        W(j\omega)=\frac{6(j\omega+4)}{(j\omega+1)(-0{,}49j\omega+0{,}7j\omega+1)}
+    \]
+    при $\omega=0{,}5$ найдем $A(0{,}5)$:
+    \begin{multline*}
+        A(0{,}5)=\left|\frac{6(0{,}5j+4)}{(0{,}5j+1)(-0{,}49\cdot(0{,}5)^2+0{,}7\cdot5\cdot0{,}5+1)}\right|= \\
+        =\frac{6\cdot\sqrt{(0{,}5^2)+16}}{\sqrt{(0{,}5)^2+1}\cdot\sqrt{(-0{,}49\cdot(0{,}5)^2+1)^2+(0{,}7\cdot0{,}5)^2}}\approx22{,}899
+    \end{multline*}
+    \[
+        \varphi(\omega)=arg\ W(j\omega)=arctg\left(\frac{V(\omega)}{U(\omega)}\right)
+    \]
+    \[
+        \varphi(0{,}5)=arctg\left(\frac{0{,}5}{4}\right)-arctg(0{,}5)-arctg\left(\frac{0{,}7\cdot0{,}5}{1-0{,}49\cdot(0{,}5)^2}\right)\approx-0{,}719
+    \]
+
+    \textit{Ответ}
+
+    \[
+        y=45{,}798(\sin(0{,}5t-0{,}719))
+    \]
+    %Не сходится с Кимом
+
+
 % section частотные_функции (end)
 \section{Основные типы элементарных звеньев} % (fold)
 
 \begin{description}
 \item[Пропорциональное звено] % (fold)
     Пропорциональное звено: $W(s)=k$.  
-    $W(j\omega) = k,\; A(\omega) = |k|,\; \phi(\omega) = 0,\; h(t) = k,\; \omega(t) = k\delta(t);$
+    $W(j\omega) = k,\; A(\omega) = |k|,\; \varphi(\omega) = 0,\; h(t) = k,\; \omega(t) = k\delta(t);$
 % item[пропорциональное_звено (end)
 \item[Дифференциальное звено] % (fold)
     Дифференциальное звено: $W(s) = ks$.
     $$
-        W(j\omega) = kj\omega,\; A(\omega) = |k|\omega, \; \phi(\omega) = \frac{\pi}{2},\; h(t) = k\delta(t),\; \omega(t) = k\dot\delta(t);
+        W(j\omega) = kj\omega,\; A(\omega) = |k|\omega, \; \varphi(\omega) = \frac{\pi}{2},\; h(t) = k\delta(t),\; \omega(t) = k\dot\delta(t);
     $$
 % % item[дифференциальное_звено (end)
 \item[Интегрирующее звено] % (fold)
     Интегрирующее звено: $W(s) = \frac{k}{s}$.
     $$
-        W(j\omega) = -\frac{k j}{\omega},\; A(\omega) = \frac{|k|}{\omega},\; \phi(\omega) = -\frac{\pi}{2},\; h(t) = kt,\; \omega(t) = k;
+        W(j\omega) = -\frac{k j}{\omega},\; A(\omega) = \frac{|k|}{\omega},\; \varphi(\omega) = -\frac{\pi}{2},\; h(t) = kt,\; \omega(t) = k;
     $$
 % % item[интегрирующее_звено (end)
 \item[Апериодическое звено] % (fold)
     Апериодическое звено: $W(s) = \frac{k}{Ts+1},\; T>0$.
     $$
         \begin{aligned}
-            W(j\omega) = \frac{k}{jT\omega+1},\; &A(\omega) = \frac{|k|}{\sqrt{(T\omega)^2+1}},\; \phi(\omega) = -\arctg(\omega T),\\ h(t) = k(1-&e^{-\frac{t}{T}}),\; \omega(t) = \frac{k}{T}e^{-\frac{t}{T}};
+            W(j\omega) = \frac{k}{jT\omega+1},\; &A(\omega) = \frac{|k|}{\sqrt{(T\omega)^2+1}},\; \varphi(\omega) = -\arctg(\omega T),\\ h(t) = k(1-&e^{-\frac{t}{T}}),\; \omega(t) = \frac{k}{T}e^{-\frac{t}{T}};
         \end{aligned}
     $$
 % % item[апериодическое_звено (end)
@@ -433,7 +505,7 @@
         \begin{aligned}
             W(j\omega) &= \frac{k}{1-T^2\omega^2 +j2\xi T\omega},\\
             A(\omega) &= \frac{|k|}{\sqrt{(1-(T\omega)^2)^2 + (2\xi T\omega)^2}},\\
-            \phi(\omega) &=
+            \varphi(\omega) &=
             \begin{cases}
                 -\arctg(\frac{2\xi T\omega}{1-(T\omega)^2}) & 1 \ge (T\omega)^2,\\
                 -\pi+\arctg(\frac{2\xi T\omega}{(T\omega)^2-1}) & 1 < (T\omega)^2,
@@ -452,7 +524,7 @@
     $$
         \begin{aligned}
             W(j\omega) &= ke^{-j\tau\omega},\\
-            A(\omega) = k,&\; \phi(\omega) = -\tau\omega,\\
+            A(\omega) = k,&\; \varphi(\omega) = -\tau\omega,\\
             h(t) = k\IT{X}(t-\tau),&\; \omega(t) = k\delta(t-\tau).
         \end{aligned}
     $$
@@ -792,14 +864,14 @@
     $$
     \examp{
     $$
-        \ddot y+\dot y+y=\ddot u -1\ \ \ y(0)=y_0;\ \dot y(0)=y_1
+        \ddot y+\dot y+y=\ddot u -1\quad y(0)=y_0;\ \dot y(0)=y_1
     $$\
     }
 
     \textit{Решение}
     
     {
-        Требуется перейти в к ПС:
+        Требуется перейти к ПС:
         $$
         \begin{cases}
             \dot x=Ax+ku \\
@@ -817,7 +889,7 @@
             \begin{pmatrix}
                 0  & 1  \\
                 -1 & -1 \\
-            \end{pmatrix}\ \ \ 
+            \end{pmatrix}\quad 
             C=
             \begin{pmatrix}
                 1 & 0 
@@ -833,7 +905,7 @@
         $$
         Выразим $x_1$ и $x_2$ через $y$ и $u$:
         $$
-            x_1=y-du;\ \ \ x_2=\dot y-d\dot u-k_1 u
+            x_1=y-du;\quad x_2=\dot y-d\dot u-k_1 u
         $$
         Получим в результате подстановки:
         $$
@@ -868,7 +940,7 @@
                     1 & 0
                 \end{pmatrix}
                 x + u            \\
-                x_1(0)=y_0-u\ \ \ x_2=y_1-\dot u+u
+                x_1(0)=y_0-u\quad x_2=y_1-\dot u+u
             \end{cases}        
         $$
     }
@@ -940,6 +1012,100 @@
     \end{multline*}
 
     Это означает инвариантность ПФ относительно невырожденных преобразований в фазовом пространстве.
+
+    \examp
+    {
+        Выписать ПФ объекта W(s), заданного в ПС:
+
+        \begin{align*}
+            \begin{cases}
+                \dot x_1&=x_2-7x_1+2u \\
+                \dot x_2&=7x_1-x_2+3u \\
+                y &= x_1
+            \end{cases}
+        \end{align*}
+    }
+
+    \textit{Решение}
+    {
+        Переход от ПС к ПФ осуществляется по формуле 
+        \[
+            W(s)=C\cdot(sI-A)\cdot B
+        \]
+        \[
+            x(t)=
+            \begin{pmatrix}
+                x_1(t) \\
+                x_2(t)
+            \end{pmatrix}
+            \quad
+            A=
+            \begin{pmatrix}
+                -7 &  1 \\
+                 7 & -1                
+            \end{pmatrix}
+            \quad
+            B=
+            \begin{pmatrix}
+                2 \\ 3                
+            \end{pmatrix}
+            \quad
+            C=
+            \begin{pmatrix}
+                1 & 0               
+            \end{pmatrix}
+        \]
+        \[
+            (sI-A)=
+            \begin{pmatrix}
+                s+7 & -1  \\
+                -7  & s+1                
+            \end{pmatrix}
+            \cdot
+            \begin{pmatrix}
+                sI-A                
+            \end{pmatrix}^T
+            =
+            \begin{pmatrix}
+                s+1 & 1   \\
+                7   & s+7                
+            \end{pmatrix}
+        \]
+        \[
+            det(sI-A)=(s+7)(s+1)-7
+        \]
+        \begin{multline*}
+            W(s)=
+            \begin{pmatrix}
+                1 & 0               
+            \end{pmatrix}
+            \cdot
+            \begin{pmatrix}
+                s+1 & 1   \\
+                7   & s+7               
+            \end{pmatrix}
+            \cdot
+            \begin{pmatrix}
+                2 \\ 3               
+            \end{pmatrix}
+            \cdot
+            \frac{1}{(s+7)(s+1)-7}
+            =\\=
+            \begin{pmatrix}
+                s+1 & 1               
+            \end{pmatrix}
+            \cdot
+            \begin{pmatrix}
+                2 \\ 3              
+            \end{pmatrix}
+            \cdot
+            \frac{1}{(s+7)(s+1)-7}
+            \frac{2(s+1)+3}{s^2+8s}=
+            \frac{2s+5}{s^2+8s}.
+        \end{multline*}
+            
+        \textit{Ответ:} $W(s)=\frac{2s+5}{s^2+8s}.$
+    }
 
 \subsection{Формулы вычисления реакции системы}
 

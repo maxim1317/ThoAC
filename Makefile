@@ -9,7 +9,8 @@ Compile:
 All: Compile
 
 display: Compile
-	@evince tmp/TAU.pdf > /dev/null 2>&1 &
+	# @evince tmp/TAU.pdf > /dev/null 2>&1 &
+	@okular tmp/TAU.pdf > /dev/null 2>&1 &
 
 d1:
 	@evince tmp/t_1.pdf > /dev/null 2>&1 &
@@ -23,7 +24,7 @@ clean:
 	# @pkill -f evince
 
 .PHONY: Re
-Re: figs
+Re:
 	@rm -rf tmp
 	@mkdir -p tmp
 	pdflatex -output-directory tmp/ TAU.tex
@@ -43,13 +44,11 @@ gt: clean
 	@git reset
 	@git add *
 
-figs:
-	make -C tex/fig/
 
-fullclean: 
-	@rm -rf tmp
-	@rm -f fig/t1/*
-	@rm -f fig/t2/*
+#fullclean: 
+#	@rm -rf tmp
+#	@rm -f fig/t1/*
+#	@rm -f fig/t2/*
 
 count:
 	@find . -name "*.tex" -print0 -o -name "*.md" -print0 -o -name "Makefile" -print0 | xargs -0 wc -l

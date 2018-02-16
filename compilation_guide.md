@@ -15,7 +15,8 @@
 * **beamer:** _A LaTeX class for producing presentations and slides_
 * **erewhon:** _Font package derived from Heuristica and Utopia_
 * **extsizes:** _Extend the standard classes' size options_
-**fontspec:** _Advanced font selection in XeLaTeX and LuaLaTeX_
+* **fontspec:** _Advanced font selection in XeLaTeX and LuaLaTeX_
+* **hyperref:** _Extensive support for hypertext in LaTeX_
 * **pgf:** _Create PostScript and PDF graphics in TeX_
 * **xcolor:** _Driver-independent color extensions for LaTeX and pdfLaTeX_
 
