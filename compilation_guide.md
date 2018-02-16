@@ -1,6 +1,6 @@
-#Короткая инструкция по самостоятельной сборке  
+# Короткая инструкция по самостоятельной сборке  
 
-##Чем собирать
+## Чем собирать
 
 У меня стоит texlive и собираю я, соответственно, pdflatex
 
@@ -10,7 +10,7 @@
 
 **tlmgr install <package name>**
 
-##Список дополнительных пакетов
+## Список дополнительных пакетов
 
 **beamer:** _A LaTeX class for producing presentations and slides_
 **erewhon:** _Font package derived from Heuristica and Utopia_
