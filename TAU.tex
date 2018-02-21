@@ -33,13 +33,18 @@
 \usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
 \usepackage[usenames,dvipsnames]{color} % названия цветов
 % \usepackage{makecell}
-% \usepackage{multirow} % улучшенное форматирование таблиц
+\usepackage{multirow} % улучшенное форматирование таблиц
 % \usepackage{ulem} % подчеркивания
  
 \usepackage{subfiles}
 \usepackage{enumitem}
 \usepackage{caption}
 \usepackage{placeins}
+
+% \usepackage{cmap}              % pure T1 fonts 
+% \usepackage[resetfonts]{cmap}  % pure T1 fonts, reset CM
+% \usepackage{mmap}              % cmap + mathematics (ASCII)
+\usepackage[noTeX]{mmap}       % cmap + mathematics (Unicode)
 
 \usepackage{tasks}
 

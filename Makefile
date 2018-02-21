@@ -9,8 +9,8 @@ Compile:
 All: Compile
 
 display: Compile
-	# @evince tmp/TAU.pdf > /dev/null 2>&1 &
-	@okular tmp/TAU.pdf > /dev/null 2>&1 &
+	@evince tmp/TAU.pdf > /dev/null 2>&1 &
+	# @okular tmp/TAU.pdf > /dev/null 2>&1 &
 
 d1:
 	@evince tmp/t_1.pdf > /dev/null 2>&1 &
