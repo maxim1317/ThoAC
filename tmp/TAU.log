@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  22 FEB 2018 00:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2017.11.16)  23 FEB 2018 13:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1488,205 +1488,197 @@ Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 73.
 [7]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 81.
+(babel)             in language  on input line 76.
  [8 <./fig/t1/SAU_scheme.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 88.
+(babel)             in language  on input line 92.
 
-Overfull \hbox (20.49843pt too wide) in paragraph at lines 89--89
+Overfull \hbox (20.49843pt too wide) in paragraph at lines 94--94
 \T2A/cmr/m/n/12 то-рые об-щие фун-да-мен-таль-ные прин-ци-пы управ-ле-ния, опре
 -де-ля-ю-щие,каким
  []
 
 
-Overfull \hbox (2.55386pt too wide) in paragraph at lines 90--91
+Overfull \hbox (2.55386pt too wide) in paragraph at lines 95--96
 []\T2A/cmr/m/n/12 Принято раз-ли-чать три фун-да-мен-таль-ных прин-ци-па управ-
 ле-ния: про-
  []
 
-<./fig/t1/program.pdf, id=468, pagebox=cropbox, 142.13503pt x 34.03616pt>
+<./fig/t1/program.pdf, id=465, pagebox=cropbox, 142.13503pt x 34.03616pt>
 File: ./fig/t1/program.pdf Graphic file (type pdf)
 <use ./fig/t1/program.pdf>
-Package pdftex.def Info: ./fig/t1/program.pdf  used on input line 98. on input 
-line 98.
+Package pdftex.def Info: ./fig/t1/program.pdf  used on input line 103. on input
+ line 103.
 Package pdftex.def Info: Requested size: 284.52756pt x 68.13809pt on input line
- 98.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+ 103.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 106.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 107.
+(babel)             in language  on input line 106.
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 107--111
+Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
-<./fig/t1/feedback.pdf, id=475, pagebox=cropbox, 142.13503pt x 70.96411pt>
+<./fig/t1/feedback.pdf, id=474, pagebox=cropbox, 142.13503pt x 70.96411pt>
 File: ./fig/t1/feedback.pdf Graphic file (type pdf)
 <use ./fig/t1/feedback.pdf>
-Package pdftex.def Info: ./fig/t1/feedback.pdf  used on input line 118. on inpu
-t line 118.
+Package pdftex.def Info: ./fig/t1/feedback.pdf  used on input line 123. on inpu
+t line 123.
 Package pdftex.def Info: Requested size: 284.52756pt x 142.06534pt on input lin
-e 118.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+e 123.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 126.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 128.
+(babel)             in language  on input line 126.
 [10 <./fig/t1/program.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 131.
+(babel)             in language  on input line 136.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 131.
-<./fig/t1/SAU_structure.pdf, id=494, pagebox=cropbox, 255.98334pt x 95.75775pt>
+(babel)             in language  on input line 136.
+<./fig/t1/SAU_structure.pdf, id=493, pagebox=cropbox, 255.98334pt x 95.75775pt>
 
 File: ./fig/t1/SAU_structure.pdf Graphic file (type pdf)
 <use ./fig/t1/SAU_structure.pdf>
-Package pdftex.def Info: ./fig/t1/SAU_structure.pdf  used on input line 137. on
- input line 137.
+Package pdftex.def Info: ./fig/t1/SAU_structure.pdf  used on input line 142. on
+ input line 142.
 Package pdftex.def Info: Requested size: 284.52756pt x 106.43993pt on input lin
-e 137.
+e 142.
 
-Underfull \hbox (badness 1365) in paragraph at lines 140--140
+Underfull \hbox (badness 1365) in paragraph at lines 145--145
 \T2A/cmr/m/n/12 му-ще-ния (не все-гда при-сут-ству-ет) и вы-ход $\OML/cmm/m/it/
 12 y$\T2A/cmr/m/n/12 ; УПУ, усилительно-
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 145.
+(babel)             in language  on input line 147.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 145.
+(babel)             in language  on input line 147.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 147.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 147.
+[11 <./fig/t1/feedback.pdf>]
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 150.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 150.
 
-Overfull \hbox (6.13936pt too wide) in paragraph at lines 146--147
+Overfull \hbox (6.13936pt too wide) in paragraph at lines 151--152
 []\T2A/cmr/m/n/12 Для озна-ком-ле-ния с ос-нов-ны-ми ви-да-ми си-стем ав-то-ма-
 ти-че-ско-го управ-
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 148.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 148.
-[11 <./fig/t1/feedback.pdf>]
+(babel)             in language  on input line 155.
+[12 <./fig/t1/SAU_structure.pdf>]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 164.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 164.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 153.
+(babel)             in language  on input line 164.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 153.
- [12 <./fig/t1/SAU_structure.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+(babel)             in language  on input line 164.
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 165--165
 
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 163.
+(babel)             in language  on input line 180.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 163.
-[13]
+(babel)             in language  on input line 180.
+[14]
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 184.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
- [14]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 179.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 179.
+(babel)             in language  on input line 184.
 
 
-LaTeX Warning: Command \cyre invalid in math mode on input line 186.
+LaTeX Warning: Command \cyre invalid in math mode on input line 191.
 
 Missing character: There is no е in font cmr12!
-LaTeX Font Info:    T2A-m encoding encountered on input line 187.
-LaTeX Font Info:    T2A-m encoding encountered on input line 187.
-
-Overfull \hbox (6.6268pt too wide) in paragraph at lines 193--193
+LaTeX Font Info:    T2A-m encoding encountered on input line 192.
+LaTeX Font Info:    T2A-m encoding encountered on input line 192.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 193.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 193.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 193.
+[15]
+Overfull \hbox (6.6268pt too wide) in paragraph at lines 198--198
 \T2A/cmr/m/n/12 Ре-гу-ли-ро-ва-ние ча-сто-ты син-хрон-ных ге-не-ра-то-ров вы-по
 л-ня-ет-ся пу-тем двой-
  []
 
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 194.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 194.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 194.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 194.
-[15]
-Overfull \hbox (7.27084pt too wide) in paragraph at lines 199--200
+
+Overfull \hbox (7.27084pt too wide) in paragraph at lines 204--205
 []\T2A/cmr/m/it/12 Пропорционально-интегрально-дифференциальный за-кон (ПИД-зак
 он)
  []
 
 
-Overfull \hbox (1.07039pt too wide) in paragraph at lines 199--200
+Overfull \hbox (1.07039pt too wide) in paragraph at lines 204--205
 \T2A/cmr/m/n/12 осу-ществ-ля-ет-ся с по-мо-щью ПИД-регулятора, ко-то-рый обес-п
 е-чи-ва-ет аста-
  []
 
-<./fig/t1/pendulum.pdf, id=563, pagebox=cropbox, 553.92676pt x 396.97406pt>
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 209.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 209.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 209.
+[16]
+<./fig/t1/pendulum.pdf, id=570, pagebox=cropbox, 553.92676pt x 396.97406pt>
 File: ./fig/t1/pendulum.pdf Graphic file (type pdf)
 <use ./fig/t1/pendulum.pdf>
-Package pdftex.def Info: ./fig/t1/pendulum.pdf  used on input line 210. on inpu
-t line 210.
-Package pdftex.def Info: Requested size: 170.71652pt x 122.33986pt on input lin
-e 210.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 213.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 213.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 213.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 213.
-[16]
-Overfull \hbox (2.71455pt too wide) in paragraph at lines 215--216
+Package pdftex.def Info: ./fig/t1/pendulum.pdf  used on input line 215. on inpu
+t line 215.
+Package pdftex.def Info: Requested size: 142.26378pt x 101.95088pt on input lin
+e 215.
+
+Overfull \hbox (2.71455pt too wide) in paragraph at lines 220--221
 []\T2A/cmr/m/n/12 Уравнение, опи-сы-ва-ю-щее пе-ре-вер-ну-тый (об-рат-ный) ма-я
 т-ник в окрест-
  []
 
-LaTeX Font Info:    T2A-m encoding encountered on input line 219.
-LaTeX Font Info:    OMX-m encoding encountered on input line 219.
+LaTeX Font Info:    T2A-m encoding encountered on input line 224.
+LaTeX Font Info:    OMX-m encoding encountered on input line 224.
 
-Overfull \hbox (15.98541pt too wide) in paragraph at lines 231--233
+Overfull \hbox (15.98541pt too wide) in paragraph at lines 236--238
 \T2A/cmr/m/n/12 где $\OML/cmm/m/it/12 x \OT1/cmr/m/n/12 = (\OML/cmm/m/it/12 x[]
  x[]\OT1/cmr/m/n/12 )[] = (^^B [])[]$ \T2A/cmr/m/n/12 --- век-тор со-сто-я-ния 
 си-сте-мы, $\OML/cmm/m/it/12 A \OT1/cmr/m/n/12 = []$\T2A/cmr/m/n/12 ,$\OML/cmm/
@@ -1694,23 +1686,31 @@ m/it/12 b \OT1/cmr/m/n/12 =
  []
 
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 237.
+(babel)             in language  on input line 241.
 [17 <./fig/t1/pendulum.pdf>]
 <./fig/t1/feedback_pendulum.pdf, id=596, pagebox=cropbox, 159.09236pt x 39.4895
 3pt>
 File: ./fig/t1/feedback_pendulum.pdf Graphic file (type pdf)
 <use ./fig/t1/feedback_pendulum.pdf>
-Package pdftex.def Info: ./fig/t1/feedback_pendulum.pdf  used on input line 266
-. on input line 266.
+Package pdftex.def Info: ./fig/t1/feedback_pendulum.pdf  used on input line 271
+. on input line 271.
 Package pdftex.def Info: Requested size: 284.52756pt x 70.63759pt on input line
- 266.
-) (./tex/chapters/t_2.tex
+ 271.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 275.
+Package babel Info: Redefining russian shorthand "|
+(babel)             in language  on input line 275.
+Package babel Info: Redefining russian shorthand "~
+(babel)             in language  on input line 275.
+ [18]) (./tex/chapters/t_2.tex
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining russian shorthand "~
@@ -1719,16 +1719,7 @@ Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 3.
 Package babel Info: Redefining russian shorthand "~
 (babel)             in language  on input line 3.
- [18 <./fig/t1/feedback_pendulum.pdf>]
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "|
-(babel)             in language  on input line 3.
-Package babel Info: Redefining russian shorthand "~
-(babel)             in language  on input line 3.
- [19]
+ [19 <./fig/t1/feedback_pendulum.pdf>]
 {\cyrillictext \CYRG \cyrl \cyra \cyrv \cyra } 2.
 Package babel Info: Redefining russian shorthand "|
 (babel)             in language  on input line 3.
@@ -3375,7 +3366,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  23395 strings out of 493828
  399625 string characters out of 6156285
- 449619 words of memory out of 5000000
+ 448619 words of memory out of 5000000
  25939 multiletter control sequences out of 15000+600000
  552164 words of font info for 73 fonts, out of 8000000 for 9000
  766 hyphenation exceptions out of 8191
@@ -3410,7 +3401,7 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive
 dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tmp//TAU.pdf (97 pages, 679217 bytes).
+Output written on tmp//TAU.pdf (97 pages, 678952 bytes).
 PDF statistics:
  2174 PDF objects out of 2487 (max. 8388607)
  1438 compressed objects within 15 object streams

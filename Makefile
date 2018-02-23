@@ -44,6 +44,8 @@ gt: clean
 	@git reset
 	@git add *
 
+bugs:
+	@evince issues/tau_bugs.pdf > /dev/null 2>&1 &
 
 #fullclean: 
 #	@rm -rf tmp
