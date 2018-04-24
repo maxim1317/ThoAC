@@ -24,6 +24,8 @@
         тогда для любого полинома $\gamma(s),\; \deg\gamma(s) \ge n+m-1$ существуют полиномы $\psi(s)$ и $\phi(s)$, такие что
         $\gamma(s) = \alpha(s)\psi(s) + \beta(s)\phi(s)$. При этом обеспечивается грубость замкнутой системы (не происходит сокращения степеней в хар. пол-ме).
     \end{theor}
+    \proof \cite[стр. 78-79]{pervoz}
+
 
     \begin{coroll}
         Если $\deg\gamma = 2n-1$, тогда найдутся полиномы со степенями $\deg\psi = n-1$, $\deg\phi \le n-1$ (нестрого физически реализуемый регулятор).
@@ -179,11 +181,11 @@
         $$.
     \end{theor}
 
-    \proof \cite[стр. 305]{voron2}
+    \proof \cite[стр. 308-311]{voron2}
     \par
     \textbf{Программное управление}
     \par
-    Из доказательства критерия управляемости было получено, что управление вида
+    Из доказательства критерия управляемости было получено \cite[стр. 311]{voron2}, что управление вида
     $$
         u(t) = b^Te^{A^T(t_1-t)}W^{-1}(t_1)x_1
     $$
@@ -221,6 +223,28 @@
         $\sigma(A-bk) = \left\{s_1,\; s_2,\;\ldots,\; s_n\right\}$, где $s_i$ --- корни $\gamma(s)$.
     \end{theor}
 
+    \begin{statement}[Каноническая форма управляемости]
+        Для любой управляемой системы \eref{LIN_DS} найдется матрица $M$, такая что $|M|\neq0$ и для $z=Mx$ выполнено
+        $\dot z = \hat A z + \hat b u$,
+        где
+        $$
+            \hat A =
+            \begin{pmatrix}
+                0 & 1 & 0 & \ldots & 0 & 0 \\
+                0 & 0 & 1 & \ldots & 0 & 0 \\
+                \hdotsfor{6}\\
+                -\alpha_0 & -\alpha_1 & -\alpha_2 & \ldots & -\alpha_{n-2} & -\alpha_{n-1}
+            \end{pmatrix}\quad
+            \hat b=
+            \begin{pmatrix}
+                0      \\
+                \ldots \\
+                0      \\
+                1
+            \end{pmatrix}
+        $$
+    \end{statement}
+
     \textbf{Алгоритм построения вектора $k$}
 
     \begin{enumerate}
@@ -229,13 +253,13 @@
     \item 
         Вычислить $K_{A,b}$ ($|K_{A,b}|\neq0$, если система управляема);
     \item 
-        Найти $\chi_A(s) = s^n + a_{n-1}s^{n-1} + \ldots + a_1 s + a_0$;
+        Найти $\chi_A(s) = s^n + \alpha_{n-1}s^{n-1} + \ldots + \alpha_1 s + \alpha_0$;
     \item 
         Вычислить $K_{\widehat A,\; \widehat b}$, $\{\widehat A,\; \widehat b\}$ --- каноническая форма управляемости;
     \item 
         Перемножить $M = K_{\widehat A, \widehat b} K^{-1}_{A,b}$;
     \item 
-        Вычесть $\widehat k_i = \gamma_{i-1} - a_{i-1}, i=\cnt{1,n}$;
+        Вычесть $\widehat k_i = \gamma_{i-1} - \alpha_{i-1}, i=\cnt{1,n}$;
     \item 
         Умножить: $k = \widehat k M$;
     \item 
@@ -258,14 +282,14 @@
         \gamma(s)=(s+1)(s+2)=s^2+3s+2
     $$
     $$
-        k_{A,B} = 
+        K_{A,B} = 
         \begin{bmatrix}
             1 & 4\\
             -2 & -5
         \end{bmatrix}
         ,
     $$
-    так как $|k_{A,B}=3\neq0$, то система управляема
+    так как $|K_{A,B}=3\neq0$, то система управляема
     $$
         X_{A(S)}=
         \begin{vmatrix}
@@ -288,7 +312,7 @@
         \begin{pmatrix}
             0 \\ 1
         \end{pmatrix},\ 
-        k_{\widehat A,\widehat B} = 
+        K_{\widehat A,\widehat B} = 
         \begin{pmatrix}
             0 & 1\\
             -2 & -3
@@ -329,7 +353,7 @@
         \frac{1}{3}  
     $$
     $$
-        \widehat k_i=\gamma    _{i-1}-a_{i-1},\ i=\overline{1\dots n}
+        \widehat k_i=\gamma    _{i-1}-\alpha_{i-1},\ i=\overline{1\dots n}
     $$
     $$
         \widehat k_1 = 2-7=5\ \widehat k_2 =3+5=8
@@ -353,16 +377,16 @@
         \end{pmatrix}
     $$
     $$
-        u -kx
+        u = -kx
     $$
 
-    \textbf{Ответ: }
+    \textit{Ответ: }
     $
         u=
         \begin{pmatrix}
             -36 & 43
         \end{pmatrix}
-        x
+        x.
     $
 
 \section{Стабилизация по выходу. Наблюдаемость и наблюдатель.}
@@ -420,14 +444,15 @@
     \cite[стр. 315-318]{voron2}
     \end{proof}
 
-\subsection{Наблюдатель Люенбергера}\cite{andr}
+\subsection{Наблюдатель Люенбергера}
+
+    \cite[стр. 119]{andr}
 
     Так как матрицы $A,\; b$ и $c$ известны, то их можно использовать при построении наблюдателя. Например, наблюдатель
 
     $$
         \dot{\tilde x} = A\tilde x + bu
     $$
-
     дает оценку только для устойчивых систем. Запишем уравнение для ошибки $e(t) = \tilde x (t) - x(t)$, вычитая из уравнения наблюдателя уравнение объекта \eref{DS}:
 
     $$
@@ -473,7 +498,7 @@
             0& 1& 0& \ldots& 0& 0\\
             0& 0& 1& \ldots& 0& 0\\
             \hdotsfor{6}\\
-            -a_0& -a_1& -a_2 &\ldots& -a_{n-2}& -a_{n-1}
+            -\alpha_0& -\alpha_1& -\alpha_2 &\ldots& -\alpha_{n-2}& -\alpha_{n-1}
         \end{pmatrix}\quad
         \widehat c=
         \begin{pmatrix}
@@ -483,6 +508,7 @@
     \end{statement}
 
     \begin{proof}
+        
         Пусть
         \begin{align*}
             \begin{cases}
@@ -493,9 +519,9 @@
 
         Из условия, что 
         $
-            \forall x_1\neq x_2 \Rightarrow y(t_ix_1) \neq y(t_ix_2)
+            \forall x_1\neq x_2 \Rightarrow y(t_ix_1) \neq y(t_ix_2),
         $
-        (где $y(t_ix_k)$ --- выход по $x_k$) мы може сделать вывод:
+        где $y(t_ix_k)$ --- выход по $x_k$, мы можем сделать вывод:
         $rang\ N_{C, A}=n$.\\
         По формуле Коши получаем, что 
         $
@@ -510,7 +536,6 @@
         \end{equation}
 
         Из \eref{EQ21} следует, что
-        
         \begin{align*}
             C\cdot& v = 0 \\
             C\cdot& A \cdot v = 0 \\
@@ -544,10 +569,10 @@
     \begin{enumerate}
         \item Вычислить коэффициенты полинома $\gamma(s) = \prod_{i=1}^{n}(s-s_i)$;
         \item Вычислить $N_{c,A}$ ($|N_{c,A}|\neq0$, если система наблюдаема);
-        \item Найти $\chi_A(s) = s^n + a_{n-1}s^{n-1} + \ldots + a_1 s + a_0$;
+        \item Найти $\chi_A(s) = s^n + \alpha_{n-1}s^{n-1} + \ldots + \alpha_1 s + \alpha_0$;
         \item Вычислить $N_{\widehat c, \widehat A}$, $\{\widehat c,\; \widehat A\}$ --- каноническая форма наблюдаемости;
         \item Перемножить $M^{-1} = N^{-1}_{c, A} N_{\widehat c, \widehat A}$;
-        \item Вычесть $\widehat l_i = \gamma_{i-1} - a_{i-1}, \; i=\cnt{1,n}$;
+        \item Вычесть $\widehat l_i = \gamma_{i-1} - \alpha_{i-1}, \; i=\cnt{1,n}$;
         \item Умножить: $l =  M^{-1}\widehat l$;
         \item Записать $\dot{\tilde x} = A\tilde x + l(y - c\tilde x ) + b u$
     \end{enumerate}
@@ -596,7 +621,7 @@
         $
         \item Вычислим $N_{\widehat C,\widehat A}$\\
             Для этого вычислим $\widehat C:$\ \quad$\widehat C=(10)$
-            И $\widehat A:$\\
+            и $\widehat A:$\\
             $
                 \widehat A=
                 \begin{pmatrix}
