@@ -3,7 +3,7 @@
 
 \chapter{Стабилизация линейных систем}
 
-\section{Полиномиальная стабилизация}
+\section{Полиномиальная стабилизация (метод полиномиальных уравнений)}
 
     Данный метод стабилизации предполагает представление непрерывной части в виде дискретной модели. 
     При этом вся система считается чисто дискретной, что позволяет применять для стабилизации регуляторов хорошо разработанные методы теории дискретных систем. 
@@ -52,8 +52,8 @@
         существуют полиномы $\psi(s)$ и $\varphi(s)$, что $\gamma(s)=\alpha(s)\cdot\psi(s)+\beta(s)\cdot\varphi(s)$.
         т.к. $deg\ \gamma(s)=2n-1$, то регулятор является нестрого физически реализуемым (следствие 2) и
         $$
-            deg\ \psi=n-1,\ \ \  deg\ \varphi \lse n-1
-        $$,
+            deg\ \psi=n-1,\ \ \  deg\ \varphi \lse n-1.
+        $$
         Положим, что $\varphi(s)=\varphi_1\cdot s+\varphi$, $\psi(s)=s+\psi_0$ и 
         $R(s)={\varphi(s)\over\psi(s)}$
         Тогда
@@ -104,11 +104,11 @@
         Так как $deg\ \gamma(s)=2n$, то регулятор является строго физически реализуемым и $deg\ \psi(s)=n=2$, $deg\ \varphi\lse n-2\Rightarrow deg\ \varphi\lse n-1$.
 
         Положим, что $\varphi(s)=\varphi_1\cdot s+\varphi$, $\psi(s)=s+\psi_0$ и 
-        $R(s)={\varphi(s)\over\psi(s)}$
+        $R(s)={\varphi(s)\over\psi(s)}$.
         Тогда
 
         $$
-            (s^2+s-1)(\psi_1\cdot s^2+\psi_2\cdot s+\psi_0)+s\cdot(\varphi_1\cdot s+\varphi_0)=s^4+3s^5+4s^2+3s+1
+            (s^2+s-1)(\psi_1\cdot s^2+\psi_2\cdot s+\psi_0)+s\cdot(\varphi_1\cdot s+\varphi_0)=s^4+3s^5+4s^2+3s+1\text{, следовательно, }
         $$
         $$
         \begin{cases}
@@ -121,20 +121,20 @@
         $$
         Отсюда получим
         $$
-        \psi_0=-1\ \ \psi_1=1\ \ \psi_2=2\ \ \varphi_0=6\ \ \varphi_1=4
+        \psi_0=-1,\ \ \psi_1=1,\ \ \psi_2=2,\ \ \varphi_0=6,\ \ \varphi_1=4,
         $$
         то есть
         $$
-            R(s)=\frac{4s+6}{s^2+2s-1}
+            R(s)=\frac{4s+6}{s^2+2s-1}.
         $$
     }
 
 
 
-\section[Управляемость и наблюдаемость]{Управляемость и наблюдаемость\footnote{См. \cite[стр. 269]{voron}}}
+\section[Управляемость и наблюдаемость]{Управляемость и наблюдаемость}
 
     При решении задач управления методами пространства состояний предварительно рассматриваются некоторые свойства динамических систем, которые однозначно характеризуют возможности использования известной модели ДС для управления объектом. 
-    Такими свойствами являются управляемость и наблюдаемость. 
+    Такими свойствами являются управляемость и наблюдаемость\footnote{См. \cite[стр. 269]{voron}}. 
     Наличие этих свойств у объектов управления позволяет синтезировать управление с помощью простых математических операций.
     \cite[стр. 62]{yashin} 
 
@@ -148,19 +148,19 @@
         \end{aligned}
         \right.
     \end{equation}
-    где $x(t)$ --- состояние системы, $u(t)$ --- вход/управление, $y(t)$ --- выход, $f$ и $h$ --- некоторые функции.
+    где $x(t)$ --- состояние системы, $u(t)$ --- вход/управление, $y(t)$ --- выход, $f$~и~$h$ --- некоторые функции.
 
     \begin{defi}
-        Система \eref{GEN_DS} называется {\it управляемой}, если для любого момента $t_1$ и точки фазового пространства $x_1$ найдется управление $u(t)$, определенное на отрезке $[0,t_1]$, такое что для решения $x(t)$ системы \eref{GEN_DS} выполнено: $x(t_1) = x_1$ при условии, что $x(0)=0$.
+        Система \eref{GEN_DS} называется {\it управляемой}, если для любого момента $t_1$ и точки фазового пространства $x_1$ найдется управление~$u(t)$, определенное на отрезке $[0,t_1]$, такое что для решения $x(t)$ системы \eref{GEN_DS} выполнено: $x(t_1) = x_1$ при условии, что $x(0)=0$.
     \end{defi}
 
-    \begin{defi}
-        Система \eref{GEN_DS} называется {\it наблюдаемой}, если при $u\equiv0$ для любого начального момента $t_0$ из условия $y(t)\equiv 0$ при $t\ge t_0$ следует $x(t_0) = 0$ и, наоборот, из $x(t_0)=0$ следует $y(t)\equiv0$ при $t\ge t_0$.
+    \begin{defi}\label{DEF}
+        Система \eref{GEN_DS} называется {\it наблюдаемой}, если при $u~\equiv~0$ для любого начального момента $t_0$ из условия $y(t)\equiv 0$ при $t\ge t_0$ следует $x(t_0) = 0$ и, наоборот, из $x(t_0)=0$ следует $y(t)\equiv0$ при $t\ge t_0$.
     \end{defi}
 
 \subsection{Управляемость линейных объектов. Критерий управляемости}
 
-    Пусть матрицы $A$ и $B$ постоянны. Введем в рассмотрение матрицу управляемости:
+    Пусть матрицы $A$ и $B$ постоянны. Введем в рассмотрение матрицу управляемости для системы:
     \begin{equation}\label{LIN_DS}
         \left\{
         \begin{aligned}
@@ -169,7 +169,7 @@
         \end{aligned}
         \right.
     \end{equation}
-    где $A\in\BF{R}^{n\times n}$, имеет место следующая
+    где $A\in\BF{R}^{n\times n}$. Имеет место следующая
     \begin{theor}[Критерий управляемости]
         Линейный объект $\eref{LIN_DS}$ управляем тогда и только тогда, когда выполнено условие 
         $$
@@ -177,8 +177,8 @@
         $$
         где
         $$
-            K_{A,b} = \left[b,\; Ab,\; \cdots,\; A^{n-1}b\right]\in\BF{R}^{n\times n}
-        $$.
+            K_{A,b} = \left[b,\; Ab,\; \cdots,\; A^{n-1}b\right]\in\BF{R}^{n\times n}\text{\ ---\ матрица управляемости}
+        $$
     \end{theor}
 
     \proof \cite[стр. 308-311]{voron2}
@@ -319,10 +319,10 @@
         \end{pmatrix}
     $$
     $$
-        M = k_{\widehat A, \widehat B}\cdot k^{-1}_{A,B}
+        M = K_{\widehat A, \widehat B}\cdot K^{-1}_{A,B}
     $$
     $$
-        k^{-1}_{A,B}=
+        K^{-1}_{A,B}=
         \begin{pmatrix}
             1 & 4\\
             -2 & -5
@@ -391,7 +391,7 @@
 
 \section{Стабилизация по выходу. Наблюдаемость и наблюдатель.}
 
-    \defi{Стабилизация по выходу} --- задача стабилизации, при которой необходимо стабилизировать данную систему, если известен измеряемый выход $y(t)$, зависящий от состояния $x(t)$. Система имеет вид:
+    \defi{Стабилизация по выходу} --- задача стабилизации, при которой необходимо стабилизировать данную систему, если известен измеряемый выход $y(t)$, зависящий от состояния $x(t)$. Система имеет вид \label{DS}
 
     \begin{equation}\label{DS}
         \left\{
@@ -402,9 +402,9 @@
         \right.
     \end{equation}
 
-    \begin{defi}\label{DEF}
-        Динамическая система  называется \textit{наблюдаемой}, если для любого $t_0$ из условия $y(t)\equiv 0$ при $t\ge t_0$ следует $x_0 = 0$ и, наоборот, из $x_0=0$ следует $y(t)\equiv0$ при $t\ge t_0$.
-    \end{defi}
+    % \begin{defi}\label{DEF}
+    %     Динамическая система  называется \textit{наблюдаемой}, если для любого $t_0$ из условия $y(t)\equiv 0$ при $t\ge t_0$ следует $x_0 = 0$ и, наоборот, из $x_0=0$ следует $y(t)\equiv0$ при $t\ge t_0$.
+    % \end{defi}
 
     Для линейной системы \eref{DS} при $u\equiv0$ Определение~\ref{DEF} эквивалентно следующему.
     
@@ -431,12 +431,12 @@
         $$
             N_{c,A} =
             \begin{pmatrix}
-                c\\
-                cA\\
-                \vdots\\
+                c      \\
+                cA     \\
+                \vdots \\
                 cA^{n-1}
             \end{pmatrix}
-            \in\BF{R}^{n\times n}.
+            \in\BF{R}^{n\times n}\text{, --- матрица наблюдаемости}
         $$
     \end{theor}
     
@@ -444,7 +444,7 @@
     \cite[стр. 315-318]{voron2}
     \end{proof}
 
-\subsection[Наблюдатель Люенбергера]{Наблюдатель Люенбергера\footnote{См. \cite[стр. 119]{andr}}}
+\subsection[Наблюдатель Люенбергера]{Наблюдатель Люенбергера}
 
     Так как матрицы $A,\; b$ и $c$ известны, то их можно использовать при построении наблюдателя. Например, наблюдатель
 
@@ -463,7 +463,7 @@
 
     Если же система неустойчива, либо есть требование к скорости сходимости оценки, то рассмотренный наблюдатель не подходит.
 
-    Классическим наблюдателем является наблюдатель Люенбергера вида
+    Классическим наблюдателем является наблюдатель Люенбергера\footnote{См. \cite[стр. 119]{andr}} вида
     
     $$
         \dot{\tilde x} = A\tilde x + l (y-c\tilde x) + b u,
@@ -493,15 +493,16 @@
         $$
         \widehat A^T =
         \begin{pmatrix}
-            0& 1& 0& \ldots& 0& 0\\
-            0& 0& 1& \ldots& 0& 0\\
-            \hdotsfor{6}\\
+            0& 1& 0& \ldots& 0& 0   \\
+            0& 0& 1& \ldots& 0& 0   \\
+            \hdotsfor{6}            \\
             -\alpha_0& -\alpha_1& -\alpha_2 &\ldots& -\alpha_{n-2}& -\alpha_{n-1}
-        \end{pmatrix}\quad
+        \end{pmatrix},
+        \quad
         \widehat c=
         \begin{pmatrix}
             0 & \ldots & 0 & 1
-        \end{pmatrix}
+        \end{pmatrix}.
         $$
     \end{statement}
 
@@ -510,40 +511,41 @@
         Пусть
         \begin{align*}
             \begin{cases}
-                \dot x &= Ax,\ A\in\mathbb{R}^{n\times n} \\
+                \dot x &= Ax,\ A\in\mathbb{R}^{n\times n}, \\
                 y &= Cx,\ C\in\mathbb{R}^{n\times n}
             \end{cases}
         \end{align*}
 
         Из условия, что 
         $
-            \forall x_1\neq x_2 \Rightarrow y(t_ix_1) \neq y(t_ix_2),
+            \forall x_1\neq x_2 \Rightarrow y(t_i,x_1) \neq y(t_i,x_2),
         $
-        где $y(t_ix_k)$ --- выход по $x_k$, мы можем сделать вывод:
+        где $y(t_i,x_k)$ --- выход по $x_k$, мы можем сделать вывод:
         $rang\ N_{C, A}=n$.\\
         По формуле Коши получаем, что 
         $
-            \dot x = Ax \Rightarrow x(t) = Atx_0\ \text{и}\ y(t)= e^{At}x_0C
+            \dot x = Ax \Rightarrow x(t) = e^{At}x_0\ \text{и}\ y(t)= e^{At}x_0C
         $\\
         Докажем от противного:\\
-        Пусть $rang\ N_{C, A}<n$ Тогда $\exists\ \vec v\neq0:\ N_{C,A}\cdot\vec v = 0$\\
+        Пусть $rang\ N_{C, A}<n$. Тогда $\exists\ \vec v\neq0:\ N_{C,A}\cdot\vec v = 0$.\\
         По теореме Гамильтона-Келли:
         \begin{equation}
-            A^q=\sum_{i=0}^{n-1}\alpha_i^q\cdot A^i,\ q\ges 0\ \ C\cdot A^q\cdot v=\sum_{i=0}^{n-1}\alpha_i^q\cdot C \cdot A^i \cdot v = 0 
+            A^q=\sum_{i=0}^{n-1}\alpha_i^q\cdot A^i,\ q\ges 0,\ \ C\cdot A^q\cdot v=\sum_{i=0}^{n-1}\alpha_i^q\cdot C \cdot A^i \cdot v = 0, 
             \label{EQ21}
         \end{equation}
+        где $\alpha_i^q$ --- коэффициент с двойной индексацией
 
         Из \eref{EQ21} следует, что
         \begin{align*}
-            C\cdot& v = 0 \\
-            C\cdot& A \cdot v = 0 \\
-            C\cdot& A^{n-1}\cdot v = 0
+            C\cdot& v = 0,              \\
+            C\cdot& A \cdot v = 0,      \\
+            C\cdot& A^{n-1}\cdot v = 0.
         \end{align*}
 
 
         Выберем $x_1=0$, $x_2=v$. Тогда
         \begin{equation}
-            y(t,v)=C\cdot e^{At}\cdot x_0 = \sum_{i=0}^\infty\frac{C\cdot A^i\cdot v\cdot t^i}{i!}
+            y(t,v)=C\cdot e^{At}\cdot x_0 = \sum_{i=0}^\infty\frac{C\cdot A^i\cdot v\cdot t^i}{i!}.
             \label{EQ21_1}
         \end{equation}
 
@@ -551,15 +553,22 @@
         \begin{equation*}
         \left.
             \begin{aligned}
-                y(t,0)&=0 \\
-                y(t,v)&=\sum_{i=0}^\infty\frac{C\cdot A^i\cdot v\cdot t^i}{i!}=0
+                y(t,0)&=0,                                                       \\
+                y(t,v)&=\sum_{i=0}^\infty\frac{C\cdot A^i\cdot v\cdot t^i}{i!}=0,
             \end{aligned}
-        \qquad \right|\Rightarrow rand\ N_\text{C, A}=n
+        \qquad \right|\Rightarrow rang\ N_\text{C, A}=n.
         \end{equation*}
 
-        Докажем в обратную сторону: если $rand\ N_{C, A}=n$, то система наблюдаема\\
-        Пусть $x_1\neq x_2$ и $y(t_ix_1)=y(t_ix_2)$.
-        Тогда $0=y(t_ix_1)-y(t_ix_2)=C\cdot e^{At}\cdot x_1-C\cdot e^{At}\cdot x_2=C\cdot e^{At}\cdot v$, где $v=x_1-x_2$\ и $v\neq 0$. Тогда $C\cdot e^{At} = 0\ \forall\ C\in [0; +\infty)$
+        Докажем в обратную сторону: если $rang\ N_{C, A}=n$, то система наблюдаема\\
+        Пусть $x_1\neq x_2$ и $y(t_i,x_1)=y(t_i,x_2)$.
+        Тогда 
+        $$
+            0=y(t_i,x_1)-y(t_i,x_2)=C\cdot e^{At}\cdot x_1-C\cdot e^{At}\cdot x_2=C\cdot e^{At}\cdot v$, где $v=x_1-x_2$\ и $v\neq 0
+        $$. 
+        Тогда 
+        $$
+            C\cdot e^{At}\cdot v = 0\ \forall\ t\in [0; +\infty)
+        $$
     \end{proof}
 
     \textbf{Алгоритм построения вектора $l$}
@@ -615,7 +624,7 @@
                 s-2 & 1\\
                 -1 & s-3
             \end{vmatrix}
-            =(s-2)(s-3)+1=s^2-5s+7
+            =(s-2)(s-3)+1=s^2-5s+7.
         $
         \item Вычислим $N_{\widehat C,\widehat A}$\\
             Для этого вычислим $\widehat C:$\ \quad$\widehat C=(10)$
@@ -649,13 +658,13 @@
                 \begin{pmatrix}
                     1 & 2\\
                     0 & 1
-                \end{pmatrix}
+                \end{pmatrix}.
             $$
         \item Вычислим вектор $l$:
             \begin{align*}
-                \widehat l_i &= p_{i-1} - \alpha_{i_1},\ i=\overline{1\dots n} \\
-                \widehat l_1 &= p_{0} - \alpha_{0} = -5 \\
-                \widehat l_2 &= p_{1} - \alpha_{1} = -8
+                \widehat l_i &= p_{i-1} - \alpha_{i_1},\ i=\overline{1\dots n}, \\
+                \widehat l_1 &= p_{0} - \alpha_{0} = -5,                        \\
+                \widehat l_2 &= p_{1} - \alpha_{1} = -8.
             \end{align*}
         \item Вычислим $l$:
         $$
@@ -672,7 +681,7 @@
             \begin{pmatrix}
                 -13 \\
                 -8
-            \end{pmatrix}
+            \end{pmatrix}.
         $$
         \item Выпишем ответ:
         $$
@@ -692,7 +701,7 @@
             \begin{pmatrix}
                 1 \\ -2
             \end{pmatrix}
-            u
+            u.
         $$
     \end{enumerate}
 
