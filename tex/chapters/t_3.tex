@@ -15,16 +15,7 @@
 
 \section{Устойчивость в линейных системах}
 
-    \defi{}Система 
-    \begin{equation}\label{LIN_DS_3_1}
-        \dot x = Ax + bu, x(0) = x_0
-    \end{equation} 
-    называется 
-    {\it асимптотически устойчивой по Ляпунову}, если 
-    $x_\text{о}(t)\rightarrow0$ 
-    при 
-    $t\rightarrow\infty$ 
-    и любом $x_0$.\par
+    \normalfont
     Как известно, в системах вида
     \eref{LIN_DS_3_1}
     решение можно представить в виде суммы свободного и вынужденного движений:
@@ -36,6 +27,17 @@
     $u\equiv0$.
     \par
     Общее решение $x_\text{о}(t)$ однородного уравнения описывает свободное движение системы управления (т. е. движение при отсутствии внешних воздействий), определяемое только начальными условиями. Частное решение $x_\text{ч}(t)$ описывает вынужденное движение, определяемое внешними воздействиями.
+
+    \defi{}Система 
+    \begin{equation}\label{LIN_DS_3_1}
+        \dot x = Ax + bu, x(0) = x_0
+    \end{equation} 
+    называется 
+    {\it асимптотически устойчивой по Ляпунову}, если 
+    $x_\text{о}(t)\rightarrow0$ 
+    при 
+    $t\rightarrow\infty$ 
+    и любом $x_0$.\par
 
 \subsection{Основное условие устойчивости}
 
@@ -329,45 +331,46 @@
                 $s_i = \alpha_i$, $\alpha_i$ ---
                 вещественное число. В этом случае
                 $$
-                    \psi_i(\omega)=arg(j \omega-\alpha_i)=-\arctg{\frac{\omega}{\alpha_i}},
+                    \psi_i(\omega)=arg(j \omega-\alpha_i)=\arctg{\frac{\omega}{-\alpha_i}},
                 $$
                 \begin{align*}
                 \psi_i(0)=-\arctg{0}=0,\ \psi_i(\infty)=
                     \begin{cases}
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i<0,\\
-                        -&\frac{\pi}{2}\ \text{при}\ \alpha_i>0,
+                        &\frac{\pi}{2}\ \text{при}\ \alpha_i>0,
                     \end{cases}
                 \end{align*}
                 \begin{align*}
                 \Delta\psi_i=\psi_i(\infty)-\psi_i(0)=
                     \begin{cases}
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i<0,\\
-                        -&\frac{\pi}{2}\ \text{при}\ \alpha_i>0.
+                        &\frac{\pi}{2}\ \text{при}\ \alpha_i>0.
                     \end{cases}
                 \end{align*}
 
-                Таким образом, если вещественный нуль является левым ($\alpha_i<0$), приращение 
-                $\Delta \psi_i = \frac{\pi}{2}$; 
-                если правым ($\alpha_i>0$), приращение $\Delta \psi_i=-\frac{\pi}{2}$
+                % Таким образом, если вещественный нуль является левым ($\alpha_i<0$), приращение 
+                % $\Delta \psi_i = \frac{\pi}{2}$; 
+                % если правым ($\alpha_i>0$), приращение $\Delta \psi_i=-\frac{\pi}{2}$
+                Таким образом, если вещественный нуль является левым ($\alpha_i<0$) или правым ($\alpha_i>0$), приращение $\Delta \psi_i=\frac{\pi}{2}$
             \item
                 $s_i=\alpha_i+ j \beta_i, \alpha_i, \beta_i$ --- вещественные числа. В этом случае существует комплексно-сопряженный нуль 
                 $s_{i+1}=\alpha_i+ j \beta_i.$ 
                 Приращения множетилей, соответствующих этим нулям, определяются следующим образом:
                 $$
-                    \psi_i(\omega)=arg(j \omega-\alpha_i-j \beta_i)=\arctg{\frac{\omega-\beta_i}{\alpha_i}},
+                    \psi_i(\omega)=arg(j \omega-\alpha_i-j \beta_i)=\arctg{\frac{\omega-\beta_i}{-\alpha_i}},
                 $$
                 \begin{align*}
                     \psi_i(0)=-\arctg(\frac{\beta_i}{\alpha_i}),\ \psi_i=
                     \begin{cases}
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i<0 ,\\
-                        -&\frac{\pi}{2}\ \text{при}\ \alpha_i>0,
+                        &\frac{\pi}{2}\ \text{при}\ \alpha_i>0,
                     \end{cases}
                 \end{align*}
                 \begin{align*}
                     \Delta \psi_i=\psi_i(\infty)-\psi_i(0)=
                     \begin{cases}
-                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{\alpha_i}}\ \text{при}\ \alpha_i<0 ,\\
-                        -&\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{\alpha_i}}\ \text{при}\ \alpha_i>0.
+                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i<0 ,\\
+                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i>0.
                     \end{cases}
                 \end{align*}
 
@@ -375,8 +378,8 @@
                 \begin{align*}
                     \Delta \psi_{i+1}=
                     \begin{cases}
-                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{\alpha_i}}\ \text{при}\ \alpha_i<0 ,\\
-                        -&\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{\alpha_i}}\ \text{при}\ \alpha_i>0.
+                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i<0 ,\\
+                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i>0.
                     \end{cases}
                 \end{align*}
                 Отсюда получаем суммарное приращение 
