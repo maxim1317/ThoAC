@@ -109,11 +109,14 @@
 
 % \usepackage{etoolbox}
 % \preto\section{\filbreak}
-\widowpenalties 1 10000
+% \widowpenalties 1 10000
 \raggedbottom
 
 \frenchspacing
 \righthyphenmin=2
+
+\relpenalty   = 9999
+\binoppenalty = 9999
 
 \begin{document}
 \maketitle

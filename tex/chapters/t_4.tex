@@ -427,9 +427,9 @@
 \subsection{Критерий наблюдаемости для линейных систем.}
 
     \begin{theor}[Критерий наблюдаемости]
-        Система \eref{DS} наблюдаема тогда и только тогда, когда $\rg N_{c,A} = n$, где
+        Система \eref{DS} наблюдаема тогда и только тогда, когда $\rg N_{C,A} = n$, где
         $$
-            N_{c,A} =
+            N_{C,A} =
             \begin{pmatrix}
                 c      \\
                 cA     \\
@@ -527,7 +527,7 @@
             \dot x = Ax \Rightarrow x(t) = e^{At}x_0\ \text{и}\ y(t)= e^{At}x_0C
         $\\
         Докажем от противного:\\
-        Пусть $rang\ N_{C, A}<n$. Тогда $\exists\ \vec v\neq0:\ N_{C,A}\cdot\vec v = 0$.\\
+        Пусть $rang\ N_{C, A}<n$. Тогда $\exists\ \vec v\neq0:\ N_{C, A}\cdot\vec v = 0$.\\
         По теореме Гамильтона-Келли:
         \begin{equation}
             A^q=\sum_{i=0}^{n-1}\alpha_i^q\cdot A^i,\ q\ges 0,\ \ C\cdot A^q\cdot v=\sum_{i=0}^{n-1}\alpha_i^q\cdot C \cdot A^i \cdot v = 0, 
@@ -570,13 +570,32 @@
         $$
             C\cdot e^{At}\cdot v = 0\ \forall\ t\in [0; +\infty)
         $$
+        После дифференциирования $n-1$ раз получаем:
+        \begin{align*}
+            C\cdot A      \cdot e^{At}\cdot v &= 0, \\
+            C\cdot A^2    \cdot e^{At}\cdot v &= 0, \\
+            \dots                                   \\
+            C\cdot A^{n-1}\cdot e^{At}\cdot v &= 0 \\
+        \end{align*}
+        при $t=0$
+        \begin{align*}
+            C\cdot A      \cdot v &= 0, \\
+            C\cdot A^2    \cdot v &= 0, \\
+            \dots                       \\
+            C\cdot A^{n-1}\cdot v &= 0.  \\
+        \end{align*}
+        Из этого следует, что
+        $$
+        N_{C, A}\cdot v = 0 \Rightarrow rang N_{C, A}<n,
+        $$ 
+        что противоречит условию $rang N_{C, A}=n$, следовательно, система наблюдаема.
     \end{proof}
 
     \textbf{Алгоритм построения вектора $l$}
 
     \begin{enumerate}
         \item Вычислить коэффициенты полинома $\gamma(s) = \prod_{i=1}^{n}(s-s_i)$;
-        \item Вычислить $N_{c,A}$ ($|N_{c,A}|\neq0$, если система наблюдаема);
+        \item Вычислить $N_{C,A}$ ($|N_{C,A}|\neq0$, если система наблюдаема);
         \item Найти $\chi_A(s) = s^n + \alpha_{n-1}s^{n-1} + \ldots + \alpha_1 s + \alpha_0$;
         \item Вычислить $N_{\widehat c, \widehat A}$, $\{\widehat c,\; \widehat A\}$ --- каноническая форма наблюдаемости;
         \item Перемножить $M^{-1} = N^{-1}_{c, A} N_{\widehat c, \widehat A}$;
