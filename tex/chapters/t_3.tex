@@ -333,11 +333,20 @@
             \item 
                 $s_i = \alpha_i$, $\alpha_i$ ---
                 вещественное число. В этом случае
-                $$
-                    \psi_i(\omega)=arg(j \omega-\alpha_i)=\arctg{\frac{\omega}{-\alpha_i}},
-                $$
                 \begin{align*}
-                \psi_i(0)=-\arctg{0}=0,\ \psi_i(\infty)=
+                    \psi_i(\omega)=arg(j \omega-\alpha_i)=
+                    \begin{cases}
+                        &\pi - \arctg{\frac{\omega}{\alpha_i}}\ \text{при}\ \alpha_i>0, \\
+                        &\arctg{\frac{\omega}{-\alpha_i}}\text{при}\ \alpha_i<0, 
+                    \end{cases}
+                \end{align*}
+                \begin{align*}
+                    \psi_i(0)=
+                    \begin{cases}
+                        &0  \ \text{при}\ \alpha_i<0, \\
+                        &\pi\ \text{при}\ \alpha_i>0, 
+                    \end{cases}\\    
+                    \psi_i(\infty)=
                     \begin{cases}
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i<0,\\
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i>0,
@@ -347,23 +356,35 @@
                 \Delta\psi_i=\psi_i(\infty)-\psi_i(0)=
                     \begin{cases}
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i<0,\\
-                        &\frac{\pi}{2}\ \text{при}\ \alpha_i>0.
+                        -&\frac{\pi}{2}\ \text{при}\ \alpha_i>0.
                     \end{cases}
                 \end{align*}
 
-                % Таким образом, если вещественный нуль является левым ($\alpha_i<0$), приращение 
-                % $\Delta \psi_i = \frac{\pi}{2}$; 
-                % если правым ($\alpha_i>0$), приращение $\Delta \psi_i=-\frac{\pi}{2}$
-                Таким образом, если вещественный нуль является левым ($\alpha_i<0$) или правым ($\alpha_i>0$), приращение $\Delta \psi_i=\frac{\pi}{2}$
+                Таким образом, если вещественный нуль является левым ($\alpha_i<0$), приращение 
+                $\Delta \psi_i = \frac{\pi}{2}$; 
+                если правым ($\alpha_i>0$), приращение $\Delta \psi_i=-\frac{\pi}{2}$
+                % Таким образом, если вещественный нуль является левым ($\alpha_i<0$) или правым ($\alpha_i>0$), приращение $\Delta \psi_i=\frac{\pi}{2}$
             \item
                 $s_i=\alpha_i+ j \beta_i, \alpha_i, \beta_i$ --- вещественные числа. В этом случае существует комплексно-сопряженный нуль 
                 $s_{i+1}=\alpha_i+ j \beta_i.$ 
                 Приращения множетилей, соответствующих этим нулям, определяются следующим образом:
-                $$
-                    \psi_i(\omega)=arg(j \omega-\alpha_i-j \beta_i)=\arctg{\frac{\omega-\beta_i}{-\alpha_i}},
-                $$
+                % $$
+                %     \psi_i(\omega)=arg(j \omega-\alpha_i-j \beta_i)=\arctg{\frac{\omega-\beta_i}{-\alpha_i}},
+                % $$
                 \begin{align*}
-                    \psi_i(0)=-\arctg(\frac{\beta_i}{\alpha_i}),\ \psi_i=
+                    \psi_i(\omega)=arg(j \omega-\alpha_i-j \beta_i)=
+                    \begin{cases}
+                        &\pi - \arctg{\frac{\omega-\beta_i}{\alpha_i}}\ \text{при}\ \alpha_i>0, \\
+                        &\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\text{при}\ \alpha_i<0, 
+                    \end{cases}
+                \end{align*}
+                \begin{align*}
+                    \psi_i(0)=
+                    \begin{cases}
+                        &\pi-\arctg(\frac{\beta_i}{\alpha_i})\ \text{при}\ \alpha_i<0, \\
+                        &-\arctg(\frac{\beta_i}{\alpha_i})\ \text{при}\ \alpha_i>0, 
+                    \end{cases}\\ 
+                    \psi_i(\infty)=
                     \begin{cases}
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i<0 ,\\
                         &\frac{\pi}{2}\ \text{при}\ \alpha_i>0,
@@ -373,7 +394,7 @@
                     \Delta \psi_i=\psi_i(\infty)-\psi_i(0)=
                     \begin{cases}
                         &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i<0 ,\\
-                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i>0.
+                        &-\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i>0.
                     \end{cases}
                 \end{align*}
 
@@ -382,13 +403,13 @@
                     \Delta \psi_{i+1}=
                     \begin{cases}
                         &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i<0 ,\\
-                        &\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i>0.
+                        &-\frac{\pi}{2}+\arctg{\frac{\omega-\beta_i}{-\alpha_i}}\ \text{при}\ \alpha_i>0.
                     \end{cases}
                 \end{align*}
                 Отсюда получаем суммарное приращение 
                 $\Delta \psi_i + \Delta \psi_{i+1}=2\cdot(\frac{\pi}{2})$,
-                если комплексно-сопряженные нули левые ($\alpha_i<0$), и $\Delta \psi_i + \Delta \psi_{i+1}=-2\cdot(\frac{\pi}{2})$,
-                если комплексно-сопряженные нули левые ($\alpha_i>0$).
+                если комплексно-сопряженные нули левые ($\alpha_i<0$), и \\$\Delta \psi_i + \Delta \psi_{i+1}=-2\cdot(\frac{\pi}{2})$,
+                если комплексно-сопряженные нули \\левые ($\alpha_i>0$).
         \end{enumerate}
 
         Так как комплексно-сопряженные числа отличаются только мнимой частью, они оба являются левыми или оба являются правыми.
