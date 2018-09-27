@@ -12,9 +12,56 @@
 % \usepackage{indentfirst}
 % \sloppy
 
-\documentclass[a4paper,12pt]{extreport}
+%% ---------------------------------------------------------------------------
+\documentclass[openany,%
+twoside,%
+a5paper,%
+9pt]{extbook}
+%% ---------------------------------------------------------------------------
+%% ---------------------------------------------------------------------------
+% \usepackage{cmap}
+% \usepackage[cp1251]{inputenc}
+% \usepackage[english, russian]{babel}
+%% ---------------------------------------------------------------------------
+% \usepackage{indentfirst}
+\frenchspacing
+%% ---------------------------------------------------------------------------
+\usepackage{url}
+%% ---------------------------------------------------------------------------
+% \usepackage{graphicx}
+% \usepackage{epstopdf}
+%% ---------------------------------------------------------------------------
+% \usepackage{amsmath}
+% \usepackage{amsthm}
+% \usepackage{amssymb}
+\usepackage{amscd}
+\usepackage{bm}
+\renewcommand{\indexname}{}
+\usepackage{makeidx}
+%\usepackage{index_mod}
+%\usepackage{multicol}
+\makeindex
+%% ---------------------------------------------------------------------------
+\sloppy
+%% ---------------------------------------------------------------------------
+% a5paper: 148 x 210
+% print area: 110 x 180
+% top = bottom = (210 - 180) / 2 = 15
+% left = right = (148 - 110) / 2 = 19
+\usepackage[%
+    left=1.9cm,%
+    top=1.5cm,%
+    right=1.9cm,%
+    bottom=1.5cm,%
+    headsep=0.2cm,%
+    footskip=0.5cm,%
+    includehead,%
+    includefoot]{geometry}
+%% ---------------------------------------------------------------------------
+
+% \documentclass[a4paper,12pt]{extreport}
  
-\usepackage{extsizes}
+% \usepackage{extsizes}
 % \usepackage{cmap} % для кодировки шрифтов в pdf
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -100,8 +147,7 @@
 \newcommand{\IT}[1]{\mathcal{#1}}
 \newcommand{\LAP}[1]{\mathop{\mathcal{L}}\nolimits\left\{#1\right\}}
 \newcommand{\INVLAP}[1]{{\mathop{\mathcal{L}}\nolimits^{-1}\left\{#1\right\}}}
-\newcommand*{\hm}[1]{#1\nobreak\discretionary{}%
-{\hbox{$\mathsurround=0pt #1$}}{}}
+% \newcommand*{}[1]{#1\nobreak\discretionary{}{\hbox{$\mathsurround=0pt #1$}}{}}
 \newcommand{\lse}{\leqslant}
 \newcommand{\ges}{\geqslant}
 
@@ -117,6 +163,15 @@
 
 \relpenalty   = 9999
 \binoppenalty = 9999
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[LE,RO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
 
 \begin{document}
 \maketitle

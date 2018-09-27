@@ -50,7 +50,7 @@
     Уравнение динамики здесь совпадает с уравнением статики (точнее, динамики просто нет). Такого рода преобразования часто обозначают графически в виде блока.
     \begin{figure}[h]
         \centering
-        \includegraphics[width=6cm]{block_gain.pdf}
+        \includegraphics[width=5.5cm]{block_gain.pdf}
         \caption{Статическая характеристика П-звена}
         \centering
     \end{figure}
@@ -605,17 +605,17 @@
         \begin{minipage}[h]{0.59\linewidth}
             \includegraphics[width=5cm]{pconnection_whole.pdf}\\
             При параллельном соединении ПФ вычисляется по формуле 
-            $W = W_1+W_2+\ldots \hm+ W_n$.
+            $W = W_1+W_2+\ldots + W_n$.
         \end{minipage}
     \end{figure}
     \defi{\it Обратное соединение} - соединение двух звеньев, при котором выход звена прямой цепи подается на вход звена обратной связи, выход которого складывается с входом первого звена.
     \begin{figure}[h]
         \begin{minipage}[h]{0.39\linewidth}
-            \includegraphics[width=5.5cm]{feedback.pdf}
+            \includegraphics[width=4.5cm]{feedback.pdf}
         \end{minipage}
         \begin{minipage}[h]{0.60\linewidth}
             Если разомкнуть цепь у сумматора после блока $W_2$, получим цепь последовательно соединенных звеньев с передаточной функцией 
-            $W_{\text{р}}\hm = W_1 \cdot W_2$, 
+            $W_{\text{р}} = W_1 \cdot W_2$, 
             называемой {\it передаточной функцией размокнутого контура}.
         \end{minipage}
     \end{figure}
@@ -633,32 +633,32 @@
 
     \begin{figure}[h]
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_sum_direct_before.pdf}
+            \includegraphics[width=4.5cm]{trans_sum_direct_before.pdf}
         \end{minipage}
         $\Longrightarrow$
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_sum_direct_after.pdf}
+            \includegraphics[width=4.5cm]{trans_sum_direct_after.pdf}
         \end{minipage}
         \caption{Выходной сигнал $y$ при таких преобразованиях остается неизменным.}
     \end{figure}
     При переносе сумматора против хода сигнала добавляется звено с передаточной функцией, равной обратной передаточной функции звена, через которое переносится сумматор.  
     \begin{figure}[h]
         \begin{minipage}[h]{0.45\linewidth}
-           \includegraphics[width=5.5cm]{trans_sum_indirect_before.pdf}
+           \includegraphics[width=4.5cm]{trans_sum_indirect_before.pdf}
         \end{minipage}
         $\Longrightarrow$
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_sum_indirect_after.pdf}
+            \includegraphics[width=4.5cm]{trans_sum_indirect_after.pdf}
         \end{minipage}
     \end{figure}\\
     {\bf Перенос узла}. Перенос узла, как и сумматора, бывает двух видов: по ходу сигнала и против хода сигнала. При переносе узла по ходу сигнала добавляется звено с передаточной функцией звена, равной обратной передаточной функции звена, через которое переносится узел.
     \begin{figure}[h]
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_branch_direct_before.pdf}
+            \includegraphics[width=4.5cm]{trans_branch_direct_before.pdf}
         \end{minipage}
     $\Longrightarrow$
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_branch_direct_after.pdf}
+            \includegraphics[width=4.5cm]{trans_branch_direct_after.pdf}
         \end{minipage}
         \caption{Аналогично, выходной сигнал $y$ при таких преобразованиях остается неизменным.}
     \end{figure}
@@ -666,30 +666,28 @@
     При переносе узла против хода  добавляется звено с передаточной функцией звена, равной передаточной функции звена, через которое переносится узел. 
     \begin{figure}[h]
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_branch_indirect_before.pdf}
+            \includegraphics[width=4.5cm]{trans_branch_indirect_before.pdf}
         \end{minipage}
         $\Longrightarrow$
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_branch_indirect_after.pdf}
+            \includegraphics[width=4.5cm]{trans_branch_indirect_after.pdf}
         \end{minipage}
     \end{figure}\\
     {\bf Перестановка сумматоров и узлов}. Перестановка двух сумматоров выполняется в соответствии с сохранением сигнала; перестановка узлов не меняет значения сигналов, поэтому не требует никаких изменений.
     \begin{figure}[h]
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_sum_branch_before.pdf}
+            \includegraphics[width=4cm]{trans_sum_branch_before.pdf}
         \end{minipage}
         $\Longrightarrow$
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_sum_branch_after.pdf}
+            \includegraphics[width=4cm]{trans_sum_branch_after.pdf}
         \end{minipage}
-    \end{figure}
-    \begin{figure}[h]
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_branch_sum_before.pdf}
+            \includegraphics[width=4cm]{trans_branch_sum_before.pdf}
         \end{minipage}
     $\Longrightarrow$
         \begin{minipage}[h]{0.45\linewidth}
-            \includegraphics[width=5.5cm]{trans_branch_sum_after.pdf}
+            \includegraphics[width=4cm]{trans_branch_sum_after.pdf}
         \end{minipage}
     \end{figure}\\
 
@@ -703,7 +701,7 @@
             \vspace{3cm}
         \end{minipage}
         \begin{minipage}[h]{0.70\linewidth}
-            \includegraphics[width=9.5cm]{one_contour_exmpl.pdf}
+            \includegraphics[width=7cm]{one_contour_exmpl.pdf}
         \end{minipage}
     \end{figure}
     {\bf Правило вычисления передаточной функции замкнутой одноконтурной системы}. 
@@ -722,7 +720,7 @@
             \vspace{3cm}
         \end{minipage}
         \begin{minipage}[h]{0.80\linewidth}
-            \includegraphics[width=9.5cm]{many_contour_no_cross_exmpl.pdf}
+            \includegraphics[width=7cm]{many_contour_no_cross_exmpl.pdf}
         \end{minipage}
     \end{figure}
     Многоконтурная система имеет {\it перекрестные связи}, если она содержит два контура, которые имеют общий участок, и при этом ни один из них не вложен внутрь другого.
@@ -732,7 +730,7 @@
             \vspace{2cm}
         \end{minipage}
         \begin{minipage}[h]{0.80\linewidth}
-            \includegraphics[width=9.5cm]{many_contour_cross_exmpl.pdf}
+            \includegraphics[width=7cm]{many_contour_cross_exmpl.pdf}
         \end{minipage}
     \end{figure}
     \FloatBarrier
@@ -756,7 +754,7 @@
     \begin{center}
     \begin{figure}[H]
         \centering
-        \includegraphics[width=9cm]{all_desc.pdf}
+        \includegraphics[width=7.5cm]{all_desc.pdf}
         \caption
         {    
             {\\\color{blue} Синий цвет}: переходы, которые будут рассмотрены.\\
