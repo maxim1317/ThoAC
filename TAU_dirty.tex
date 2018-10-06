@@ -1,21 +1,57 @@
 
+% \documentclass[14pt,final,openany]{extreport}      % Sets 12pt font, equation numbers on right
+% \usepackage{amsmath,amssymb,amsfonts,amstext} % Typical maths resource packages
+% \usepackage{graphics}                 % Packages to allow inclusion of graphics
+% \usepackage{color}                    % For creating coloured text and background
+
+% \usepackage[utf8]{inputenc}
+% \usepackage[english,russian]{babel}
+% \usepackage{vmargin}
+% \setpapersize{A4}
+% \setmarginsrb{2cm}{1.5cm}{1cm}{1.5cm}{0pt}{0mm}{0pt}{13mm}
+% \usepackage{indentfirst}
+% \sloppy
+
 %% ---------------------------------------------------------------------------
 \documentclass[openany,%
 twoside,%
 a5paper,%
 9pt]{extbook}
+%% ---------------------------------------------------------------------------
+%% ---------------------------------------------------------------------------
+% \usepackage{cmap}
+% \usepackage[cp1251]{inputenc}
+% \usepackage[english, russian]{babel}
+%% ---------------------------------------------------------------------------
+% \usepackage{indentfirst}
+
 
 \frenchspacing
 
+
+%% ---------------------------------------------------------------------------
 \usepackage{url}
+%% ---------------------------------------------------------------------------
+% \usepackage{graphicx}
+% \usepackage{epstopdf}
+%% ---------------------------------------------------------------------------
+% \usepackage{amsmath}
+% \usepackage{amsthm}
+% \usepackage{amssymb}
 \usepackage{amscd}
 \usepackage{bm}
 \renewcommand{\indexname}{}
 \usepackage{makeidx}
-
+%\usepackage{index_mod}
+%\usepackage{multicol}
 \makeindex
+%% ---------------------------------------------------------------------------
 \sloppy
-
+%% ---------------------------------------------------------------------------
+% a5paper: 148 x 210
+% print area: 110 x 180
+% top = bottom = (210 - 180) / 2 = 15
+% left = right = (148 - 110) / 2 = 19
 \usepackage[%
     left=1.9cm,%
     top=1.5cm,%
@@ -25,21 +61,29 @@ a5paper,%
     footskip=0.5cm,%
     includehead,%
     includefoot]{geometry}
+%% ---------------------------------------------------------------------------
 
+% \documentclass[a4paper,12pt]{extreport}
+ 
+% \usepackage{extsizes}
+% \usepackage{cmap} % для кодировки шрифтов в pdf
 \usepackage[T1,T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-
+% \usepackage{misccorr}
 \renewcommand{\rmdefault}{cmr}
 \renewcommand{\sfdefault}{cmss}
 \renewcommand{\ttdefault}{cmtt}
 
+
+% }
 \usepackage{float}
 
 \usepackage{graphicx} % для вставки картинок
 \usepackage{amssymb,amsfonts,amsmath,amsthm} % математические дополнения от АМС
 \usepackage{indentfirst} % отделять первую строку раздела абзацным отступом тоже
 \usepackage[usenames,dvipsnames]{color} % названия цветов
+% \usepackage{makecell}
 \usepackage{multirow} % улучшенное форматирование таблиц
 % \usepackage{ulem} % подчеркивания
  
